@@ -1,0 +1,30 @@
+<head>
+  <script src="./hanzi-writer.js"></script>
+  <script src="./all.js"></script>
+  <style type="text/css">
+    #wo-quiz {
+      height: 100%;
+      width: 100%;    }
+  </style>
+</head>
+
+<html>
+  <div id="wo-quiz"></div>
+  <script>
+    window.woQuiz = new HanziWriter('wo-quiz', '能', {
+      width: window.innerWidth,
+      height: window.innerWidth,
+      padding: 50,
+      hintColor: '#EEE',
+      showCharacter: false,
+      showOutline: true,
+      showHintAfterMisses: 1,
+      charDataLoader: function(char) {
+        return hanziData[char]
+      }
+    });
+    woQuiz.quiz();
+    var woToggleOutlineCheckbox = document.getElementById('wo-show-outline');
+    var woResetButton = document.getElementById('wo-reset');
+    </script>
+</html>

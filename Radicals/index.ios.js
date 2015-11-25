@@ -10,44 +10,75 @@ var {
   StyleSheet,
   Text,
   View,
+  WebView,
+  ProgressViewIOS
 } = React;
 
-var Radicals = React.createClass({
-  render: function() {
+var TimerMixin = require('react-timer-mixin');
+
+
+var ProgressViewExample = React.createClass({
+  mixins: [TimerMixin],
+
+  getInitialState() {
+    return {
+      progress: 0,
+    };
+  },
+
+  componentDidMount() {
+    this.updateProgress();
+  },
+
+  updateProgress() {
+    var progress = this.state.progress + 0.01;
+    this.setState({ progress });
+    this.requestAnimationFrame(() => this.updateProgress());
+  },
+
+  getProgress(offset) {
+    var progress = this.state.progress + offset;
+    return Math.sin(progress % Math.PI) % 1;
+  },
+
+  render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
+        <ProgressViewIOS style={styles.progressView} progressTintColor="red" progress={this.getProgress(0.4)}/>
       </View>
+    );
+  },
+});
+
+
+var Radicals = React.createClass({
+
+  render: function() {
+    return (
+    <View style={styles.container}>
+
+      <ProgressViewExample/>
+      <WebView
+          style={styles.webView}
+          url={"writer.html"}
+      />
+    </View>      
     );
   }
 });
 
 var styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    marginTop: 10,
+    backgroundColor: 'transparent',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+  progressView: {
+    marginTop: 0
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  webView: {
+    height: 412,
+    width: 412
+  }
 });
 
 AppRegistry.registerComponent('Radicals', () => Radicals);
