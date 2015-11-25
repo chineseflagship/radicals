@@ -11,7 +11,8 @@ var {
   Text,
   View,
   WebView,
-  ProgressViewIOS
+  ProgressViewIOS,
+  Dimensions
 } = React;
 
 var TimerMixin = require('react-timer-mixin');
@@ -76,8 +77,8 @@ var styles = StyleSheet.create({
     marginTop: 0
   },
   webView: {
-    height: 412,
-    width: 412
+    height: Dimensions.get('window').height,
+    width: Dimensions.get('window').width 
   }
 });
 
