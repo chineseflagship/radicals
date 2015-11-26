@@ -12,8 +12,11 @@ var {
   View,
   WebView,
   ProgressViewIOS,
-  Dimensions
+  Dimensions,
+  Navigator
 } = React;
+
+var NavigationBar = require('react-native-navbar');
 
 var TimerMixin = require('react-timer-mixin');
 
@@ -32,7 +35,7 @@ var ProgressViewExample = React.createClass({
   },
 
   updateProgress() {
-    var progress = this.state.progress + 0.01;
+    var progress = this.state.progress + 0.001;
     this.setState({ progress });
     this.requestAnimationFrame(() => this.updateProgress());
   },
@@ -45,7 +48,7 @@ var ProgressViewExample = React.createClass({
   render() {
     return (
       <View style={styles.container}>
-        <ProgressViewIOS style={styles.progressView} progressTintColor="red" progress={this.getProgress(0.4)}/>
+        <ProgressViewIOS style={styles.progressView} progressTintColor="red" progress={this.getProgress(0)}/>
       </View>
     );
   },
@@ -55,31 +58,65 @@ var ProgressViewExample = React.createClass({
 var Radicals = React.createClass({
 
   render: function() {
-    return (
-    <View style={styles.container}>
+    // return (
+    // <View style={styles.container}>
 
-      <ProgressViewExample/>
-      <WebView
-          style={styles.webView}
-          url={"writer.html"}
-      />
-    </View>      
-    );
+    //   <ProgressViewExample/>
+    //   <WebView
+    //       style={styles.webView}
+    //       url={"writer.html"}
+    //   />
+    // </View>      
+    // );
+    var leftButtonConfig = {
+      title: 'Back',
+      handler: function onNext() {
+        alert('hello!');
+      }
+    };
+
+    var titleConfig = {
+      title: 'Basic Characters',
+    };
+
+    return (
+          <View style={styles.container}>
+            <NavigationBar
+              title={titleConfig}
+              leftButton={leftButtonConfig}
+              style={styles.navBar} />
+            <ProgressViewExample/>
+            <WebView
+                style={styles.webView}
+                url={"writer.html"}
+            />
+          </View>
+        
+
+    )
   }
 });
 
 var styles = StyleSheet.create({
   container: {
-    marginTop: 10,
+    // marginTop: 10,
+    // flex: 1,
     backgroundColor: 'transparent',
   },
   progressView: {
-    marginTop: 0
+    marginTop: 0,
+    backgroundColor: 'blue'
   },
   webView: {
     height: Dimensions.get('window').height,
-    width: Dimensions.get('window').width 
+    width: Dimensions.get('window').width,
+    backgroundColor: 'red'
+  },
+  navBar: {
+    // height: 60,
+    // backgroundColor: 'red'
   }
+
 });
 
 AppRegistry.registerComponent('Radicals', () => Radicals);
