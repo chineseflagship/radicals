@@ -2,6 +2,7 @@
  * Sample React Native App
  * https://github.com/facebook/react-native
  */
+(function() {
 'use strict';
 
 var React = require('react-native');
@@ -50,3 +51,4 @@ var styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('Radicals', () => Radicals);
+})();
