@@ -1,0 +1,20 @@
+{
+  "name": "Radicals",
+  "version": "0.0.0",
+  "homepage": "https://github.com/chineseflagship/radicals",
+  "authors": [
+    "Chinese Flagship Center"
+  ],
+  "description": "Chinese radicals/mobile app",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hanzi-writer": "https://github.com/chineseflagship/hanzi-writer.git"
+  }
+}
