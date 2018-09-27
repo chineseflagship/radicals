@@ -11,14 +11,13 @@ import {
 } from 'react-native'
 
 var DeckStore = require('../stores/DeckStore');
-var NavigationBar = require('react-native-navbar');
+import NavigationBar from 'react-native-navbar';
 var ProgressBar = require('./ProgressBar');
 var StyleSheet = require('StyleSheet');
 
 import ParallaxScrollView from 'react-native-parallax-scroll-view';
 
-
-class WordList extends Component {
+export default class WordList extends Component {
 
   constructor(props) {
     super(props);
@@ -278,5 +277,3 @@ var styles = StyleSheet.create({
     height: STICKY_HEADER_HEIGHT
   },
 });
-
-module.exports = WordList;

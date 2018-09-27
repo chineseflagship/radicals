@@ -68,24 +68,24 @@ export default class DeckList extends Component {
     }
 
     var progressText;
-    // if (!rowData.unlocked && rowData.progress == 0)
-    //   return (
-    //       <View>
-    //         <View style={styles.row}>
-    //           <Text style={styles.lockedText}>
-    //             {rowData.name}
-    //           </Text>
-    //           <Icon.Button
-    //             color="#ccc"
-    //             name="lock"
-    //             size={30}
-    //             backgroundColor="transparent"
-    //             iconStyle={{marginRight: -8, marginTop: -4}}>
-    //           </Icon.Button>
-    //         </View>
-    //         <ProgressBar progress={progress} />
-    //       </View>
-    //   )
+    if (!rowData.unlocked && rowData.progress == 0)
+      return (
+          <View>
+            <View style={styles.row}>
+              <Text style={styles.lockedText}>
+                {rowData.name}
+              </Text>
+              <Icon.Button
+                color="#ccc"
+                name="lock"
+                size={30}
+                backgroundColor="transparent"
+                iconStyle={{marginRight: -8, marginTop: -4}}>
+              </Icon.Button>
+            </View>
+            <ProgressBar progress={progress} />
+          </View>
+      )
 
     // Make a cell class
     return (
