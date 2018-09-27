@@ -144,7 +144,6 @@ class Learn extends Component {
               character={character}
               ref="characterView"
               backgroundColor="transparent"
-              quiz={false}
               style={{flex: 1}} />
           </View>
 
