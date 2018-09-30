@@ -30,8 +30,7 @@ export default class WordList extends Component {
 
     // DeckStore.getDecksObject(this.props.deck.name)
     this.state = {
-      dataSource: ds.cloneWithRowsAndSections(DeckStore.getDecksObject(this.props.deck.name)),
-      // dataSource: ds.cloneWithRows(DeckStore.getWordsOfDeck(this.props.deck.name)),
+      dataSource: ds.cloneWithRows(DeckStore.getWordsOfDeck(this.props.deck.name)),
       progress: DeckStore.getProgressOfDeck(this.props.deck.name)
     }
   }
@@ -43,12 +42,6 @@ export default class WordList extends Component {
       passProps: {character: rowData, deck: this.props.deck},
       _handleBackButtonPress: this._handleBackButtonPress
     });
-  }
-
-  renderSectionHeader(sectionData, category) {
-    return (
-      <Text style={{fontWeight: "700"}}>{category}</Text>
-    )
   }
 
   _renderRow(rowData) {
@@ -134,7 +127,6 @@ export default class WordList extends Component {
               <ListView
                 dataSource={this.state.dataSource}
                 renderRow={this._renderRow}
-                renderSectionHeader={this.renderSectionHeader}
                 initialListSize={80}
                 showsVerticalScrollIndicator={false}
                 scrollsToTop={false}
