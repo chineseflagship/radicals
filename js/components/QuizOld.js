@@ -9,7 +9,7 @@ TouchableOpacity,
 NativeModules
 } from 'react-native'
 
-import CharacterView from 'react-native-character-view'
+import CharacterView from 'react-native-character-view-2'
 const CharacterViewManager = NativeModules.RNCharacterViewManager;
 
 var MessageBarAlert = require('react-native-message-bar').MessageBar;

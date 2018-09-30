@@ -10,7 +10,7 @@ import { StyleSheet,
 import NavigationBar from 'react-native-navbar';
 import Sound from 'react-native-sound';
 
-import CharacterView from 'react-native-character-view'
+import CharacterView from 'react-native-character-view-2'
 const CharacterViewManager = NativeModules.RNCharacterViewManager;
 
 import Icon from 'react-native-vector-icons/FontAwesome';

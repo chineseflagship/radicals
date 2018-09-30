@@ -11,7 +11,7 @@ import { StyleSheet,
 import NavigationBar from 'react-native-navbar';
 import Sound from 'react-native-sound';
 
-import CharacterView from 'react-native-character-view'
+import CharacterView from 'react-native-character-view-2'
 const CharacterViewManager = NativeModules.RNCharacterViewManager;
 
 var DeckStore = require('../stores/DeckStore');
