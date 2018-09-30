@@ -23,7 +23,7 @@ export default class DeckList extends Component {
     const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     this._onChange = this._onChange.bind(this);
     this._renderRow = this._renderRow.bind(this)
-    DeckStore.addChangeListener('', this._onChange);
+    DeckStore.addChangeListener('decks', this._onChange);
 		this.state = {
 			dataSource: ds.cloneWithRows(DeckStore.getDecks())
     }
@@ -31,9 +31,9 @@ export default class DeckList extends Component {
 
   _onChange() {
     const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    this.state = {
+    this.setState({
 			dataSource: ds.cloneWithRows(DeckStore.getDecks())
-    }
+    })
   }
 
   _selectDeck(deck) {
