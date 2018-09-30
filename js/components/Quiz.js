@@ -18,7 +18,7 @@ var ActionCreators = require('../actions/ActionCreators');
 
 var DeckStore = require('../stores/DeckStore');
 
-var NavigationBar = require('react-native-navbar');
+import NavigationBar from 'react-native-navbar';
 var ProgressBar = require('./ProgressBar');
 var Question = require('./Question');
 
