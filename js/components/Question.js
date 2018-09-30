@@ -23,7 +23,7 @@ class Question extends Component {
   constructor(props) {
     super(props);
     this._playRecording = this._playRecording.bind(this);
-    this._onChange = this._onChange.bind(this);
+    this._onComplete = this._onComplete.bind(this);
     const { rawPinyin, tone } = this.props.question.character;
     this.sound = new Sound(rawPinyin+tone+'.mp3', Sound.MAIN_BUNDLE);
     this.state = { character: this.props.question.character, selected: null };
@@ -38,15 +38,14 @@ class Question extends Component {
     this.sound.play();
   }
 
-  _onChange(event) {
+  _onComplete(event) {
     this._playRecording();
-    if (event.nativeEvent.mistakes <= 1) {
+    if (event.nativeEvent.totalMistakes <= 1) {
       this.props.onCorrect();
     }
     else {
       this.props.onWrong();
     }
-    // setTimeout(alert('??'), 100)
   }
 
   render() {
@@ -148,7 +147,7 @@ class Question extends Component {
                 character={question.character.character}
                 ref="characterView"
                 style={styles.wordView}
-                onChange={this._onChange}
+                onComplete={this._onComplete}
               />
             </View> :
           <View style={styles.choicesView}>
