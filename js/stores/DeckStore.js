@@ -90,12 +90,19 @@ store.get('decks').then((decks) => {
       DeckData["Strokes"].questions[4].character = '亠';
   }
 
+  if (DeckData["Actions"] &&
+    DeckData["Actions"].questions &&
+    DeckData["Actions"].questions[8] &&
+    DeckData["Actions"].questions[8].character == '攴') {
+      DeckData["Actions"].questions[8].tone = 1;
+  }
+
   if (DeckData["Spring Festival"]) {
     delete DeckData["Spring Festival"];
   }
 
   saveDecks()
-  DeckStore.emitChange();
+  DeckStore.emitChange("decks");
 });
 
 
@@ -118,8 +125,8 @@ var previousCharacter;
 var DeckStore = assign({}, EventEmitter.prototype, {
 
 
-  emitChange: function() {
-    emitter.emit(CHANGE_EVENT);
+  emitChange: function(name) {
+    emitter.emit(CHANGE_EVENT+name,);
   },
 
   addChangeListener: function(name, callback) {
@@ -150,6 +157,9 @@ var DeckStore = assign({}, EventEmitter.prototype, {
 
   getProgressOfDeck: function(deckName) {
     var deck = DeckData[deckName];
+    if (!deck) {
+      return 0
+    }
     var progress = deck.progress;
     return progress
   },

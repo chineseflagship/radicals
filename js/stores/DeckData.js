@@ -223,7 +223,7 @@ var MockDeckData = {
             "meaning": "tap",
             "strokes": 2,
             "rawPinyin": "pu",
-            "tone": 3,
+            "tone": 1,
             "knowsPinyin": false,
             "knowsTone": false,
             "knowsMeaning": false,
