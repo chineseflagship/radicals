@@ -49,6 +49,186 @@
 		70F1C23887B742C68D970721 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5655CF5F5FB344CB9BF737E7 /* Entypo.ttf */; };
 		77A8C5C0E78B4F0FB4B38991 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F8A594E8CDF54B49ABCA0718 /* FontAwesome5_Brands.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		84A759162193E54800CCCB35 /* ba1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7583A2193E54600CCCB35 /* ba1.mp3 */; };
+		84A759172193E54800CCCB35 /* bai3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7583B2193E54600CCCB35 /* bai3.mp3 */; };
+		84A759182193E54800CCCB35 /* bao1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7583C2193E54600CCCB35 /* bao1.mp3 */; };
+		84A759192193E54800CCCB35 /* bei4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7583D2193E54600CCCB35 /* bei4.mp3 */; };
+		84A7591A2193E54800CCCB35 /* bi2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7583E2193E54600CCCB35 /* bi2.mp3 */; };
+		84A7591B2193E54800CCCB35 /* bi3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7583F2193E54600CCCB35 /* bi3.mp3 */; };
+		84A7591C2193E54800CCCB35 /* bian4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758402193E54600CCCB35 /* bian4.mp3 */; };
+		84A7591D2193E54800CCCB35 /* biao1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758412193E54600CCCB35 /* biao1.mp3 */; };
+		84A7591E2193E54800CCCB35 /* bing1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758422193E54600CCCB35 /* bing1.mp3 */; };
+		84A7591F2193E54800CCCB35 /* bo1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758432193E54600CCCB35 /* bo1.mp3 */; };
+		84A759202193E54800CCCB35 /* bu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758442193E54600CCCB35 /* bu3.mp3 */; };
+		84A759212193E54800CCCB35 /* cao3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758452193E54600CCCB35 /* cao3.mp3 */; };
+		84A759222193E54800CCCB35 /* chang2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758462193E54600CCCB35 /* chang2.mp3 */; };
+		84A759232193E54800CCCB35 /* chang4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758472193E54600CCCB35 /* chang4.mp3 */; };
+		84A759242193E54800CCCB35 /* che1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758482193E54600CCCB35 /* che1.mp3 */; };
+		84A759252193E54800CCCB35 /* che4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758492193E54600CCCB35 /* che4.mp3 */; };
+		84A759262193E54800CCCB35 /* chen2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7584A2193E54600CCCB35 /* chen2.mp3 */; };
+		84A759272193E54800CCCB35 /* chi3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7584B2193E54600CCCB35 /* chi3.mp3 */; };
+		84A759282193E54800CCCB35 /* chi4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7584C2193E54600CCCB35 /* chi4.mp3 */; };
+		84A759292193E54800CCCB35 /* chuan1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7584D2193E54600CCCB35 /* chuan1.mp3 */; };
+		84A7592A2193E54800CCCB35 /* chuan3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7584E2193E54600CCCB35 /* chuan3.mp3 */; };
+		84A7592B2193E54800CCCB35 /* chuang2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7584F2193E54600CCCB35 /* chuang2.mp3 */; };
+		84A7592C2193E54800CCCB35 /* chuo4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758502193E54600CCCB35 /* chuo4.mp3 */; };
+		84A7592D2193E54800CCCB35 /* cui4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758512193E54600CCCB35 /* cui4.mp3 */; };
+		84A7592E2193E54800CCCB35 /* da4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758522193E54600CCCB35 /* da4.mp3 */; };
+		84A7592F2193E54800CCCB35 /* dai3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758532193E54600CCCB35 /* dai3.mp3 */; };
+		84A759302193E54800CCCB35 /* dai4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758542193E54600CCCB35 /* dai4.mp3 */; };
+		84A759312193E54800CCCB35 /* dao1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758552193E54600CCCB35 /* dao1.mp3 */; };
+		84A759322193E54800CCCB35 /* ding3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758562193E54600CCCB35 /* ding3.mp3 */; };
+		84A759332193E54800CCCB35 /* dou3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758572193E54600CCCB35 /* dou3.mp3 */; };
+		84A759342193E54800CCCB35 /* dou4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758582193E54600CCCB35 /* dou4.mp3 */; };
+		84A759352193E54800CCCB35 /* er2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758592193E54600CCCB35 /* er2.mp3 */; };
+		84A759362193E54800CCCB35 /* er3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7585A2193E54600CCCB35 /* er3.mp3 */; };
+		84A759372193E54800CCCB35 /* er4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7585B2193E54600CCCB35 /* er4.mp3 */; };
+		84A759382193E54800CCCB35 /* fang1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7585C2193E54600CCCB35 /* fang1.mp3 */; };
+		84A759392193E54800CCCB35 /* fei1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7585D2193E54600CCCB35 /* fei1.mp3 */; };
+		84A7593A2193E54800CCCB35 /* feng1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7585E2193E54600CCCB35 /* feng1.mp3 */; };
+		84A7593B2193E54800CCCB35 /* fou3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7585F2193E54600CCCB35 /* fou3.mp3 */; };
+		84A7593C2193E54800CCCB35 /* fu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758602193E54600CCCB35 /* fu4.mp3 */; };
+		84A7593D2193E54800CCCB35 /* gan1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758612193E54600CCCB35 /* gan1.mp3 */; };
+		84A7593E2193E54800CCCB35 /* gao1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758622193E54600CCCB35 /* gao1.mp3 */; };
+		84A7593F2193E54800CCCB35 /* ge1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758632193E54600CCCB35 /* ge1.mp3 */; };
+		84A759402193E54800CCCB35 /* ge2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758642193E54600CCCB35 /* ge2.mp3 */; };
+		84A759412193E54800CCCB35 /* gen4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758652193E54600CCCB35 /* gen4.mp3 */; };
+		84A759422193E54800CCCB35 /* gong1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758662193E54600CCCB35 /* gong1.mp3 */; };
+		84A759432193E54800CCCB35 /* gong3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758672193E54600CCCB35 /* gong3.mp3 */; };
+		84A759442193E54800CCCB35 /* gu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758682193E54600CCCB35 /* gu3.mp3 */; };
+		84A759452193E54800CCCB35 /* gua1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758692193E54600CCCB35 /* gua1.mp3 */; };
+		84A759462193E54800CCCB35 /* guan4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7586A2193E54600CCCB35 /* guan4.mp3 */; };
+		84A759472193E54800CCCB35 /* gui1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7586B2193E54600CCCB35 /* gui1.mp3 */; };
+		84A759482193E54800CCCB35 /* gui3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7586C2193E54600CCCB35 /* gui3.mp3 */; };
+		84A759492193E54800CCCB35 /* gun3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7586D2193E54600CCCB35 /* gun3.mp3 */; };
+		84A7594A2193E54800CCCB35 /* han3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7586E2193E54600CCCB35 /* han3.mp3 */; };
+		84A7594B2193E54800CCCB35 /* he2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7586F2193E54600CCCB35 /* he2.mp3 */; };
+		84A7594C2193E54800CCCB35 /* hei1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758702193E54600CCCB35 /* hei1.mp3 */; };
+		84A7594D2193E54800CCCB35 /* hu1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758712193E54600CCCB35 /* hu1.mp3 */; };
+		84A7594E2193E54800CCCB35 /* hu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758722193E54600CCCB35 /* hu3.mp3 */; };
+		84A7594F2193E54800CCCB35 /* hu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758732193E54600CCCB35 /* hu4.mp3 */; };
+		84A759502193E54800CCCB35 /* huang2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758742193E54600CCCB35 /* huang2.mp3 */; };
+		84A759512193E54800CCCB35 /* hui3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758752193E54600CCCB35 /* hui3.mp3 */; };
+		84A759522193E54800CCCB35 /* huo3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758762193E54600CCCB35 /* huo3.mp3 */; };
+		84A759532193E54800CCCB35 /* ji1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758772193E54600CCCB35 /* ji1.mp3 */; };
+		84A759542193E54800CCCB35 /* ji3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758782193E54600CCCB35 /* ji3.mp3 */; };
+		84A759552193E54800CCCB35 /* ji4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758792193E54600CCCB35 /* ji4.mp3 */; };
+		84A759562193E54800CCCB35 /* jia1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7587A2193E54600CCCB35 /* jia1.mp3 */; };
+		84A759572193E54800CCCB35 /* jian4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7587B2193E54600CCCB35 /* jian4.mp3 */; };
+		84A759582193E54800CCCB35 /* jiao3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7587C2193E54600CCCB35 /* jiao3.mp3 */; };
+		84A759592193E54800CCCB35 /* jie2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7587D2193E54600CCCB35 /* jie2.mp3 */; };
+		84A7595A2193E54800CCCB35 /* jin1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7587E2193E54600CCCB35 /* jin1.mp3 */; };
+		84A7595B2193E54800CCCB35 /* jiong1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7587F2193E54600CCCB35 /* jiong1.mp3 */; };
+		84A7595C2193E54800CCCB35 /* jiu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758802193E54600CCCB35 /* jiu3.mp3 */; };
+		84A7595D2193E54800CCCB35 /* jiu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758812193E54600CCCB35 /* jiu4.mp3 */; };
+		84A7595E2193E54800CCCB35 /* jue2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758822193E54600CCCB35 /* jue2.mp3 */; };
+		84A7595F2193E54800CCCB35 /* kan3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758832193E54600CCCB35 /* kan3.mp3 */; };
+		84A759602193E54800CCCB35 /* kou3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758842193E54600CCCB35 /* kou3.mp3 */; };
+		84A759612193E54800CCCB35 /* lao3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758852193E54600CCCB35 /* lao3.mp3 */; };
+		84A759622193E54800CCCB35 /* lei3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758862193E54600CCCB35 /* lei3.mp3 */; };
+		84A759632193E54800CCCB35 /* li3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758872193E54600CCCB35 /* li3.mp3 */; };
+		84A759642193E54800CCCB35 /* li4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758882193E54600CCCB35 /* li4.mp3 */; };
+		84A759652193E54800CCCB35 /* long2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758892193E54600CCCB35 /* long2.mp3 */; };
+		84A759662193E54800CCCB35 /* lu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7588A2193E54600CCCB35 /* lu3.mp3 */; };
+		84A759672193E54800CCCB35 /* lu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7588B2193E54600CCCB35 /* lu4.mp3 */; };
+		84A759682193E54800CCCB35 /* ma2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7588C2193E54600CCCB35 /* ma2.mp3 */; };
+		84A759692193E54800CCCB35 /* ma3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7588D2193E54600CCCB35 /* ma3.mp3 */; };
+		84A7596A2193E54800CCCB35 /* mai4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7588E2193E54600CCCB35 /* mai4.mp3 */; };
+		84A7596B2193E54800CCCB35 /* mao2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7588F2193E54600CCCB35 /* mao2.mp3 */; };
+		84A7596C2193E54800CCCB35 /* men2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758902193E54600CCCB35 /* men2.mp3 */; };
+		84A7596D2193E54800CCCB35 /* meng3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758912193E54600CCCB35 /* meng3.mp3 */; };
+		84A7596E2193E54800CCCB35 /* mi3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758922193E54600CCCB35 /* mi3.mp3 */; };
+		84A7596F2193E54800CCCB35 /* mi4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758932193E54600CCCB35 /* mi4.mp3 */; };
+		84A759702193E54800CCCB35 /* mian2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758942193E54600CCCB35 /* mian2.mp3 */; };
+		84A759712193E54800CCCB35 /* mian4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758952193E54600CCCB35 /* mian4.mp3 */; };
+		84A759722193E54800CCCB35 /* min3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758962193E54600CCCB35 /* min3.mp3 */; };
+		84A759732193E54800CCCB35 /* mu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758972193E54600CCCB35 /* mu4.mp3 */; };
+		84A759742193E54800CCCB35 /* niao3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758982193E54600CCCB35 /* niao3.mp3 */; };
+		84A759752193E54800CCCB35 /* niu2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758992193E54600CCCB35 /* niu2.mp3 */; };
+		84A759762193E54800CCCB35 /* nv3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7589A2193E54600CCCB35 /* nv3.mp3 */; };
+		84A759772193E54800CCCB35 /* pi2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7589B2193E54600CCCB35 /* pi2.mp3 */; };
+		84A759782193E54800CCCB35 /* pi3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7589C2193E54600CCCB35 /* pi3.mp3 */; };
+		84A759792193E54800CCCB35 /* pian4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7589D2193E54600CCCB35 /* pian4.mp3 */; };
+		84A7597A2193E54800CCCB35 /* pie3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7589E2193E54600CCCB35 /* pie3.mp3 */; };
+		84A7597B2193E54800CCCB35 /* pu1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A7589F2193E54600CCCB35 /* pu1.mp3 */; };
+		84A7597C2193E54800CCCB35 /* qi2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A02193E54600CCCB35 /* qi2.mp3 */; };
+		84A7597D2193E54800CCCB35 /* qi4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A12193E54600CCCB35 /* qi4.mp3 */; };
+		84A7597E2193E54800CCCB35 /* qian4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A22193E54600CCCB35 /* qian4.mp3 */; };
+		84A7597F2193E54800CCCB35 /* qiang2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A32193E54600CCCB35 /* qiang2.mp3 */; };
+		84A759802193E54800CCCB35 /* qing1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A42193E54600CCCB35 /* qing1.mp3 */; };
+		84A759812193E54800CCCB35 /* quan3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A52193E54600CCCB35 /* quan3.mp3 */; };
+		84A759822193E54800CCCB35 /* ren2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A62193E54600CCCB35 /* ren2.mp3 */; };
+		84A759832193E54800CCCB35 /* ri4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A72193E54600CCCB35 /* ri4.mp3 */; };
+		84A759842193E54800CCCB35 /* rou2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A82193E54600CCCB35 /* rou2.mp3 */; };
+		84A759852193E54800CCCB35 /* rou4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758A92193E54600CCCB35 /* rou4.mp3 */; };
+		84A759862193E54800CCCB35 /* ru4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758AA2193E54600CCCB35 /* ru4.mp3 */; };
+		84A759872193E54800CCCB35 /* se4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758AB2193E54600CCCB35 /* se4.mp3 */; };
+		84A759882193E54800CCCB35 /* shan1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758AC2193E54600CCCB35 /* shan1.mp3 */; };
+		84A759892193E54800CCCB35 /* she2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758AD2193E54600CCCB35 /* she2.mp3 */; };
+		84A7598A2193E54800CCCB35 /* shen1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758AE2193E54600CCCB35 /* shen1.mp3 */; };
+		84A7598B2193E54800CCCB35 /* sheng1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758AF2193E54600CCCB35 /* sheng1.mp3 */; };
+		84A7598C2193E54800CCCB35 /* shi1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B02193E54600CCCB35 /* shi1.mp3 */; };
+		84A7598D2193E54800CCCB35 /* shi2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B12193E54600CCCB35 /* shi2.mp3 */; };
+		84A7598E2193E54800CCCB35 /* shi3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B22193E54600CCCB35 /* shi3.mp3 */; };
+		84A7598F2193E54800CCCB35 /* shi4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B32193E54600CCCB35 /* shi4.mp3 */; };
+		84A759902193E54800CCCB35 /* shou3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B42193E54600CCCB35 /* shou3.mp3 */; };
+		84A759912193E54800CCCB35 /* shu1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B52193E54600CCCB35 /* shu1.mp3 */; };
+		84A759922193E54800CCCB35 /* shu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B62193E54600CCCB35 /* shu3.mp3 */; };
+		84A759932193E54800CCCB35 /* shui3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B72193E54600CCCB35 /* shui3.mp3 */; };
+		84A759942193E54800CCCB35 /* si1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B82193E54600CCCB35 /* si1.mp3 */; };
+		84A759952193E54800CCCB35 /* sui1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758B92193E54600CCCB35 /* sui1.mp3 */; };
+		84A759962193E54800CCCB35 /* tian2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758BA2193E54600CCCB35 /* tian2.mp3 */; };
+		84A759972193E54800CCCB35 /* tou2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758BB2193E54600CCCB35 /* tou2.mp3 */; };
+		84A759982193E54800CCCB35 /* tu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758BC2193E54600CCCB35 /* tu3.mp3 */; };
+		84A759992193E54800CCCB35 /* wa3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758BD2193E54600CCCB35 /* wa3.mp3 */; };
+		84A7599A2193E54800CCCB35 /* wang1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758BE2193E54600CCCB35 /* wang1.mp3 */; };
+		84A7599B2193E54800CCCB35 /* wang3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758BF2193E54600CCCB35 /* wang3.mp3 */; };
+		84A7599C2193E54800CCCB35 /* wei2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C02193E54600CCCB35 /* wei2.mp3 */; };
+		84A7599D2193E54800CCCB35 /* wen2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C12193E54600CCCB35 /* wen2.mp3 */; };
+		84A7599E2193E54800CCCB35 /* wu2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C22193E54600CCCB35 /* wu2.mp3 */; };
+		84A7599F2193E54800CCCB35 /* xi3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C32193E54600CCCB35 /* xi3.mp3 */; };
+		84A759A02193E54800CCCB35 /* xi4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C42193E54600CCCB35 /* xi4.mp3 */; };
+		84A759A12193E54800CCCB35 /* xiang1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C52193E54700CCCB35 /* xiang1.mp3 */; };
+		84A759A22193E54800CCCB35 /* xiao3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C62193E54700CCCB35 /* xiao3.mp3 */; };
+		84A759A32193E54800CCCB35 /* xie3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C72193E54700CCCB35 /* xie3.mp3 */; };
+		84A759A42193E54800CCCB35 /* xin1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C82193E54700CCCB35 /* xin1.mp3 */; };
+		84A759A52193E54800CCCB35 /* xing2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758C92193E54700CCCB35 /* xing2.mp3 */; };
+		84A759A62193E54800CCCB35 /* xuan2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758CA2193E54700CCCB35 /* xuan2.mp3 */; };
+		84A759A72193E54800CCCB35 /* xue4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758CB2193E54700CCCB35 /* xue4.mp3 */; };
+		84A759A82193E54800CCCB35 /* ya2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758CC2193E54700CCCB35 /* ya2.mp3 */; };
+		84A759A92193E54800CCCB35 /* ya4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758CD2193E54700CCCB35 /* ya4.mp3 */; };
+		84A759AA2193E54800CCCB35 /* yan2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758CE2193E54700CCCB35 /* yan2.mp3 */; };
+		84A759AB2193E54800CCCB35 /* yan3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758CF2193E54700CCCB35 /* yan3.mp3 */; };
+		84A759AC2193E54800CCCB35 /* yang2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D02193E54700CCCB35 /* yang2.mp3 */; };
+		84A759AD2193E54800CCCB35 /* yao1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D12193E54700CCCB35 /* yao1.mp3 */; };
+		84A759AE2193E54800CCCB35 /* yao2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D22193E54700CCCB35 /* yao2.mp3 */; };
+		84A759AF2193E54800CCCB35 /* ye4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D32193E54700CCCB35 /* ye4.mp3 */; };
+		84A759B02193E54800CCCB35 /* yi1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D42193E54700CCCB35 /* yi1.mp3 */; };
+		84A759B12193E54800CCCB35 /* yi3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D52193E54700CCCB35 /* yi3.mp3 */; };
+		84A759B22193E54800CCCB35 /* yi4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D62193E54700CCCB35 /* yi4.mp3 */; };
+		84A759B32193E54800CCCB35 /* yin1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D72193E54700CCCB35 /* yin1.mp3 */; };
+		84A759B42193E54800CCCB35 /* yin3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D82193E54700CCCB35 /* yin3.mp3 */; };
+		84A759B52193E54800CCCB35 /* yong4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758D92193E54700CCCB35 /* yong4.mp3 */; };
+		84A759B62193E54800CCCB35 /* you3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758DA2193E54700CCCB35 /* you3.mp3 */; };
+		84A759B72193E54800CCCB35 /* you4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758DB2193E54700CCCB35 /* you4.mp3 */; };
+		84A759B82193E54800CCCB35 /* yu2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758DC2193E54700CCCB35 /* yu2.mp3 */; };
+		84A759B92193E54800CCCB35 /* yu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758DD2193E54700CCCB35 /* yu3.mp3 */; };
+		84A759BA2193E54800CCCB35 /* yu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758DE2193E54700CCCB35 /* yu4.mp3 */; };
+		84A759BB2193E54800CCCB35 /* yue1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758DF2193E54700CCCB35 /* yue1.mp3 */; };
+		84A759BC2193E54800CCCB35 /* yue4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E02193E54700CCCB35 /* yue4.mp3 */; };
+		84A759BD2193E54800CCCB35 /* zhao3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E12193E54700CCCB35 /* zhao3.mp3 */; };
+		84A759BE2193E54800CCCB35 /* zhi1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E22193E54700CCCB35 /* zhi1.mp3 */; };
+		84A759BF2193E54800CCCB35 /* zhi3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E32193E54700CCCB35 /* zhi3.mp3 */; };
+		84A759C02193E54800CCCB35 /* zhi4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E42193E54700CCCB35 /* zhi4.mp3 */; };
+		84A759C12193E54800CCCB35 /* zhou1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E52193E54700CCCB35 /* zhou1.mp3 */; };
+		84A759C22193E54800CCCB35 /* zhu2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E62193E54700CCCB35 /* zhu2.mp3 */; };
+		84A759C32193E54800CCCB35 /* zhu3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E72193E54700CCCB35 /* zhu3.mp3 */; };
+		84A759C42193E54800CCCB35 /* zhu4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E82193E54700CCCB35 /* zhu4.mp3 */; };
+		84A759C52193E54800CCCB35 /* zhua1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758E92193E54700CCCB35 /* zhua1.mp3 */; };
+		84A759C62193E54800CCCB35 /* zhui1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758EA2193E54700CCCB35 /* zhui1.mp3 */; };
+		84A759C72193E54800CCCB35 /* zi3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758EB2193E54700CCCB35 /* zi3.mp3 */; };
+		84A759C82193E54800CCCB35 /* zou3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758EC2193E54700CCCB35 /* zou3.mp3 */; };
+		84A759C92193E54800CCCB35 /* zu2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A758ED2193E54700CCCB35 /* zu2.mp3 */; };
 		84D42A8F215D761B00A5484F /* ⺀.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84D40544215D750D00A5484F /* ⺀.txt */; };
 		84D42A90215D761B00A5484F /* ⺈.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84D40545215D750D00A5484F /* ⺈.txt */; };
 		84D42A91215D761B00A5484F /* ⺊.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84D40546215D750D00A5484F /* ⺊.txt */; };
@@ -9901,6 +10081,186 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7CBD563E396545919F1E07CE /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		84A7583A2193E54600CCCB35 /* ba1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ba1.mp3; sourceTree = "<group>"; };
+		84A7583B2193E54600CCCB35 /* bai3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bai3.mp3; sourceTree = "<group>"; };
+		84A7583C2193E54600CCCB35 /* bao1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bao1.mp3; sourceTree = "<group>"; };
+		84A7583D2193E54600CCCB35 /* bei4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bei4.mp3; sourceTree = "<group>"; };
+		84A7583E2193E54600CCCB35 /* bi2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bi2.mp3; sourceTree = "<group>"; };
+		84A7583F2193E54600CCCB35 /* bi3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bi3.mp3; sourceTree = "<group>"; };
+		84A758402193E54600CCCB35 /* bian4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bian4.mp3; sourceTree = "<group>"; };
+		84A758412193E54600CCCB35 /* biao1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = biao1.mp3; sourceTree = "<group>"; };
+		84A758422193E54600CCCB35 /* bing1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bing1.mp3; sourceTree = "<group>"; };
+		84A758432193E54600CCCB35 /* bo1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bo1.mp3; sourceTree = "<group>"; };
+		84A758442193E54600CCCB35 /* bu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bu3.mp3; sourceTree = "<group>"; };
+		84A758452193E54600CCCB35 /* cao3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cao3.mp3; sourceTree = "<group>"; };
+		84A758462193E54600CCCB35 /* chang2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chang2.mp3; sourceTree = "<group>"; };
+		84A758472193E54600CCCB35 /* chang4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chang4.mp3; sourceTree = "<group>"; };
+		84A758482193E54600CCCB35 /* che1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = che1.mp3; sourceTree = "<group>"; };
+		84A758492193E54600CCCB35 /* che4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = che4.mp3; sourceTree = "<group>"; };
+		84A7584A2193E54600CCCB35 /* chen2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chen2.mp3; sourceTree = "<group>"; };
+		84A7584B2193E54600CCCB35 /* chi3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chi3.mp3; sourceTree = "<group>"; };
+		84A7584C2193E54600CCCB35 /* chi4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chi4.mp3; sourceTree = "<group>"; };
+		84A7584D2193E54600CCCB35 /* chuan1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chuan1.mp3; sourceTree = "<group>"; };
+		84A7584E2193E54600CCCB35 /* chuan3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chuan3.mp3; sourceTree = "<group>"; };
+		84A7584F2193E54600CCCB35 /* chuang2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chuang2.mp3; sourceTree = "<group>"; };
+		84A758502193E54600CCCB35 /* chuo4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chuo4.mp3; sourceTree = "<group>"; };
+		84A758512193E54600CCCB35 /* cui4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cui4.mp3; sourceTree = "<group>"; };
+		84A758522193E54600CCCB35 /* da4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = da4.mp3; sourceTree = "<group>"; };
+		84A758532193E54600CCCB35 /* dai3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dai3.mp3; sourceTree = "<group>"; };
+		84A758542193E54600CCCB35 /* dai4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dai4.mp3; sourceTree = "<group>"; };
+		84A758552193E54600CCCB35 /* dao1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dao1.mp3; sourceTree = "<group>"; };
+		84A758562193E54600CCCB35 /* ding3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding3.mp3; sourceTree = "<group>"; };
+		84A758572193E54600CCCB35 /* dou3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dou3.mp3; sourceTree = "<group>"; };
+		84A758582193E54600CCCB35 /* dou4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dou4.mp3; sourceTree = "<group>"; };
+		84A758592193E54600CCCB35 /* er2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = er2.mp3; sourceTree = "<group>"; };
+		84A7585A2193E54600CCCB35 /* er3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = er3.mp3; sourceTree = "<group>"; };
+		84A7585B2193E54600CCCB35 /* er4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = er4.mp3; sourceTree = "<group>"; };
+		84A7585C2193E54600CCCB35 /* fang1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fang1.mp3; sourceTree = "<group>"; };
+		84A7585D2193E54600CCCB35 /* fei1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fei1.mp3; sourceTree = "<group>"; };
+		84A7585E2193E54600CCCB35 /* feng1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = feng1.mp3; sourceTree = "<group>"; };
+		84A7585F2193E54600CCCB35 /* fou3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fou3.mp3; sourceTree = "<group>"; };
+		84A758602193E54600CCCB35 /* fu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fu4.mp3; sourceTree = "<group>"; };
+		84A758612193E54600CCCB35 /* gan1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gan1.mp3; sourceTree = "<group>"; };
+		84A758622193E54600CCCB35 /* gao1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gao1.mp3; sourceTree = "<group>"; };
+		84A758632193E54600CCCB35 /* ge1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ge1.mp3; sourceTree = "<group>"; };
+		84A758642193E54600CCCB35 /* ge2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ge2.mp3; sourceTree = "<group>"; };
+		84A758652193E54600CCCB35 /* gen4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gen4.mp3; sourceTree = "<group>"; };
+		84A758662193E54600CCCB35 /* gong1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gong1.mp3; sourceTree = "<group>"; };
+		84A758672193E54600CCCB35 /* gong3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gong3.mp3; sourceTree = "<group>"; };
+		84A758682193E54600CCCB35 /* gu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gu3.mp3; sourceTree = "<group>"; };
+		84A758692193E54600CCCB35 /* gua1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gua1.mp3; sourceTree = "<group>"; };
+		84A7586A2193E54600CCCB35 /* guan4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guan4.mp3; sourceTree = "<group>"; };
+		84A7586B2193E54600CCCB35 /* gui1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gui1.mp3; sourceTree = "<group>"; };
+		84A7586C2193E54600CCCB35 /* gui3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gui3.mp3; sourceTree = "<group>"; };
+		84A7586D2193E54600CCCB35 /* gun3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gun3.mp3; sourceTree = "<group>"; };
+		84A7586E2193E54600CCCB35 /* han3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = han3.mp3; sourceTree = "<group>"; };
+		84A7586F2193E54600CCCB35 /* he2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = he2.mp3; sourceTree = "<group>"; };
+		84A758702193E54600CCCB35 /* hei1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hei1.mp3; sourceTree = "<group>"; };
+		84A758712193E54600CCCB35 /* hu1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hu1.mp3; sourceTree = "<group>"; };
+		84A758722193E54600CCCB35 /* hu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hu3.mp3; sourceTree = "<group>"; };
+		84A758732193E54600CCCB35 /* hu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hu4.mp3; sourceTree = "<group>"; };
+		84A758742193E54600CCCB35 /* huang2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = huang2.mp3; sourceTree = "<group>"; };
+		84A758752193E54600CCCB35 /* hui3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hui3.mp3; sourceTree = "<group>"; };
+		84A758762193E54600CCCB35 /* huo3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = huo3.mp3; sourceTree = "<group>"; };
+		84A758772193E54600CCCB35 /* ji1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ji1.mp3; sourceTree = "<group>"; };
+		84A758782193E54600CCCB35 /* ji3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ji3.mp3; sourceTree = "<group>"; };
+		84A758792193E54600CCCB35 /* ji4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ji4.mp3; sourceTree = "<group>"; };
+		84A7587A2193E54600CCCB35 /* jia1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jia1.mp3; sourceTree = "<group>"; };
+		84A7587B2193E54600CCCB35 /* jian4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jian4.mp3; sourceTree = "<group>"; };
+		84A7587C2193E54600CCCB35 /* jiao3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jiao3.mp3; sourceTree = "<group>"; };
+		84A7587D2193E54600CCCB35 /* jie2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jie2.mp3; sourceTree = "<group>"; };
+		84A7587E2193E54600CCCB35 /* jin1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jin1.mp3; sourceTree = "<group>"; };
+		84A7587F2193E54600CCCB35 /* jiong1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jiong1.mp3; sourceTree = "<group>"; };
+		84A758802193E54600CCCB35 /* jiu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jiu3.mp3; sourceTree = "<group>"; };
+		84A758812193E54600CCCB35 /* jiu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jiu4.mp3; sourceTree = "<group>"; };
+		84A758822193E54600CCCB35 /* jue2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jue2.mp3; sourceTree = "<group>"; };
+		84A758832193E54600CCCB35 /* kan3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kan3.mp3; sourceTree = "<group>"; };
+		84A758842193E54600CCCB35 /* kou3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kou3.mp3; sourceTree = "<group>"; };
+		84A758852193E54600CCCB35 /* lao3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lao3.mp3; sourceTree = "<group>"; };
+		84A758862193E54600CCCB35 /* lei3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lei3.mp3; sourceTree = "<group>"; };
+		84A758872193E54600CCCB35 /* li3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = li3.mp3; sourceTree = "<group>"; };
+		84A758882193E54600CCCB35 /* li4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = li4.mp3; sourceTree = "<group>"; };
+		84A758892193E54600CCCB35 /* long2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = long2.mp3; sourceTree = "<group>"; };
+		84A7588A2193E54600CCCB35 /* lu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lu3.mp3; sourceTree = "<group>"; };
+		84A7588B2193E54600CCCB35 /* lu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lu4.mp3; sourceTree = "<group>"; };
+		84A7588C2193E54600CCCB35 /* ma2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ma2.mp3; sourceTree = "<group>"; };
+		84A7588D2193E54600CCCB35 /* ma3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ma3.mp3; sourceTree = "<group>"; };
+		84A7588E2193E54600CCCB35 /* mai4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mai4.mp3; sourceTree = "<group>"; };
+		84A7588F2193E54600CCCB35 /* mao2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mao2.mp3; sourceTree = "<group>"; };
+		84A758902193E54600CCCB35 /* men2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = men2.mp3; sourceTree = "<group>"; };
+		84A758912193E54600CCCB35 /* meng3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meng3.mp3; sourceTree = "<group>"; };
+		84A758922193E54600CCCB35 /* mi3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mi3.mp3; sourceTree = "<group>"; };
+		84A758932193E54600CCCB35 /* mi4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mi4.mp3; sourceTree = "<group>"; };
+		84A758942193E54600CCCB35 /* mian2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mian2.mp3; sourceTree = "<group>"; };
+		84A758952193E54600CCCB35 /* mian4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mian4.mp3; sourceTree = "<group>"; };
+		84A758962193E54600CCCB35 /* min3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = min3.mp3; sourceTree = "<group>"; };
+		84A758972193E54600CCCB35 /* mu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mu4.mp3; sourceTree = "<group>"; };
+		84A758982193E54600CCCB35 /* niao3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = niao3.mp3; sourceTree = "<group>"; };
+		84A758992193E54600CCCB35 /* niu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = niu2.mp3; sourceTree = "<group>"; };
+		84A7589A2193E54600CCCB35 /* nv3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nv3.mp3; sourceTree = "<group>"; };
+		84A7589B2193E54600CCCB35 /* pi2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pi2.mp3; sourceTree = "<group>"; };
+		84A7589C2193E54600CCCB35 /* pi3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pi3.mp3; sourceTree = "<group>"; };
+		84A7589D2193E54600CCCB35 /* pian4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pian4.mp3; sourceTree = "<group>"; };
+		84A7589E2193E54600CCCB35 /* pie3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pie3.mp3; sourceTree = "<group>"; };
+		84A7589F2193E54600CCCB35 /* pu1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pu1.mp3; sourceTree = "<group>"; };
+		84A758A02193E54600CCCB35 /* qi2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qi2.mp3; sourceTree = "<group>"; };
+		84A758A12193E54600CCCB35 /* qi4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qi4.mp3; sourceTree = "<group>"; };
+		84A758A22193E54600CCCB35 /* qian4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qian4.mp3; sourceTree = "<group>"; };
+		84A758A32193E54600CCCB35 /* qiang2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qiang2.mp3; sourceTree = "<group>"; };
+		84A758A42193E54600CCCB35 /* qing1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = qing1.mp3; sourceTree = "<group>"; };
+		84A758A52193E54600CCCB35 /* quan3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quan3.mp3; sourceTree = "<group>"; };
+		84A758A62193E54600CCCB35 /* ren2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ren2.mp3; sourceTree = "<group>"; };
+		84A758A72193E54600CCCB35 /* ri4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ri4.mp3; sourceTree = "<group>"; };
+		84A758A82193E54600CCCB35 /* rou2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rou2.mp3; sourceTree = "<group>"; };
+		84A758A92193E54600CCCB35 /* rou4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rou4.mp3; sourceTree = "<group>"; };
+		84A758AA2193E54600CCCB35 /* ru4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ru4.mp3; sourceTree = "<group>"; };
+		84A758AB2193E54600CCCB35 /* se4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = se4.mp3; sourceTree = "<group>"; };
+		84A758AC2193E54600CCCB35 /* shan1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shan1.mp3; sourceTree = "<group>"; };
+		84A758AD2193E54600CCCB35 /* she2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = she2.mp3; sourceTree = "<group>"; };
+		84A758AE2193E54600CCCB35 /* shen1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shen1.mp3; sourceTree = "<group>"; };
+		84A758AF2193E54600CCCB35 /* sheng1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sheng1.mp3; sourceTree = "<group>"; };
+		84A758B02193E54600CCCB35 /* shi1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shi1.mp3; sourceTree = "<group>"; };
+		84A758B12193E54600CCCB35 /* shi2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shi2.mp3; sourceTree = "<group>"; };
+		84A758B22193E54600CCCB35 /* shi3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shi3.mp3; sourceTree = "<group>"; };
+		84A758B32193E54600CCCB35 /* shi4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shi4.mp3; sourceTree = "<group>"; };
+		84A758B42193E54600CCCB35 /* shou3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shou3.mp3; sourceTree = "<group>"; };
+		84A758B52193E54600CCCB35 /* shu1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shu1.mp3; sourceTree = "<group>"; };
+		84A758B62193E54600CCCB35 /* shu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shu3.mp3; sourceTree = "<group>"; };
+		84A758B72193E54600CCCB35 /* shui3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = shui3.mp3; sourceTree = "<group>"; };
+		84A758B82193E54600CCCB35 /* si1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = si1.mp3; sourceTree = "<group>"; };
+		84A758B92193E54600CCCB35 /* sui1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sui1.mp3; sourceTree = "<group>"; };
+		84A758BA2193E54600CCCB35 /* tian2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tian2.mp3; sourceTree = "<group>"; };
+		84A758BB2193E54600CCCB35 /* tou2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tou2.mp3; sourceTree = "<group>"; };
+		84A758BC2193E54600CCCB35 /* tu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tu3.mp3; sourceTree = "<group>"; };
+		84A758BD2193E54600CCCB35 /* wa3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wa3.mp3; sourceTree = "<group>"; };
+		84A758BE2193E54600CCCB35 /* wang1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wang1.mp3; sourceTree = "<group>"; };
+		84A758BF2193E54600CCCB35 /* wang3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wang3.mp3; sourceTree = "<group>"; };
+		84A758C02193E54600CCCB35 /* wei2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wei2.mp3; sourceTree = "<group>"; };
+		84A758C12193E54600CCCB35 /* wen2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wen2.mp3; sourceTree = "<group>"; };
+		84A758C22193E54600CCCB35 /* wu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wu2.mp3; sourceTree = "<group>"; };
+		84A758C32193E54600CCCB35 /* xi3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xi3.mp3; sourceTree = "<group>"; };
+		84A758C42193E54600CCCB35 /* xi4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xi4.mp3; sourceTree = "<group>"; };
+		84A758C52193E54700CCCB35 /* xiang1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xiang1.mp3; sourceTree = "<group>"; };
+		84A758C62193E54700CCCB35 /* xiao3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xiao3.mp3; sourceTree = "<group>"; };
+		84A758C72193E54700CCCB35 /* xie3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xie3.mp3; sourceTree = "<group>"; };
+		84A758C82193E54700CCCB35 /* xin1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xin1.mp3; sourceTree = "<group>"; };
+		84A758C92193E54700CCCB35 /* xing2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xing2.mp3; sourceTree = "<group>"; };
+		84A758CA2193E54700CCCB35 /* xuan2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xuan2.mp3; sourceTree = "<group>"; };
+		84A758CB2193E54700CCCB35 /* xue4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = xue4.mp3; sourceTree = "<group>"; };
+		84A758CC2193E54700CCCB35 /* ya2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ya2.mp3; sourceTree = "<group>"; };
+		84A758CD2193E54700CCCB35 /* ya4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ya4.mp3; sourceTree = "<group>"; };
+		84A758CE2193E54700CCCB35 /* yan2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yan2.mp3; sourceTree = "<group>"; };
+		84A758CF2193E54700CCCB35 /* yan3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yan3.mp3; sourceTree = "<group>"; };
+		84A758D02193E54700CCCB35 /* yang2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yang2.mp3; sourceTree = "<group>"; };
+		84A758D12193E54700CCCB35 /* yao1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yao1.mp3; sourceTree = "<group>"; };
+		84A758D22193E54700CCCB35 /* yao2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yao2.mp3; sourceTree = "<group>"; };
+		84A758D32193E54700CCCB35 /* ye4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ye4.mp3; sourceTree = "<group>"; };
+		84A758D42193E54700CCCB35 /* yi1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yi1.mp3; sourceTree = "<group>"; };
+		84A758D52193E54700CCCB35 /* yi3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yi3.mp3; sourceTree = "<group>"; };
+		84A758D62193E54700CCCB35 /* yi4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yi4.mp3; sourceTree = "<group>"; };
+		84A758D72193E54700CCCB35 /* yin1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yin1.mp3; sourceTree = "<group>"; };
+		84A758D82193E54700CCCB35 /* yin3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yin3.mp3; sourceTree = "<group>"; };
+		84A758D92193E54700CCCB35 /* yong4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yong4.mp3; sourceTree = "<group>"; };
+		84A758DA2193E54700CCCB35 /* you3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = you3.mp3; sourceTree = "<group>"; };
+		84A758DB2193E54700CCCB35 /* you4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = you4.mp3; sourceTree = "<group>"; };
+		84A758DC2193E54700CCCB35 /* yu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yu2.mp3; sourceTree = "<group>"; };
+		84A758DD2193E54700CCCB35 /* yu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yu3.mp3; sourceTree = "<group>"; };
+		84A758DE2193E54700CCCB35 /* yu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yu4.mp3; sourceTree = "<group>"; };
+		84A758DF2193E54700CCCB35 /* yue1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yue1.mp3; sourceTree = "<group>"; };
+		84A758E02193E54700CCCB35 /* yue4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yue4.mp3; sourceTree = "<group>"; };
+		84A758E12193E54700CCCB35 /* zhao3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhao3.mp3; sourceTree = "<group>"; };
+		84A758E22193E54700CCCB35 /* zhi1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhi1.mp3; sourceTree = "<group>"; };
+		84A758E32193E54700CCCB35 /* zhi3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhi3.mp3; sourceTree = "<group>"; };
+		84A758E42193E54700CCCB35 /* zhi4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhi4.mp3; sourceTree = "<group>"; };
+		84A758E52193E54700CCCB35 /* zhou1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhou1.mp3; sourceTree = "<group>"; };
+		84A758E62193E54700CCCB35 /* zhu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhu2.mp3; sourceTree = "<group>"; };
+		84A758E72193E54700CCCB35 /* zhu3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhu3.mp3; sourceTree = "<group>"; };
+		84A758E82193E54700CCCB35 /* zhu4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhu4.mp3; sourceTree = "<group>"; };
+		84A758E92193E54700CCCB35 /* zhua1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhua1.mp3; sourceTree = "<group>"; };
+		84A758EA2193E54700CCCB35 /* zhui1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zhui1.mp3; sourceTree = "<group>"; };
+		84A758EB2193E54700CCCB35 /* zi3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zi3.mp3; sourceTree = "<group>"; };
+		84A758EC2193E54700CCCB35 /* zou3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zou3.mp3; sourceTree = "<group>"; };
+		84A758ED2193E54700CCCB35 /* zu2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zu2.mp3; sourceTree = "<group>"; };
 		84D40544215D750D00A5484F /* ⺀.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "⺀.txt"; sourceTree = "<group>"; };
 		84D40545215D750D00A5484F /* ⺈.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "⺈.txt"; sourceTree = "<group>"; };
 		84D40546215D750D00A5484F /* ⺊.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "⺊.txt"; sourceTree = "<group>"; };
@@ -19603,6 +19963,7 @@
 		357C41A982674EC7AE14CAB2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84A758392193E54600CCCB35 /* recordings */,
 				84D40543215D750D00A5484F /* graphics */,
 				84D4EC0F215D697500A5484F /* ukai.ttc */,
 				5655CF5F5FB344CB9BF737E7 /* Entypo.ttf */,
@@ -19697,6 +20058,194 @@
 				2D02E4901E0B4A5D006451C7 /* Radicals-tvOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		84A758392193E54600CCCB35 /* recordings */ = {
+			isa = PBXGroup;
+			children = (
+				84A7583A2193E54600CCCB35 /* ba1.mp3 */,
+				84A7583B2193E54600CCCB35 /* bai3.mp3 */,
+				84A7583C2193E54600CCCB35 /* bao1.mp3 */,
+				84A7583D2193E54600CCCB35 /* bei4.mp3 */,
+				84A7583E2193E54600CCCB35 /* bi2.mp3 */,
+				84A7583F2193E54600CCCB35 /* bi3.mp3 */,
+				84A758402193E54600CCCB35 /* bian4.mp3 */,
+				84A758412193E54600CCCB35 /* biao1.mp3 */,
+				84A758422193E54600CCCB35 /* bing1.mp3 */,
+				84A758432193E54600CCCB35 /* bo1.mp3 */,
+				84A758442193E54600CCCB35 /* bu3.mp3 */,
+				84A758452193E54600CCCB35 /* cao3.mp3 */,
+				84A758462193E54600CCCB35 /* chang2.mp3 */,
+				84A758472193E54600CCCB35 /* chang4.mp3 */,
+				84A758482193E54600CCCB35 /* che1.mp3 */,
+				84A758492193E54600CCCB35 /* che4.mp3 */,
+				84A7584A2193E54600CCCB35 /* chen2.mp3 */,
+				84A7584B2193E54600CCCB35 /* chi3.mp3 */,
+				84A7584C2193E54600CCCB35 /* chi4.mp3 */,
+				84A7584D2193E54600CCCB35 /* chuan1.mp3 */,
+				84A7584E2193E54600CCCB35 /* chuan3.mp3 */,
+				84A7584F2193E54600CCCB35 /* chuang2.mp3 */,
+				84A758502193E54600CCCB35 /* chuo4.mp3 */,
+				84A758512193E54600CCCB35 /* cui4.mp3 */,
+				84A758522193E54600CCCB35 /* da4.mp3 */,
+				84A758532193E54600CCCB35 /* dai3.mp3 */,
+				84A758542193E54600CCCB35 /* dai4.mp3 */,
+				84A758552193E54600CCCB35 /* dao1.mp3 */,
+				84A758562193E54600CCCB35 /* ding3.mp3 */,
+				84A758572193E54600CCCB35 /* dou3.mp3 */,
+				84A758582193E54600CCCB35 /* dou4.mp3 */,
+				84A758592193E54600CCCB35 /* er2.mp3 */,
+				84A7585A2193E54600CCCB35 /* er3.mp3 */,
+				84A7585B2193E54600CCCB35 /* er4.mp3 */,
+				84A7585C2193E54600CCCB35 /* fang1.mp3 */,
+				84A7585D2193E54600CCCB35 /* fei1.mp3 */,
+				84A7585E2193E54600CCCB35 /* feng1.mp3 */,
+				84A7585F2193E54600CCCB35 /* fou3.mp3 */,
+				84A758602193E54600CCCB35 /* fu4.mp3 */,
+				84A758612193E54600CCCB35 /* gan1.mp3 */,
+				84A758622193E54600CCCB35 /* gao1.mp3 */,
+				84A758632193E54600CCCB35 /* ge1.mp3 */,
+				84A758642193E54600CCCB35 /* ge2.mp3 */,
+				84A758652193E54600CCCB35 /* gen4.mp3 */,
+				84A758662193E54600CCCB35 /* gong1.mp3 */,
+				84A758672193E54600CCCB35 /* gong3.mp3 */,
+				84A758682193E54600CCCB35 /* gu3.mp3 */,
+				84A758692193E54600CCCB35 /* gua1.mp3 */,
+				84A7586A2193E54600CCCB35 /* guan4.mp3 */,
+				84A7586B2193E54600CCCB35 /* gui1.mp3 */,
+				84A7586C2193E54600CCCB35 /* gui3.mp3 */,
+				84A7586D2193E54600CCCB35 /* gun3.mp3 */,
+				84A7586E2193E54600CCCB35 /* han3.mp3 */,
+				84A7586F2193E54600CCCB35 /* he2.mp3 */,
+				84A758702193E54600CCCB35 /* hei1.mp3 */,
+				84A758712193E54600CCCB35 /* hu1.mp3 */,
+				84A758722193E54600CCCB35 /* hu3.mp3 */,
+				84A758732193E54600CCCB35 /* hu4.mp3 */,
+				84A758742193E54600CCCB35 /* huang2.mp3 */,
+				84A758752193E54600CCCB35 /* hui3.mp3 */,
+				84A758762193E54600CCCB35 /* huo3.mp3 */,
+				84A758772193E54600CCCB35 /* ji1.mp3 */,
+				84A758782193E54600CCCB35 /* ji3.mp3 */,
+				84A758792193E54600CCCB35 /* ji4.mp3 */,
+				84A7587A2193E54600CCCB35 /* jia1.mp3 */,
+				84A7587B2193E54600CCCB35 /* jian4.mp3 */,
+				84A7587C2193E54600CCCB35 /* jiao3.mp3 */,
+				84A7587D2193E54600CCCB35 /* jie2.mp3 */,
+				84A7587E2193E54600CCCB35 /* jin1.mp3 */,
+				84A7587F2193E54600CCCB35 /* jiong1.mp3 */,
+				84A758802193E54600CCCB35 /* jiu3.mp3 */,
+				84A758812193E54600CCCB35 /* jiu4.mp3 */,
+				84A758822193E54600CCCB35 /* jue2.mp3 */,
+				84A758832193E54600CCCB35 /* kan3.mp3 */,
+				84A758842193E54600CCCB35 /* kou3.mp3 */,
+				84A758852193E54600CCCB35 /* lao3.mp3 */,
+				84A758862193E54600CCCB35 /* lei3.mp3 */,
+				84A758872193E54600CCCB35 /* li3.mp3 */,
+				84A758882193E54600CCCB35 /* li4.mp3 */,
+				84A758892193E54600CCCB35 /* long2.mp3 */,
+				84A7588A2193E54600CCCB35 /* lu3.mp3 */,
+				84A7588B2193E54600CCCB35 /* lu4.mp3 */,
+				84A7588C2193E54600CCCB35 /* ma2.mp3 */,
+				84A7588D2193E54600CCCB35 /* ma3.mp3 */,
+				84A7588E2193E54600CCCB35 /* mai4.mp3 */,
+				84A7588F2193E54600CCCB35 /* mao2.mp3 */,
+				84A758902193E54600CCCB35 /* men2.mp3 */,
+				84A758912193E54600CCCB35 /* meng3.mp3 */,
+				84A758922193E54600CCCB35 /* mi3.mp3 */,
+				84A758932193E54600CCCB35 /* mi4.mp3 */,
+				84A758942193E54600CCCB35 /* mian2.mp3 */,
+				84A758952193E54600CCCB35 /* mian4.mp3 */,
+				84A758962193E54600CCCB35 /* min3.mp3 */,
+				84A758972193E54600CCCB35 /* mu4.mp3 */,
+				84A758982193E54600CCCB35 /* niao3.mp3 */,
+				84A758992193E54600CCCB35 /* niu2.mp3 */,
+				84A7589A2193E54600CCCB35 /* nv3.mp3 */,
+				84A7589B2193E54600CCCB35 /* pi2.mp3 */,
+				84A7589C2193E54600CCCB35 /* pi3.mp3 */,
+				84A7589D2193E54600CCCB35 /* pian4.mp3 */,
+				84A7589E2193E54600CCCB35 /* pie3.mp3 */,
+				84A7589F2193E54600CCCB35 /* pu1.mp3 */,
+				84A758A02193E54600CCCB35 /* qi2.mp3 */,
+				84A758A12193E54600CCCB35 /* qi4.mp3 */,
+				84A758A22193E54600CCCB35 /* qian4.mp3 */,
+				84A758A32193E54600CCCB35 /* qiang2.mp3 */,
+				84A758A42193E54600CCCB35 /* qing1.mp3 */,
+				84A758A52193E54600CCCB35 /* quan3.mp3 */,
+				84A758A62193E54600CCCB35 /* ren2.mp3 */,
+				84A758A72193E54600CCCB35 /* ri4.mp3 */,
+				84A758A82193E54600CCCB35 /* rou2.mp3 */,
+				84A758A92193E54600CCCB35 /* rou4.mp3 */,
+				84A758AA2193E54600CCCB35 /* ru4.mp3 */,
+				84A758AB2193E54600CCCB35 /* se4.mp3 */,
+				84A758AC2193E54600CCCB35 /* shan1.mp3 */,
+				84A758AD2193E54600CCCB35 /* she2.mp3 */,
+				84A758AE2193E54600CCCB35 /* shen1.mp3 */,
+				84A758AF2193E54600CCCB35 /* sheng1.mp3 */,
+				84A758B02193E54600CCCB35 /* shi1.mp3 */,
+				84A758B12193E54600CCCB35 /* shi2.mp3 */,
+				84A758B22193E54600CCCB35 /* shi3.mp3 */,
+				84A758B32193E54600CCCB35 /* shi4.mp3 */,
+				84A758B42193E54600CCCB35 /* shou3.mp3 */,
+				84A758B52193E54600CCCB35 /* shu1.mp3 */,
+				84A758B62193E54600CCCB35 /* shu3.mp3 */,
+				84A758B72193E54600CCCB35 /* shui3.mp3 */,
+				84A758B82193E54600CCCB35 /* si1.mp3 */,
+				84A758B92193E54600CCCB35 /* sui1.mp3 */,
+				84A758BA2193E54600CCCB35 /* tian2.mp3 */,
+				84A758BB2193E54600CCCB35 /* tou2.mp3 */,
+				84A758BC2193E54600CCCB35 /* tu3.mp3 */,
+				84A758BD2193E54600CCCB35 /* wa3.mp3 */,
+				84A758BE2193E54600CCCB35 /* wang1.mp3 */,
+				84A758BF2193E54600CCCB35 /* wang3.mp3 */,
+				84A758C02193E54600CCCB35 /* wei2.mp3 */,
+				84A758C12193E54600CCCB35 /* wen2.mp3 */,
+				84A758C22193E54600CCCB35 /* wu2.mp3 */,
+				84A758C32193E54600CCCB35 /* xi3.mp3 */,
+				84A758C42193E54600CCCB35 /* xi4.mp3 */,
+				84A758C52193E54700CCCB35 /* xiang1.mp3 */,
+				84A758C62193E54700CCCB35 /* xiao3.mp3 */,
+				84A758C72193E54700CCCB35 /* xie3.mp3 */,
+				84A758C82193E54700CCCB35 /* xin1.mp3 */,
+				84A758C92193E54700CCCB35 /* xing2.mp3 */,
+				84A758CA2193E54700CCCB35 /* xuan2.mp3 */,
+				84A758CB2193E54700CCCB35 /* xue4.mp3 */,
+				84A758CC2193E54700CCCB35 /* ya2.mp3 */,
+				84A758CD2193E54700CCCB35 /* ya4.mp3 */,
+				84A758CE2193E54700CCCB35 /* yan2.mp3 */,
+				84A758CF2193E54700CCCB35 /* yan3.mp3 */,
+				84A758D02193E54700CCCB35 /* yang2.mp3 */,
+				84A758D12193E54700CCCB35 /* yao1.mp3 */,
+				84A758D22193E54700CCCB35 /* yao2.mp3 */,
+				84A758D32193E54700CCCB35 /* ye4.mp3 */,
+				84A758D42193E54700CCCB35 /* yi1.mp3 */,
+				84A758D52193E54700CCCB35 /* yi3.mp3 */,
+				84A758D62193E54700CCCB35 /* yi4.mp3 */,
+				84A758D72193E54700CCCB35 /* yin1.mp3 */,
+				84A758D82193E54700CCCB35 /* yin3.mp3 */,
+				84A758D92193E54700CCCB35 /* yong4.mp3 */,
+				84A758DA2193E54700CCCB35 /* you3.mp3 */,
+				84A758DB2193E54700CCCB35 /* you4.mp3 */,
+				84A758DC2193E54700CCCB35 /* yu2.mp3 */,
+				84A758DD2193E54700CCCB35 /* yu3.mp3 */,
+				84A758DE2193E54700CCCB35 /* yu4.mp3 */,
+				84A758DF2193E54700CCCB35 /* yue1.mp3 */,
+				84A758E02193E54700CCCB35 /* yue4.mp3 */,
+				84A758E12193E54700CCCB35 /* zhao3.mp3 */,
+				84A758E22193E54700CCCB35 /* zhi1.mp3 */,
+				84A758E32193E54700CCCB35 /* zhi3.mp3 */,
+				84A758E42193E54700CCCB35 /* zhi4.mp3 */,
+				84A758E52193E54700CCCB35 /* zhou1.mp3 */,
+				84A758E62193E54700CCCB35 /* zhu2.mp3 */,
+				84A758E72193E54700CCCB35 /* zhu3.mp3 */,
+				84A758E82193E54700CCCB35 /* zhu4.mp3 */,
+				84A758E92193E54700CCCB35 /* zhua1.mp3 */,
+				84A758EA2193E54700CCCB35 /* zhui1.mp3 */,
+				84A758EB2193E54700CCCB35 /* zi3.mp3 */,
+				84A758EC2193E54700CCCB35 /* zou3.mp3 */,
+				84A758ED2193E54700CCCB35 /* zu2.mp3 */,
+			);
+			name = recordings;
+			path = ../recordings;
 			sourceTree = "<group>";
 		};
 		84D40543215D750D00A5484F /* graphics */ = {
@@ -29874,6 +30423,7 @@
 				84D44666215D762600A5484F /* 謊.txt in Resources */,
 				84D44A81215D762800A5484F /* 鑿.txt in Resources */,
 				84D44F99215D762B00A5484F /* 龀.txt in Resources */,
+				84A759BF2193E54800CCCB35 /* zhi3.mp3 in Resources */,
 				84D4373A215D762000A5484F /* 枣.txt in Resources */,
 				84D42EB4215D761C00A5484F /* 唛.txt in Resources */,
 				84D443D1215D762500A5484F /* 蒇.txt in Resources */,
@@ -30039,8 +30589,10 @@
 				84D44D9C215D762A00A5484F /* 驳.txt in Resources */,
 				84D43BE2215D762100A5484F /* 狡.txt in Resources */,
 				84D42DD0215D761C00A5484F /* 厷.txt in Resources */,
+				84A759562193E54800CCCB35 /* jia1.mp3 in Resources */,
 				84D441A0215D762400A5484F /* 耪.txt in Resources */,
 				84D443CF215D762500A5484F /* 葺.txt in Resources */,
+				84A7598F2193E54800CCCB35 /* shi4.mp3 in Resources */,
 				84D42BB8215D761C00A5484F /* 侍.txt in Resources */,
 				84D437E0215D762000A5484F /* 椥.txt in Resources */,
 				84D42FCC215D761D00A5484F /* 均.txt in Resources */,
@@ -30120,6 +30672,7 @@
 				84D43A37215D762100A5484F /* 湼.txt in Resources */,
 				84D430EA215D761D00A5484F /* 姓.txt in Resources */,
 				84D44DD3215D762A00A5484F /* 骼.txt in Resources */,
+				84A759BD2193E54800CCCB35 /* zhao3.mp3 in Resources */,
 				84D44269215D762400A5484F /* 膳.txt in Resources */,
 				84D430EB215D761D00A5484F /* 委.txt in Resources */,
 				84D43783215D762000A5484F /* 桁.txt in Resources */,
@@ -30148,6 +30701,7 @@
 				84D44AC7215D762900A5484F /* 铎.txt in Resources */,
 				84D43D31215D762200A5484F /* 瘀.txt in Resources */,
 				84D448D6215D762700A5484F /* 辽.txt in Resources */,
+				84A759952193E54800CCCB35 /* sui1.mp3 in Resources */,
 				84D44B80215D762900A5484F /* 閾.txt in Resources */,
 				84D42C5B215D761C00A5484F /* 儋.txt in Resources */,
 				84D43963215D762000A5484F /* 泔.txt in Resources */,
@@ -30213,6 +30767,7 @@
 				84D43742215D762000A5484F /* 枰.txt in Resources */,
 				84D445FC215D762600A5484F /* 訊.txt in Resources */,
 				84D42F0F215D761D00A5484F /* 喿.txt in Resources */,
+				84A759C52193E54800CCCB35 /* zhua1.mp3 in Resources */,
 				84D43FBB215D762300A5484F /* 簖.txt in Resources */,
 				84D436C8215D762000A5484F /* 暡.txt in Resources */,
 				84D445D2215D762600A5484F /* 親.txt in Resources */,
@@ -30250,6 +30805,7 @@
 				84D44DC9215D762A00A5484F /* 骦.txt in Resources */,
 				84D43B25215D762100A5484F /* 烦.txt in Resources */,
 				84D4323A215D761E00A5484F /* 峦.txt in Resources */,
+				84A7594F2193E54800CCCB35 /* hu4.mp3 in Resources */,
 				84D44ADB215D762900A5484F /* 铥.txt in Resources */,
 				84D43277215D761E00A5484F /* 巅.txt in Resources */,
 				84D431EF215D761E00A5484F /* 层.txt in Resources */,
@@ -30290,6 +30846,7 @@
 				84D43E31215D762200A5484F /* 砟.txt in Resources */,
 				84D43E20215D762200A5484F /* 矾.txt in Resources */,
 				84D43F19215D762300A5484F /* 窒.txt in Resources */,
+				84A759452193E54800CCCB35 /* gua1.mp3 in Resources */,
 				84D446AD215D762600A5484F /* 访.txt in Resources */,
 				84D44B7B215D762900A5484F /* 閵.txt in Resources */,
 				84D43884215D762000A5484F /* 欮.txt in Resources */,
@@ -30391,6 +30948,7 @@
 				84D43701215D762000A5484F /* 朮.txt in Resources */,
 				84D447D2215D762700A5484F /* 起.txt in Resources */,
 				84D4356E215D761F00A5484F /* 掮.txt in Resources */,
+				84A7592C2193E54800CCCB35 /* chuo4.mp3 in Resources */,
 				84D44710215D762600A5484F /* 谧.txt in Resources */,
 				84D4423E215D762400A5484F /* 腙.txt in Resources */,
 				84D43BFD215D762100A5484F /* 猕.txt in Resources */,
@@ -30453,6 +31011,7 @@
 				84D42F97215D761D00A5484F /* 囟.txt in Resources */,
 				84D432B0215D761E00A5484F /* 帮.txt in Resources */,
 				84D448C3215D762700A5484F /* 辛.txt in Resources */,
+				84A7593A2193E54800CCCB35 /* feng1.mp3 in Resources */,
 				84D42DDA215D761C00A5484F /* 叉.txt in Resources */,
 				84D43070215D761D00A5484F /* 壩.txt in Resources */,
 				84D431E3215D761E00A5484F /* 尴.txt in Resources */,
@@ -30476,6 +31035,7 @@
 				84D42E3F215D761C00A5484F /* 呖.txt in Resources */,
 				84D43B28215D762100A5484F /* 烩.txt in Resources */,
 				84D43721215D762000A5484F /* 杰.txt in Resources */,
+				84A759A42193E54800CCCB35 /* xin1.mp3 in Resources */,
 				84D44514215D762500A5484F /* 螺.txt in Resources */,
 				84D43841215D762000A5484F /* 樵.txt in Resources */,
 				84D42D9A215D761C00A5484F /* 博.txt in Resources */,
@@ -30488,6 +31048,7 @@
 				84D44C69215D762900A5484F /* 靴.txt in Resources */,
 				84D42BDA215D761C00A5484F /* 俘.txt in Resources */,
 				84D43154215D761E00A5484F /* 嬴.txt in Resources */,
+				84A759412193E54800CCCB35 /* gen4.mp3 in Resources */,
 				84D43CD7215D762200A5484F /* 畝.txt in Resources */,
 				84D43486215D761F00A5484F /* 戉.txt in Resources */,
 				84D44EF0215D762B00A5484F /* 鸧.txt in Resources */,
@@ -30502,6 +31063,7 @@
 				84D44347215D762500A5484F /* 荇.txt in Resources */,
 				84D432A2215D761E00A5484F /* 帔.txt in Resources */,
 				84D437D6215D762000A5484F /* 椅.txt in Resources */,
+				84A759622193E54800CCCB35 /* lei3.mp3 in Resources */,
 				84D43402215D761F00A5484F /* 悽.txt in Resources */,
 				84D44B88215D762900A5484F /* 闕.txt in Resources */,
 				84D44123215D762400A5484F /* 缬.txt in Resources */,
@@ -30549,6 +31111,7 @@
 				84D44B37215D762900A5484F /* 镉.txt in Resources */,
 				84D43952215D762000A5484F /* 河.txt in Resources */,
 				84D44884215D762700A5484F /* 轂.txt in Resources */,
+				84A759612193E54800CCCB35 /* lao3.mp3 in Resources */,
 				84D44210215D762400A5484F /* 胼.txt in Resources */,
 				84D448F4215D762700A5484F /* 迮.txt in Resources */,
 				84D434C0215D761F00A5484F /* 扦.txt in Resources */,
@@ -30608,6 +31171,7 @@
 				84D42B3B215D761C00A5484F /* 亿.txt in Resources */,
 				84D43BFF215D762100A5484F /* 猗.txt in Resources */,
 				84D43ECB215D762300A5484F /* 秉.txt in Resources */,
+				84A759222193E54800CCCB35 /* chang2.mp3 in Resources */,
 				84D442BB215D762400A5484F /* 艇.txt in Resources */,
 				84D42BA2215D761C00A5484F /* 佥.txt in Resources */,
 				84D448B9215D762700A5484F /* 辑.txt in Resources */,
@@ -30621,9 +31185,11 @@
 				84D42D25215D761C00A5484F /* 剽.txt in Resources */,
 				84D43C23215D762200A5484F /* 獭.txt in Resources */,
 				84D43FA8215D762300A5484F /* 篝.txt in Resources */,
+				84A759712193E54800CCCB35 /* mian4.mp3 in Resources */,
 				84D430C1215D761D00A5484F /* 奸.txt in Resources */,
 				84D44C21215D762900A5484F /* 雍.txt in Resources */,
 				84D44F68215D762B00A5484F /* 黼.txt in Resources */,
+				84A759C42193E54800CCCB35 /* zhu4.mp3 in Resources */,
 				84D44D79215D762A00A5484F /* 駮.txt in Resources */,
 				84D44999215D762800A5484F /* 鄞.txt in Resources */,
 				84D44416215D762500A5484F /* 蔼.txt in Resources */,
@@ -30667,6 +31233,7 @@
 				84D43F0C215D762300A5484F /* 穸.txt in Resources */,
 				84D44CA9215D762A00A5484F /* 頻.txt in Resources */,
 				84D4301F215D761D00A5484F /* 埶.txt in Resources */,
+				84A759362193E54800CCCB35 /* er3.mp3 in Resources */,
 				84D44815215D762700A5484F /* 踞.txt in Resources */,
 				84D44EDE215D762B00A5484F /* 鷲.txt in Resources */,
 				84D43C85215D762200A5484F /* 璇.txt in Resources */,
@@ -30765,6 +31332,7 @@
 				84D44461215D762500A5484F /* 蘄.txt in Resources */,
 				84D42F44215D761D00A5484F /* 嘞.txt in Resources */,
 				84D43C75215D762200A5484F /* 瑞.txt in Resources */,
+				84A759602193E54800CCCB35 /* kou3.mp3 in Resources */,
 				84D436D2215D762000A5484F /* 曄.txt in Resources */,
 				84D44DAF215D762A00A5484F /* 骇.txt in Resources */,
 				84D43D40215D762200A5484F /* 瘟.txt in Resources */,
@@ -30795,6 +31363,7 @@
 				84D43EE1215D762300A5484F /* 稂.txt in Resources */,
 				84D441EE215D762400A5484F /* 胃.txt in Resources */,
 				84D447F6215D762700A5484F /* 跚.txt in Resources */,
+				84A759A72193E54800CCCB35 /* xue4.mp3 in Resources */,
 				84D4379B215D762000A5484F /* 桨.txt in Resources */,
 				84D4466F215D762600A5484F /* 謦.txt in Resources */,
 				84D42C3B215D761C00A5484F /* 傷.txt in Resources */,
@@ -30852,6 +31421,7 @@
 				84D42EA1215D761C00A5484F /* 哱.txt in Resources */,
 				84D44232215D762400A5484F /* 腆.txt in Resources */,
 				84D44836215D762700A5484F /* 蹤.txt in Resources */,
+				84A759262193E54800CCCB35 /* chen2.mp3 in Resources */,
 				84D43BC6215D762100A5484F /* 犪.txt in Resources */,
 				84D4390A215D762000A5484F /* 水.txt in Resources */,
 				84D44513215D762500A5484F /* 螵.txt in Resources */,
@@ -30871,6 +31441,7 @@
 				84D430D7215D761D00A5484F /* 妤.txt in Resources */,
 				84D43551215D761F00A5484F /* 捻.txt in Resources */,
 				84D42E23215D761C00A5484F /* 含.txt in Resources */,
+				84A7597F2193E54800CCCB35 /* qiang2.mp3 in Resources */,
 				84D4393D215D762000A5484F /* 沐.txt in Resources */,
 				84D43D8F215D762200A5484F /* 皻.txt in Resources */,
 				84D432DB215D761E00A5484F /* 庋.txt in Resources */,
@@ -31120,6 +31691,7 @@
 				84D433E5215D761F00A5484F /* 悅.txt in Resources */,
 				84D443CB215D762500A5484F /* 葵.txt in Resources */,
 				84D43FD9215D762300A5484F /* 类.txt in Resources */,
+				84A759B52193E54800CCCB35 /* yong4.mp3 in Resources */,
 				84D4472F215D762600A5484F /* 豚.txt in Resources */,
 				84D44EBF215D762B00A5484F /* 鵬.txt in Resources */,
 				84D4461E215D762600A5484F /* 詣.txt in Resources */,
@@ -31129,6 +31701,7 @@
 				84D442B2215D762400A5484F /* 舵.txt in Resources */,
 				84D43532215D761F00A5484F /* 挲.txt in Resources */,
 				84D44CC9215D762A00A5484F /* 颀.txt in Resources */,
+				84A759272193E54800CCCB35 /* chi3.mp3 in Resources */,
 				84D44A44215D762800A5484F /* 錕.txt in Resources */,
 				84D43AB9215D762100A5484F /* 澤.txt in Resources */,
 				84D44CF1215D762A00A5484F /* 颻.txt in Resources */,
@@ -31150,6 +31723,7 @@
 				84D43914215D762000A5484F /* 汁.txt in Resources */,
 				84D44332215D762500A5484F /* 茜.txt in Resources */,
 				84D44209215D762400A5484F /* 胱.txt in Resources */,
+				84A759662193E54800CCCB35 /* lu3.mp3 in Resources */,
 				84D4391F215D762000A5484F /* 汛.txt in Resources */,
 				84D4483E215D762700A5484F /* 蹲.txt in Resources */,
 				84D44100215D762400A5484F /* 缇.txt in Resources */,
@@ -31220,6 +31794,7 @@
 				84D446AB215D762600A5484F /* 讽.txt in Resources */,
 				84D43B8F215D762100A5484F /* 爯.txt in Resources */,
 				84D430CE215D761D00A5484F /* 妒.txt in Resources */,
+				84A759392193E54800CCCB35 /* fei1.mp3 in Resources */,
 				84D4377C215D762000A5484F /* 样.txt in Resources */,
 				84D44242215D762400A5484F /* 腦.txt in Resources */,
 				84D4367A215D762000A5484F /* 旲.txt in Resources */,
@@ -31267,6 +31842,7 @@
 				84D44DE3215D762A00A5484F /* 髦.txt in Resources */,
 				84D448DC215D762700A5484F /* 过.txt in Resources */,
 				84D4376A215D762000A5484F /* 栉.txt in Resources */,
+				84A759A12193E54800CCCB35 /* xiang1.mp3 in Resources */,
 				84D44B65215D762900A5484F /* 閂.txt in Resources */,
 				84D44361215D762500A5484F /* 药.txt in Resources */,
 				84D43B01215D762100A5484F /* 炔.txt in Resources */,
@@ -31432,6 +32008,7 @@
 				84D43394215D761E00A5484F /* 忪.txt in Resources */,
 				84D42FE2215D761D00A5484F /* 坪.txt in Resources */,
 				84D43187215D761E00A5484F /* 官.txt in Resources */,
+				84A759322193E54800CCCB35 /* ding3.mp3 in Resources */,
 				84D447D9215D762700A5484F /* 趑.txt in Resources */,
 				84D435BB215D761F00A5484F /* 摧.txt in Resources */,
 				84D43EC8215D762300A5484F /* 私.txt in Resources */,
@@ -31448,6 +32025,7 @@
 				84D4320B215D761E00A5484F /* 屭.txt in Resources */,
 				84D43CB4215D762200A5484F /* 甥.txt in Resources */,
 				84D44686215D762600A5484F /* 譽.txt in Resources */,
+				84A759202193E54800CCCB35 /* bu3.mp3 in Resources */,
 				84D42D3A215D761C00A5484F /* 劣.txt in Resources */,
 				84D44F04215D762B00A5484F /* 鸽.txt in Resources */,
 				84D432E2215D761E00A5484F /* 庖.txt in Resources */,
@@ -31483,6 +32061,7 @@
 				84D42EB0215D761C00A5484F /* 唐.txt in Resources */,
 				84D44CFC215D762A00A5484F /* 飘.txt in Resources */,
 				84D448B2215D762700A5484F /* 辊.txt in Resources */,
+				84A759802193E54800CCCB35 /* qing1.mp3 in Resources */,
 				84D4466B215D762600A5484F /* 謚.txt in Resources */,
 				84D43CDF215D762200A5484F /* 畬.txt in Resources */,
 				84D44BDE215D762900A5484F /* 陘.txt in Resources */,
@@ -31525,6 +32104,7 @@
 				84D43943215D762000A5484F /* 沛.txt in Resources */,
 				84D43E45215D762200A5484F /* 硅.txt in Resources */,
 				84D43B41215D762100A5484F /* 焱.txt in Resources */,
+				84A759402193E54800CCCB35 /* ge2.mp3 in Resources */,
 				84D4411B215D762400A5484F /* 缤.txt in Resources */,
 				84D44AD9215D762900A5484F /* 铣.txt in Resources */,
 				84D43DE8215D762200A5484F /* 睿.txt in Resources */,
@@ -31609,11 +32189,13 @@
 				84D42BDF215D761C00A5484F /* 俞.txt in Resources */,
 				84D44F47215D762B00A5484F /* 麵.txt in Resources */,
 				84D42C1B215D761C00A5484F /* 健.txt in Resources */,
+				84A759972193E54800CCCB35 /* tou2.mp3 in Resources */,
 				84D443EE215D762500A5484F /* 蓉.txt in Resources */,
 				84D4437B215D762500A5484F /* 莱.txt in Resources */,
 				84D4356C215D761F00A5484F /* 掬.txt in Resources */,
 				84D44E43215D762A00A5484F /* 鱒.txt in Resources */,
 				84D42B2D215D761C00A5484F /* 亩.txt in Resources */,
+				84A7598E2193E54800CCCB35 /* shi3.mp3 in Resources */,
 				84D44F27215D762B00A5484F /* 鹨.txt in Resources */,
 				84D43180215D761E00A5484F /* 安.txt in Resources */,
 				84D44B8E215D762900A5484F /* 门.txt in Resources */,
@@ -31637,6 +32219,7 @@
 				84D43579215D761F00A5484F /* 揄.txt in Resources */,
 				84D435F8215D761F00A5484F /* 擢.txt in Resources */,
 				84D44954215D762700A5484F /* 邊.txt in Resources */,
+				84A7591E2193E54800CCCB35 /* bing1.mp3 in Resources */,
 				84D44C50215D762900A5484F /* 霢.txt in Resources */,
 				84D441DF215D762400A5484F /* 肮.txt in Resources */,
 				84D44677215D762600A5484F /* 譎.txt in Resources */,
@@ -31676,6 +32259,8 @@
 				84D442BD215D762400A5484F /* 艋.txt in Resources */,
 				84D443FB215D762500A5484F /* 蓥.txt in Resources */,
 				84D43BCF215D762100A5484F /* 犸.txt in Resources */,
+				84A759A92193E54800CCCB35 /* ya4.mp3 in Resources */,
+				84A759492193E54800CCCB35 /* gun3.mp3 in Resources */,
 				84D438C2215D762000A5484F /* 殲.txt in Resources */,
 				84D4462D215D762600A5484F /* 誇.txt in Resources */,
 				84D4433A215D762500A5484F /* 茲.txt in Resources */,
@@ -31708,7 +32293,9 @@
 				84D44CF7215D762A00A5484F /* 飑.txt in Resources */,
 				84D44485215D762500A5484F /* 虧.txt in Resources */,
 				84D437B9215D762000A5484F /* 梾.txt in Resources */,
+				84A759422193E54800CCCB35 /* gong1.mp3 in Resources */,
 				84D43D2B215D762200A5484F /* 痴.txt in Resources */,
+				84A759522193E54800CCCB35 /* huo3.mp3 in Resources */,
 				84D44CE1215D762A00A5484F /* 额.txt in Resources */,
 				84D44594215D762600A5484F /* 裥.txt in Resources */,
 				84D4491A215D762700A5484F /* 逦.txt in Resources */,
@@ -31743,9 +32330,12 @@
 				84D43B12215D762100A5484F /* 為.txt in Resources */,
 				84D44850215D762700A5484F /* 躔.txt in Resources */,
 				84D4357F215D761F00A5484F /* 提.txt in Resources */,
+				84A759722193E54800CCCB35 /* min3.mp3 in Resources */,
 				84D440FF215D762400A5484F /* 缆.txt in Resources */,
 				84D43B29215D762100A5484F /* 烫.txt in Resources */,
+				84A759552193E54800CCCB35 /* ji4.mp3 in Resources */,
 				84D430E5215D761D00A5484F /* 姊.txt in Resources */,
+				84A759C82193E54800CCCB35 /* zou3.mp3 in Resources */,
 				84D42E57215D761C00A5484F /* 咄.txt in Resources */,
 				84D44E41215D762A00A5484F /* 鱈.txt in Resources */,
 				84D445F8215D762600A5484F /* 訂.txt in Resources */,
@@ -31855,6 +32445,7 @@
 				84D440C6215D762300A5484F /* 绉.txt in Resources */,
 				84D43574215D761F00A5484F /* 掸.txt in Resources */,
 				84D43D23215D762200A5484F /* 痦.txt in Resources */,
+				84A759A32193E54800CCCB35 /* xie3.mp3 in Resources */,
 				84D4304B215D761D00A5484F /* 填.txt in Resources */,
 				84D44AD6215D762900A5484F /* 铠.txt in Resources */,
 				84D43D7F215D762200A5484F /* 皎.txt in Resources */,
@@ -31880,6 +32471,7 @@
 				70F1C23887B742C68D970721 /* Entypo.ttf in Resources */,
 				84D42FB4215D761D00A5484F /* 圓.txt in Resources */,
 				84D447AD215D762700A5484F /* 赇.txt in Resources */,
+				84A7595E2193E54800CCCB35 /* jue2.mp3 in Resources */,
 				84D44BF0215D762900A5484F /* 陵.txt in Resources */,
 				84D43DDB215D762200A5484F /* 睜.txt in Resources */,
 				84D4391D215D762000A5484F /* 汕.txt in Resources */,
@@ -31967,6 +32559,7 @@
 				84D43E3C215D762200A5484F /* 砷.txt in Resources */,
 				84D4372F215D762000A5484F /* 析.txt in Resources */,
 				84D42D65215D761C00A5484F /* 匀.txt in Resources */,
+				84A7597D2193E54800CCCB35 /* qi4.mp3 in Resources */,
 				84D44357215D762500A5484F /* 荥.txt in Resources */,
 				84D43412215D761F00A5484F /* 惡.txt in Resources */,
 				84D42FFE215D761D00A5484F /* 垧.txt in Resources */,
@@ -32036,6 +32629,7 @@
 				84D42E6C215D761C00A5484F /* 咥.txt in Resources */,
 				84D44848215D762700A5484F /* 躉.txt in Resources */,
 				84D42C94215D761C00A5484F /* 冀.txt in Resources */,
+				84A759782193E54800CCCB35 /* pi3.mp3 in Resources */,
 				84D44E7F215D762B00A5484F /* 鲺.txt in Resources */,
 				84D44CD6215D762A00A5484F /* 颏.txt in Resources */,
 				84D430A9215D761D00A5484F /* 奉.txt in Resources */,
@@ -32130,6 +32724,7 @@
 				84D44804215D762700A5484F /* 践.txt in Resources */,
 				84D42D39215D761C00A5484F /* 劢.txt in Resources */,
 				84D442D8215D762400A5484F /* 芊.txt in Resources */,
+				84A759542193E54800CCCB35 /* ji3.mp3 in Resources */,
 				84D44C35215D762900A5484F /* 雯.txt in Resources */,
 				84D43222215D761E00A5484F /* 岜.txt in Resources */,
 				84D42DD7215D761C00A5484F /* 参.txt in Resources */,
@@ -32158,6 +32753,7 @@
 				84D43923215D762000A5484F /* 江.txt in Resources */,
 				84D44C1D215D762900A5484F /* 雈.txt in Resources */,
 				84D447B6215D762700A5484F /* 赐.txt in Resources */,
+				84A759642193E54800CCCB35 /* li4.mp3 in Resources */,
 				84D42DB1215D761C00A5484F /* 卺.txt in Resources */,
 				84D432FC215D761E00A5484F /* 廌.txt in Resources */,
 				84D44F58215D762B00A5484F /* 黜.txt in Resources */,
@@ -32167,6 +32763,7 @@
 				84D44F8C215D762B00A5484F /* 齟.txt in Resources */,
 				84D4420F215D762400A5484F /* 胺.txt in Resources */,
 				84D44901215D762700A5484F /* 逄.txt in Resources */,
+				84A7591B2193E54800CCCB35 /* bi3.mp3 in Resources */,
 				84D4461D215D762600A5484F /* 詢.txt in Resources */,
 				84D44A1B215D762800A5484F /* 鉴.txt in Resources */,
 				84D4430C215D762400A5484F /* 苛.txt in Resources */,
@@ -32184,6 +32781,7 @@
 				84D439FC215D762100A5484F /* 淯.txt in Resources */,
 				84D43A28215D762100A5484F /* 湍.txt in Resources */,
 				84D42B9F215D761C00A5484F /* 你.txt in Resources */,
+				84A7592E2193E54800CCCB35 /* da4.mp3 in Resources */,
 				84D437FA215D762000A5484F /* 極.txt in Resources */,
 				84D442EF215D762400A5484F /* 芮.txt in Resources */,
 				84D44A10215D762800A5484F /* 鈿.txt in Resources */,
@@ -32255,6 +32853,7 @@
 				84D438D5215D762000A5484F /* 母.txt in Resources */,
 				84D43298215D761E00A5484F /* 币.txt in Resources */,
 				84D43B18215D762100A5484F /* 烂.txt in Resources */,
+				84A759962193E54800CCCB35 /* tian2.mp3 in Resources */,
 				84D43ABE215D762100A5484F /* 澶.txt in Resources */,
 				84D43131215D761D00A5484F /* 媷.txt in Resources */,
 				84D42DF4215D761C00A5484F /* 召.txt in Resources */,
@@ -32356,6 +32955,7 @@
 				84D44166215D762400A5484F /* 羲.txt in Resources */,
 				84D44EBA215D762B00A5484F /* 鵓.txt in Resources */,
 				84D42B90215D761C00A5484F /* 住.txt in Resources */,
+				84A7599B2193E54800CCCB35 /* wang3.mp3 in Resources */,
 				84D44820215D762700A5484F /* 踴.txt in Resources */,
 				84D44729215D762600A5484F /* 豎.txt in Resources */,
 				84D442ED215D762400A5484F /* 芬.txt in Resources */,
@@ -32374,6 +32974,7 @@
 				84D44912215D762700A5484F /* 逛.txt in Resources */,
 				84D44AD2215D762900A5484F /* 铜.txt in Resources */,
 				84D447C6215D762700A5484F /* 赢.txt in Resources */,
+				84A759B32193E54800CCCB35 /* yin1.mp3 in Resources */,
 				84D43540215D761F00A5484F /* 捏.txt in Resources */,
 				84D440B8215D762300A5484F /* 纹.txt in Resources */,
 				84D4490B215D762700A5484F /* 递.txt in Resources */,
@@ -32391,6 +32992,7 @@
 				84D440F7215D762400A5484F /* 绾.txt in Resources */,
 				84D440CA215D762300A5484F /* 绍.txt in Resources */,
 				84D44579215D762600A5484F /* 袮.txt in Resources */,
+				84A7593D2193E54800CCCB35 /* gan1.mp3 in Resources */,
 				84D44195215D762400A5484F /* 耘.txt in Resources */,
 				84D44AC8215D762900A5484F /* 铐.txt in Resources */,
 				84D43B40215D762100A5484F /* 焰.txt in Resources */,
@@ -32407,6 +33009,7 @@
 				84D448A4215D762700A5484F /* 轻.txt in Resources */,
 				84D43641215D761F00A5484F /* 斃.txt in Resources */,
 				84D43A6B215D762100A5484F /* 滦.txt in Resources */,
+				84A759852193E54800CCCB35 /* rou4.mp3 in Resources */,
 				84D440C9215D762300A5484F /* 绌.txt in Resources */,
 				84D42D77215D761C00A5484F /* 匣.txt in Resources */,
 				84D4482E215D762700A5484F /* 蹋.txt in Resources */,
@@ -32426,12 +33029,14 @@
 				84D43A46215D762100A5484F /* 溥.txt in Resources */,
 				84D4455F215D762600A5484F /* 衫.txt in Resources */,
 				84D42B96215D761C00A5484F /* 佗.txt in Resources */,
+				84A759462193E54800CCCB35 /* guan4.mp3 in Resources */,
 				84D4343D215D761F00A5484F /* 慈.txt in Resources */,
 				84D437AB215D762000A5484F /* 梗.txt in Resources */,
 				84D44527215D762500A5484F /* 蟣.txt in Resources */,
 				84D44944215D762700A5484F /* 遲.txt in Resources */,
 				84D43355215D761E00A5484F /* 彳.txt in Resources */,
 				84D44072215D762300A5484F /* 縟.txt in Resources */,
+				84A759C22193E54800CCCB35 /* zhu2.mp3 in Resources */,
 				84D445F7215D762600A5484F /* 訁.txt in Resources */,
 				84D44F76215D762B00A5484F /* 鼠.txt in Resources */,
 				84D439EC215D762100A5484F /* 淘.txt in Resources */,
@@ -32471,6 +33076,7 @@
 				84D42F98215D761D00A5484F /* 因.txt in Resources */,
 				84D443D9215D762500A5484F /* 蒗.txt in Resources */,
 				84D43626215D761F00A5484F /* 效.txt in Resources */,
+				84A759B42193E54800CCCB35 /* yin3.mp3 in Resources */,
 				84D43026215D761D00A5484F /* 堀.txt in Resources */,
 				84D43F1C215D762300A5484F /* 窗.txt in Resources */,
 				84D4412F215D762400A5484F /* 缺.txt in Resources */,
@@ -32550,6 +33156,7 @@
 				84D44540215D762600A5484F /* 蠮.txt in Resources */,
 				84D44125215D762400A5484F /* 缮.txt in Resources */,
 				84D44503215D762500A5484F /* 螈.txt in Resources */,
+				84A759692193E54800CCCB35 /* ma3.mp3 in Resources */,
 				84D44693215D762600A5484F /* 讣.txt in Resources */,
 				84D44394215D762500A5484F /* 菟.txt in Resources */,
 				84D44AEE215D762900A5484F /* 铹.txt in Resources */,
@@ -32682,6 +33289,7 @@
 				84D43082215D761D00A5484F /* 夊.txt in Resources */,
 				84D44D28215D762A00A5484F /* 餾.txt in Resources */,
 				84D43FB3215D762300A5484F /* 篹.txt in Resources */,
+				84A7599E2193E54800CCCB35 /* wu2.mp3 in Resources */,
 				84D43647215D761F00A5484F /* 斓.txt in Resources */,
 				84D43985215D762100A5484F /* 洎.txt in Resources */,
 				84D42B14215D761C00A5484F /* 争.txt in Resources */,
@@ -32759,6 +33367,7 @@
 				84D42C0A215D761C00A5484F /* 倬.txt in Resources */,
 				84D44C62215D762900A5484F /* 非.txt in Resources */,
 				84D440D8215D762300A5484F /* 络.txt in Resources */,
+				84A759792193E54800CCCB35 /* pian4.mp3 in Resources */,
 				84D44DAE215D762A00A5484F /* 骆.txt in Resources */,
 				84D432C9215D761E00A5484F /* 幬.txt in Resources */,
 				84D44AF0215D762900A5484F /* 铼.txt in Resources */,
@@ -32867,6 +33476,7 @@
 				84D4322A215D761E00A5484F /* 岱.txt in Resources */,
 				84D44DB8215D762A00A5484F /* 骓.txt in Resources */,
 				84D42C59215D761C00A5484F /* 儈.txt in Resources */,
+				84A759382193E54800CCCB35 /* fang1.mp3 in Resources */,
 				84D42EBF215D761C00A5484F /* 唯.txt in Resources */,
 				84D446FD215D762600A5484F /* 谓.txt in Resources */,
 				84D43395215D761E00A5484F /* 快.txt in Resources */,
@@ -32936,6 +33546,7 @@
 				84D42AA0215D761B00A5484F /* 㔾.txt in Resources */,
 				84D432AF215D761E00A5484F /* 席.txt in Resources */,
 				84D432D1215D761E00A5484F /* 幻.txt in Resources */,
+				84A759252193E54800CCCB35 /* che4.mp3 in Resources */,
 				84D43BA0215D762100A5484F /* 牍.txt in Resources */,
 				84D449A0215D762800A5484F /* 鄰.txt in Resources */,
 				84D43A3B215D762100A5484F /* 溅.txt in Resources */,
@@ -33028,6 +33639,7 @@
 				84D43319215D761E00A5484F /* 弈.txt in Resources */,
 				84D42CF0215D761C00A5484F /* 刘.txt in Resources */,
 				84D430F9215D761D00A5484F /* 姹.txt in Resources */,
+				84A7596F2193E54800CCCB35 /* mi4.mp3 in Resources */,
 				84D44F66215D762B00A5484F /* 黹.txt in Resources */,
 				84D445D6215D762600A5484F /* 覺.txt in Resources */,
 				84D44243215D762400A5484F /* 腧.txt in Resources */,
@@ -33343,6 +33955,7 @@
 				84D44E8F215D762B00A5484F /* 鳐.txt in Resources */,
 				84D4453F215D762600A5484F /* 蠨.txt in Resources */,
 				84D42BD5215D761C00A5484F /* 俎.txt in Resources */,
+				84A759512193E54800CCCB35 /* hui3.mp3 in Resources */,
 				84D44308215D762400A5484F /* 苔.txt in Resources */,
 				84D44596215D762600A5484F /* 裰.txt in Resources */,
 				84D43859215D762000A5484F /* 檃.txt in Resources */,
@@ -33364,6 +33977,7 @@
 				84D42E58215D761C00A5484F /* 咅.txt in Resources */,
 				84D42DA6215D761C00A5484F /* 卫.txt in Resources */,
 				84D43AF2215D762100A5484F /* 灵.txt in Resources */,
+				84A759A82193E54800CCCB35 /* ya2.mp3 in Resources */,
 				84D44380215D762500A5484F /* 获.txt in Resources */,
 				84D42FC6215D761D00A5484F /* 场.txt in Resources */,
 				84D448A3215D762700A5484F /* 轺.txt in Resources */,
@@ -33438,6 +34052,7 @@
 				84D42E90215D761C00A5484F /* 哕.txt in Resources */,
 				84D44E96215D762B00A5484F /* 鳘.txt in Resources */,
 				84D4359E215D761F00A5484F /* 搗.txt in Resources */,
+				84A759AD2193E54800CCCB35 /* yao1.mp3 in Resources */,
 				84D42E60215D761C00A5484F /* 咒.txt in Resources */,
 				84D44BCF215D762900A5484F /* 陀.txt in Resources */,
 				84D42CA8215D761C00A5484F /* 写.txt in Resources */,
@@ -33456,16 +34071,19 @@
 				84D42F58215D761D00A5484F /* 嘽.txt in Resources */,
 				84D43E6C215D762300A5484F /* 碳.txt in Resources */,
 				84D43EDD215D762300A5484F /* 秸.txt in Resources */,
+				84A759192193E54800CCCB35 /* bei4.mp3 in Resources */,
 				84D43A87215D762100A5484F /* 漫.txt in Resources */,
 				84D42ABC215D761B00A5484F /* 万.txt in Resources */,
 				84D42B47215D761C00A5484F /* 仌.txt in Resources */,
 				84D42CBA215D761C00A5484F /* 况.txt in Resources */,
 				84D44ABA215D762800A5484F /* 铀.txt in Resources */,
 				84D447A3215D762700A5484F /* 贽.txt in Resources */,
+				84A759B12193E54800CCCB35 /* yi3.mp3 in Resources */,
 				84D44F57215D762B00A5484F /* 黛.txt in Resources */,
 				84D42AA5215D761B00A5484F /* 㢆.txt in Resources */,
 				84D42FAE215D761D00A5484F /* 圈.txt in Resources */,
 				84D430CC215D761D00A5484F /* 妊.txt in Resources */,
+				84A759892193E54800CCCB35 /* she2.mp3 in Resources */,
 				84D432B1215D761E00A5484F /* 帱.txt in Resources */,
 				84D43751215D762000A5484F /* 染.txt in Resources */,
 				84D4451B215D762500A5484F /* 蟊.txt in Resources */,
@@ -33507,6 +34125,7 @@
 				84D433C7215D761F00A5484F /* 恐.txt in Resources */,
 				84D4316B215D761E00A5484F /* 学.txt in Resources */,
 				84D43F05215D762300A5484F /* 穩.txt in Resources */,
+				84A759BB2193E54800CCCB35 /* yue1.mp3 in Resources */,
 				84D447A9215D762700A5484F /* 赃.txt in Resources */,
 				84D43D3F215D762200A5484F /* 瘜.txt in Resources */,
 				84D4474E215D762600A5484F /* 販.txt in Resources */,
@@ -33603,6 +34222,7 @@
 				84D44F97215D762B00A5484F /* 齷.txt in Resources */,
 				84D43FF1215D762300A5484F /* 粼.txt in Resources */,
 				84D4446D215D762500A5484F /* 蘧.txt in Resources */,
+				84A7592B2193E54800CCCB35 /* chuang2.mp3 in Resources */,
 				84D43792215D762000A5484F /* 桕.txt in Resources */,
 				84D43F46215D762300A5484F /* 竿.txt in Resources */,
 				84D44A92215D762800A5484F /* 钗.txt in Resources */,
@@ -33643,6 +34263,7 @@
 				84D4322B215D761E00A5484F /* 岳.txt in Resources */,
 				84D431CB215D761E00A5484F /* 尋.txt in Resources */,
 				84D43A23215D762100A5484F /* 渾.txt in Resources */,
+				84A759C02193E54800CCCB35 /* zhi4.mp3 in Resources */,
 				84D4391C215D762000A5484F /* 汔.txt in Resources */,
 				84D43694215D762000A5484F /* 昬.txt in Resources */,
 				84D44EC0215D762B00A5484F /* 鵯.txt in Resources */,
@@ -33676,6 +34297,7 @@
 				84D42DF5215D761C00A5484F /* 叭.txt in Resources */,
 				84D44777215D762600A5484F /* 賺.txt in Resources */,
 				84D43BDA215D762100A5484F /* 狍.txt in Resources */,
+				84A759832193E54800CCCB35 /* ri4.mp3 in Resources */,
 				84D4477C215D762600A5484F /* 贈.txt in Resources */,
 				84D430F7215D761D00A5484F /* 姬.txt in Resources */,
 				84D44C41215D762900A5484F /* 霅.txt in Resources */,
@@ -33705,6 +34327,7 @@
 				84D434AE215D761F00A5484F /* 扃.txt in Resources */,
 				84D42C89215D761C00A5484F /* 共.txt in Resources */,
 				84D4431F215D762400A5484F /* 茀.txt in Resources */,
+				84A759372193E54800CCCB35 /* er4.mp3 in Resources */,
 				84D4384D215D762000A5484F /* 橙.txt in Resources */,
 				84D4465B215D762600A5484F /* 諶.txt in Resources */,
 				84D44A77215D762800A5484F /* 鑣.txt in Resources */,
@@ -33767,6 +34390,7 @@
 				84D43731215D762000A5484F /* 枓.txt in Resources */,
 				84D44A36215D762800A5484F /* 鋈.txt in Resources */,
 				84D44037215D762300A5484F /* 絘.txt in Resources */,
+				84A759682193E54800CCCB35 /* ma2.mp3 in Resources */,
 				84D43C71215D762200A5484F /* 瑙.txt in Resources */,
 				84D4410F215D762400A5484F /* 缗.txt in Resources */,
 				84D44245215D762400A5484F /* 腫.txt in Resources */,
@@ -33840,6 +34464,7 @@
 				84D439CC215D762100A5484F /* 涖.txt in Resources */,
 				84D43CB8215D762200A5484F /* 甪.txt in Resources */,
 				84D42AE3215D761B00A5484F /* 丶.txt in Resources */,
+				84A759352193E54800CCCB35 /* er2.mp3 in Resources */,
 				84D43CE8215D762200A5484F /* 畿.txt in Resources */,
 				84D44620215D762600A5484F /* 詩.txt in Resources */,
 				84D44714215D762600A5484F /* 谫.txt in Resources */,
@@ -33869,6 +34494,7 @@
 				84D4415E215D762400A5484F /* 羡.txt in Resources */,
 				84D43A8C215D762100A5484F /* 漲.txt in Resources */,
 				84D42D0D215D761C00A5484F /* 削.txt in Resources */,
+				84A7595D2193E54800CCCB35 /* jiu4.mp3 in Resources */,
 				84D43365215D761E00A5484F /* 律.txt in Resources */,
 				84D4438D215D762500A5484F /* 菏.txt in Resources */,
 				84D433C0215D761F00A5484F /* 怿.txt in Resources */,
@@ -33896,6 +34522,7 @@
 				84D42AAF215D761B00A5484F /* 䍃.txt in Resources */,
 				84D443A5215D762500A5484F /* 萋.txt in Resources */,
 				84D43427215D761F00A5484F /* 愆.txt in Resources */,
+				84A7598A2193E54800CCCB35 /* shen1.mp3 in Resources */,
 				84D42B94215D761C00A5484F /* 佔.txt in Resources */,
 				84D4470B215D762600A5484F /* 谢.txt in Resources */,
 				84D44E4D215D762A00A5484F /* 鱸.txt in Resources */,
@@ -33948,7 +34575,9 @@
 				84D445BB215D762600A5484F /* 襠.txt in Resources */,
 				84D438F5215D762000A5484F /* 氘.txt in Resources */,
 				84D44465215D762500A5484F /* 蘊.txt in Resources */,
+				84A759862193E54800CCCB35 /* ru4.mp3 in Resources */,
 				84D42CFF215D761C00A5484F /* 刳.txt in Resources */,
+				84A759182193E54800CCCB35 /* bao1.mp3 in Resources */,
 				84D42DFE215D761C00A5484F /* 号.txt in Resources */,
 				84D4408A215D762300A5484F /* 繡.txt in Resources */,
 				84D44DCB215D762A00A5484F /* 骨.txt in Resources */,
@@ -33977,6 +34606,7 @@
 				84D433B2215D761F00A5484F /* 怠.txt in Resources */,
 				84D43350215D761E00A5484F /* 彪.txt in Resources */,
 				84D44B05215D762900A5484F /* 锑.txt in Resources */,
+				84A759822193E54800CCCB35 /* ren2.mp3 in Resources */,
 				84D44A3E215D762800A5484F /* 鋯.txt in Resources */,
 				84D42E61215D761C00A5484F /* 咔.txt in Resources */,
 				84D440FE215D762400A5484F /* 缅.txt in Resources */,
@@ -34032,6 +34662,7 @@
 				84D43F83215D762300A5484F /* 简.txt in Resources */,
 				84D4443C215D762500A5484F /* 薛.txt in Resources */,
 				84D42BAE215D761C00A5484F /* 佽.txt in Resources */,
+				84A759742193E54800CCCB35 /* niao3.mp3 in Resources */,
 				84D4390B215D762000A5484F /* 氵.txt in Resources */,
 				84D44085215D762300A5484F /* 繒.txt in Resources */,
 				84D43190215D761E00A5484F /* 客.txt in Resources */,
@@ -34259,6 +34890,7 @@
 				84D447DC215D762700A5484F /* 趙.txt in Resources */,
 				84D43F5D215D762300A5484F /* 笱.txt in Resources */,
 				84D446C7215D762600A5484F /* 诛.txt in Resources */,
+				84A759912193E54800CCCB35 /* shu1.mp3 in Resources */,
 				84D44C9E215D762A00A5484F /* 頗.txt in Resources */,
 				84D432EF215D761E00A5484F /* 庳.txt in Resources */,
 				84D44B29215D762900A5484F /* 锹.txt in Resources */,
@@ -34308,6 +34940,7 @@
 				84D43F22215D762300A5484F /* 窣.txt in Resources */,
 				84D42F11215D761D00A5484F /* 嗅.txt in Resources */,
 				84D43444215D761F00A5484F /* 慘.txt in Resources */,
+				84A759332193E54800CCCB35 /* dou3.mp3 in Resources */,
 				84D433B1215D761F00A5484F /* 思.txt in Resources */,
 				84D4386E215D762000A5484F /* 櫓.txt in Resources */,
 				84D44840215D762700A5484F /* 蹶.txt in Resources */,
@@ -34583,6 +35216,7 @@
 				84D43C1A215D762200A5484F /* 獅.txt in Resources */,
 				84D441AB215D762400A5484F /* 聂.txt in Resources */,
 				84D44265215D762400A5484F /* 膩.txt in Resources */,
+				84A7597E2193E54800CCCB35 /* qian4.mp3 in Resources */,
 				84D43DB1215D762200A5484F /* 盹.txt in Resources */,
 				84D44CBE215D762A00A5484F /* 页.txt in Resources */,
 				84D441BC215D762400A5484F /* 聱.txt in Resources */,
@@ -34677,6 +35311,7 @@
 				84D42B81215D761C00A5484F /* 伲.txt in Resources */,
 				84D43481215D761F00A5484F /* 懿.txt in Resources */,
 				84D445A9215D762600A5484F /* 褡.txt in Resources */,
+				84A7595C2193E54800CCCB35 /* jiu3.mp3 in Resources */,
 				84D444B0215D762500A5484F /* 蛉.txt in Resources */,
 				84D439F0215D762100A5484F /* 淞.txt in Resources */,
 				84D43F17215D762300A5484F /* 窍.txt in Resources */,
@@ -34702,6 +35337,7 @@
 				84D42B6E215D761C00A5484F /* 休.txt in Resources */,
 				84D4405E215D762300A5484F /* 緒.txt in Resources */,
 				84D43889215D762000A5484F /* 欺.txt in Resources */,
+				84A759B22193E54800CCCB35 /* yi4.mp3 in Resources */,
 				84D42C6F215D761C00A5484F /* 兇.txt in Resources */,
 				84D44E6C215D762A00A5484F /* 鲤.txt in Resources */,
 				84D4327D215D761E00A5484F /* 巛.txt in Resources */,
@@ -34756,6 +35392,7 @@
 				84D43BF3215D762100A5484F /* 狼.txt in Resources */,
 				84D44E6E215D762A00A5484F /* 鲦.txt in Resources */,
 				84D43844215D762000A5484F /* 樺.txt in Resources */,
+				84A759872193E54800CCCB35 /* se4.mp3 in Resources */,
 				84D42D26215D761C00A5484F /* 剿.txt in Resources */,
 				84D43F1A215D762300A5484F /* 窕.txt in Resources */,
 				84D44CFE215D762A00A5484F /* 飚.txt in Resources */,
@@ -34807,6 +35444,7 @@
 				84D43BE4215D762100A5484F /* 狩.txt in Resources */,
 				84D43E42215D762200A5484F /* 砾.txt in Resources */,
 				84D43935215D762000A5484F /* 沃.txt in Resources */,
+				84A759442193E54800CCCB35 /* gu3.mp3 in Resources */,
 				84D42E0E215D761C00A5484F /* 名.txt in Resources */,
 				84D44991215D762800A5484F /* 鄂.txt in Resources */,
 				84D44F50215D762B00A5484F /* 黉.txt in Resources */,
@@ -34818,6 +35456,7 @@
 				84D4453D215D762600A5484F /* 蠢.txt in Resources */,
 				84D4423C215D762400A5484F /* 腕.txt in Resources */,
 				84D44735215D762600A5484F /* 豫.txt in Resources */,
+				84A7595F2193E54800CCCB35 /* kan3.mp3 in Resources */,
 				84D4371E215D762000A5484F /* 杪.txt in Resources */,
 				84D43E6E215D762300A5484F /* 碹.txt in Resources */,
 				84D44C07215D762900A5484F /* 隡.txt in Resources */,
@@ -34855,6 +35494,7 @@
 				84D44E34215D762A00A5484F /* 鰟.txt in Resources */,
 				84D44099215D762300A5484F /* 纏.txt in Resources */,
 				84D438FB215D762000A5484F /* 氡.txt in Resources */,
+				84A759B72193E54800CCCB35 /* you4.mp3 in Resources */,
 				84D42CE4215D761C00A5484F /* 刃.txt in Resources */,
 				84D44140215D762400A5484F /* 罟.txt in Resources */,
 				84D43F57215D762300A5484F /* 符.txt in Resources */,
@@ -34868,6 +35508,7 @@
 				84D44F34215D762B00A5484F /* 鹼.txt in Resources */,
 				84D42B9B215D761C00A5484F /* 作.txt in Resources */,
 				84D439AA215D762100A5484F /* 浏.txt in Resources */,
+				84A759982193E54800CCCB35 /* tu3.mp3 in Resources */,
 				84D43713215D762000A5484F /* 村.txt in Resources */,
 				84D44F64215D762B00A5484F /* 黴.txt in Resources */,
 				84D434BC215D761F00A5484F /* 托.txt in Resources */,
@@ -35005,6 +35646,7 @@
 				84D4348B215D761F00A5484F /* 戎.txt in Resources */,
 				84D437E2215D762000A5484F /* 椭.txt in Resources */,
 				84D43BBE215D762100A5484F /* 犋.txt in Resources */,
+				84A759292193E54800CCCB35 /* chuan1.mp3 in Resources */,
 				84D44C4A215D762900A5484F /* 霓.txt in Resources */,
 				84D42D1A215D761C00A5484F /* 剡.txt in Resources */,
 				84D442C8215D762400A5484F /* 艰.txt in Resources */,
@@ -35023,6 +35665,7 @@
 				84D44134215D762400A5484F /* 罈.txt in Resources */,
 				84D430FE215D761D00A5484F /* 娄.txt in Resources */,
 				84D43BCA215D762100A5484F /* 犯.txt in Resources */,
+				84A7598D2193E54800CCCB35 /* shi2.mp3 in Resources */,
 				84D43184215D761E00A5484F /* 宓.txt in Resources */,
 				84D42B63215D761C00A5484F /* 任.txt in Resources */,
 				84D435BE215D761F00A5484F /* 摯.txt in Resources */,
@@ -35032,6 +35675,7 @@
 				84D43C2D215D762200A5484F /* 玉.txt in Resources */,
 				84D448A2215D762700A5484F /* 轹.txt in Resources */,
 				84D42B08215D761C00A5484F /* 乩.txt in Resources */,
+				84A7594C2193E54800CCCB35 /* hei1.mp3 in Resources */,
 				84D4419A215D762400A5484F /* 耤.txt in Resources */,
 				84D43A35215D762100A5484F /* 湯.txt in Resources */,
 				84D430B1215D761D00A5484F /* 奕.txt in Resources */,
@@ -35043,6 +35687,7 @@
 				84D439EF215D762100A5484F /* 淝.txt in Resources */,
 				84D43168215D761E00A5484F /* 季.txt in Resources */,
 				84D437CD215D762000A5484F /* 棱.txt in Resources */,
+				84A7599C2193E54800CCCB35 /* wei2.mp3 in Resources */,
 				84D44817215D762700A5484F /* 踢.txt in Resources */,
 				84D43B67215D762100A5484F /* 熱.txt in Resources */,
 				84D42C5A215D761C00A5484F /* 儉.txt in Resources */,
@@ -35058,6 +35703,7 @@
 				84D4430F215D762400A5484F /* 苟.txt in Resources */,
 				84D430DE215D761D00A5484F /* 妯.txt in Resources */,
 				84D42CB9215D761C00A5484F /* 决.txt in Resources */,
+				84A759592193E54800CCCB35 /* jie2.mp3 in Resources */,
 				84D44355215D762500A5484F /* 荣.txt in Resources */,
 				84D44B3C215D762900A5484F /* 镏.txt in Resources */,
 				84D42C25215D761C00A5484F /* 傀.txt in Resources */,
@@ -35083,6 +35729,7 @@
 				84D4402B215D762300A5484F /* 紳.txt in Resources */,
 				84D4458D215D762600A5484F /* 補.txt in Resources */,
 				84D42C57215D761C00A5484F /* 儆.txt in Resources */,
+				84A759A22193E54800CCCB35 /* xiao3.mp3 in Resources */,
 				84D43CCC215D762200A5484F /* 畋.txt in Resources */,
 				84D43BF9215D762100A5484F /* 猋.txt in Resources */,
 				84D44115215D762400A5484F /* 缝.txt in Resources */,
@@ -35116,6 +35763,7 @@
 				84D44575215D762600A5484F /* 袢.txt in Resources */,
 				84D44749215D762600A5484F /* 負.txt in Resources */,
 				84D431D9215D761E00A5484F /* 尝.txt in Resources */,
+				84A7593F2193E54800CCCB35 /* ge1.mp3 in Resources */,
 				84D440CF215D762300A5484F /* 绒.txt in Resources */,
 				4DF7CC050E54454E8942EEC1 /* FontAwesome5_Regular.ttf in Resources */,
 				84D44F4B215D762B00A5484F /* 麽.txt in Resources */,
@@ -35124,6 +35772,7 @@
 				84D44A6F215D762800A5484F /* 鑄.txt in Resources */,
 				84D44567215D762600A5484F /* 衾.txt in Resources */,
 				84D44C6E215D762900A5484F /* 鞍.txt in Resources */,
+				84A759842193E54800CCCB35 /* rou2.mp3 in Resources */,
 				84D44C00215D762900A5484F /* 隔.txt in Resources */,
 				84D43753215D762000A5484F /* 柘.txt in Resources */,
 				84D42C74215D761C00A5484F /* 免.txt in Resources */,
@@ -35240,6 +35889,7 @@
 				84D437D9215D762000A5484F /* 植.txt in Resources */,
 				84D43465215D761F00A5484F /* 憲.txt in Resources */,
 				84D42CEE215D761C00A5484F /* 刖.txt in Resources */,
+				84A7594B2193E54800CCCB35 /* he2.mp3 in Resources */,
 				84D42DEE215D761C00A5484F /* 句.txt in Resources */,
 				84D42B21215D761C00A5484F /* 亚.txt in Resources */,
 				84D438B9215D762000A5484F /* 殛.txt in Resources */,
@@ -35314,6 +35964,7 @@
 				84D43F36215D762300A5484F /* 立.txt in Resources */,
 				84D4430D215D762400A5484F /* 苜.txt in Resources */,
 				84D4398C215D762100A5484F /* 洣.txt in Resources */,
+				84A759992193E54800CCCB35 /* wa3.mp3 in Resources */,
 				84D435DD215D761F00A5484F /* 撵.txt in Resources */,
 				84D440D0215D762300A5484F /* 结.txt in Resources */,
 				84D43752215D762000A5484F /* 柔.txt in Resources */,
@@ -35331,12 +35982,14 @@
 				84D43BE3215D762100A5484F /* 狨.txt in Resources */,
 				84D441B5215D762400A5484F /* 聘.txt in Resources */,
 				84D440A4215D762300A5484F /* 纤.txt in Resources */,
+				84A7597B2193E54800CCCB35 /* pu1.mp3 in Resources */,
 				84D44764215D762600A5484F /* 賈.txt in Resources */,
 				84D4362F215D761F00A5484F /* 教.txt in Resources */,
 				84D44F86215D762B00A5484F /* 齎.txt in Resources */,
 				84D4409D215D762300A5484F /* 纛.txt in Resources */,
 				84D42C36215D761C00A5484F /* 傭.txt in Resources */,
 				84D444ED215D762500A5484F /* 蝌.txt in Resources */,
+				84A7595B2193E54800CCCB35 /* jiong1.mp3 in Resources */,
 				84D42C9F215D761C00A5484F /* 冎.txt in Resources */,
 				84D44F43215D762B00A5484F /* 麦.txt in Resources */,
 				84D43BD3215D762100A5484F /* 狁.txt in Resources */,
@@ -35365,6 +36018,7 @@
 				84D44BF5215D762900A5484F /* 隄.txt in Resources */,
 				84D438EA215D762000A5484F /* 氆.txt in Resources */,
 				84D44984215D762800A5484F /* 郢.txt in Resources */,
+				84A759162193E54800CCCB35 /* ba1.mp3 in Resources */,
 				84D438E0215D762000A5484F /* 毡.txt in Resources */,
 				84D43247215D761E00A5484F /* 崎.txt in Resources */,
 				84D44D25215D762A00A5484F /* 餮.txt in Resources */,
@@ -35379,6 +36033,7 @@
 				84D43DDC215D762200A5484F /* 睡.txt in Resources */,
 				84D43483215D761F00A5484F /* 戆.txt in Resources */,
 				84D42BFF215D761C00A5484F /* 倝.txt in Resources */,
+				84A7596D2193E54800CCCB35 /* meng3.mp3 in Resources */,
 				84D44D7B215D762A00A5484F /* 駿.txt in Resources */,
 				84D42B26215D761C00A5484F /* 亡.txt in Resources */,
 				84D4415F215D762400A5484F /* 群.txt in Resources */,
@@ -35465,6 +36120,7 @@
 				84D4347C215D761F00A5484F /* 懷.txt in Resources */,
 				84D43252215D761E00A5484F /* 崦.txt in Resources */,
 				84D42BC5215D761C00A5484F /* 侨.txt in Resources */,
+				84A759A62193E54800CCCB35 /* xuan2.mp3 in Resources */,
 				84D43343215D761E00A5484F /* 彗.txt in Resources */,
 				84D4485E215D762700A5484F /* 軃.txt in Resources */,
 				84D44691215D762600A5484F /* 计.txt in Resources */,
@@ -35555,6 +36211,7 @@
 				84D4367C215D762000A5484F /* 旷.txt in Resources */,
 				84D437DE215D762000A5484F /* 椠.txt in Resources */,
 				84D43E47215D762200A5484F /* 硌.txt in Resources */,
+				84A759482193E54800CCCB35 /* gui3.mp3 in Resources */,
 				84D43CB1215D762200A5484F /* 產.txt in Resources */,
 				84D43214215D761E00A5484F /* 岁.txt in Resources */,
 				84D448CE215D762700A5484F /* 辮.txt in Resources */,
@@ -35622,6 +36279,7 @@
 				84D449C4215D762800A5484F /* 酴.txt in Resources */,
 				84D4384E215D762000A5484F /* 橛.txt in Resources */,
 				84D44584215D762600A5484F /* 裉.txt in Resources */,
+				84A759582193E54800CCCB35 /* jiao3.mp3 in Resources */,
 				84D42D54215D761C00A5484F /* 務.txt in Resources */,
 				84D43D19215D762200A5484F /* 痔.txt in Resources */,
 				84D43685215D762000A5484F /* 昌.txt in Resources */,
@@ -35641,6 +36299,7 @@
 				84D44455215D762500A5484F /* 藜.txt in Resources */,
 				84D43F6C215D762300A5484F /* 筐.txt in Resources */,
 				84D43263215D761E00A5484F /* 嵩.txt in Resources */,
+				84A7594A2193E54800CCCB35 /* han3.mp3 in Resources */,
 				84D42CDB215D761C00A5484F /* 凹.txt in Resources */,
 				84D42FF0215D761D00A5484F /* 垆.txt in Resources */,
 				84D4448A215D762500A5484F /* 虱.txt in Resources */,
@@ -35664,6 +36323,7 @@
 				84D42EA7215D761C00A5484F /* 哿.txt in Resources */,
 				84D445CC215D762600A5484F /* 規.txt in Resources */,
 				84D44D47215D762A00A5484F /* 饴.txt in Resources */,
+				84A759772193E54800CCCB35 /* pi2.mp3 in Resources */,
 				84D436D6215D762000A5484F /* 曖.txt in Resources */,
 				84D43CF9215D762200A5484F /* 疟.txt in Resources */,
 				84D43508215D761F00A5484F /* 拣.txt in Resources */,
@@ -35790,8 +36450,10 @@
 				84D44734215D762600A5484F /* 豪.txt in Resources */,
 				84D44AAE215D762800A5484F /* 钴.txt in Resources */,
 				84D436F9215D762000A5484F /* 期.txt in Resources */,
+				84A759752193E54800CCCB35 /* niu2.mp3 in Resources */,
 				84D42E31215D761C00A5484F /* 吾.txt in Resources */,
 				84D4434B215D762500A5484F /* 荑.txt in Resources */,
+				84A7599D2193E54800CCCB35 /* wen2.mp3 in Resources */,
 				84D42E25215D761C00A5484F /* 吭.txt in Resources */,
 				84D43929215D762000A5484F /* 汩.txt in Resources */,
 				84D4359A215D761F00A5484F /* 搐.txt in Resources */,
@@ -35820,6 +36482,7 @@
 				84D4338E215D761E00A5484F /* 忝.txt in Resources */,
 				84D430AB215D761D00A5484F /* 奎.txt in Resources */,
 				84D43979215D762100A5484F /* 泷.txt in Resources */,
+				84A759762193E54800CCCB35 /* nv3.mp3 in Resources */,
 				84D43398215D761E00A5484F /* 忱.txt in Resources */,
 				84D42C65215D761C00A5484F /* 儺.txt in Resources */,
 				84D42EC7215D761C00A5484F /* 唾.txt in Resources */,
@@ -35859,6 +36522,7 @@
 				84D44980215D762800A5484F /* 郜.txt in Resources */,
 				84D44282215D762400A5484F /* 自.txt in Resources */,
 				84D44375215D762500A5484F /* 莧.txt in Resources */,
+				84A759932193E54800CCCB35 /* shui3.mp3 in Resources */,
 				84D433C5215D761F00A5484F /* 恋.txt in Resources */,
 				84D4467B215D762600A5484F /* 譙.txt in Resources */,
 				84D44CA7215D762A00A5484F /* 頸.txt in Resources */,
@@ -35914,6 +36578,7 @@
 				84D44E04215D762A00A5484F /* 魃.txt in Resources */,
 				84D4375D215D762000A5484F /* 柬.txt in Resources */,
 				84D448E8215D762700A5484F /* 违.txt in Resources */,
+				84A759882193E54800CCCB35 /* shan1.mp3 in Resources */,
 				84D42F89215D761D00A5484F /* 嚼.txt in Resources */,
 				84D449FD215D762800A5484F /* 釵.txt in Resources */,
 				84D4477A215D762600A5484F /* 贄.txt in Resources */,
@@ -35935,6 +36600,7 @@
 				84D443B9215D762500A5484F /* 葄.txt in Resources */,
 				84D4309E215D761D00A5484F /* 夷.txt in Resources */,
 				84D433DD215D761F00A5484F /* 恹.txt in Resources */,
+				84A759A02193E54800CCCB35 /* xi4.mp3 in Resources */,
 				84D43A3D215D762100A5484F /* 溉.txt in Resources */,
 				84D43D81215D762200A5484F /* 皒.txt in Resources */,
 				84D43D7D215D762200A5484F /* 皈.txt in Resources */,
@@ -35955,6 +36621,7 @@
 				84D43744215D762000A5484F /* 枵.txt in Resources */,
 				84D43B46215D762100A5484F /* 煊.txt in Resources */,
 				84D4437F215D762500A5484F /* 莶.txt in Resources */,
+				84A759C62193E54800CCCB35 /* zhui1.mp3 in Resources */,
 				84D4475D215D762600A5484F /* 賀.txt in Resources */,
 				84D44C95215D762A00A5484F /* 項.txt in Resources */,
 				84D42F16215D761D00A5484F /* 嗌.txt in Resources */,
@@ -35992,7 +36659,9 @@
 				84D43662215D762000A5484F /* 旅.txt in Resources */,
 				84D42B03215D761B00A5484F /* 乞.txt in Resources */,
 				84D447BB215D762700A5484F /* 赕.txt in Resources */,
+				84A759432193E54800CCCB35 /* gong3.mp3 in Resources */,
 				84D42D86215D761C00A5484F /* 區.txt in Resources */,
+				84A759AF2193E54800CCCB35 /* ye4.mp3 in Resources */,
 				84D43845215D762000A5484F /* 樽.txt in Resources */,
 				84D42DF9215D761C00A5484F /* 叱.txt in Resources */,
 				84D43865215D762000A5484F /* 檬.txt in Resources */,
@@ -36062,6 +36731,7 @@
 				84D447F2215D762700A5484F /* 跏.txt in Resources */,
 				84D44253215D762400A5484F /* 腿.txt in Resources */,
 				84D44D7C215D762A00A5484F /* 騅.txt in Resources */,
+				84A759C72193E54800CCCB35 /* zi3.mp3 in Resources */,
 				84D44569215D762600A5484F /* 袁.txt in Resources */,
 				84D43755215D762000A5484F /* 柚.txt in Resources */,
 				84D44F87215D762B00A5484F /* 齐.txt in Resources */,
@@ -36080,10 +36750,12 @@
 				84D44632215D762600A5484F /* 誑.txt in Resources */,
 				84D438F4215D762000A5484F /* 氖.txt in Resources */,
 				84D43591215D761F00A5484F /* 揿.txt in Resources */,
+				84A759532193E54800CCCB35 /* ji1.mp3 in Resources */,
 				84D442F4215D762400A5484F /* 芴.txt in Resources */,
 				84D444F6215D762500A5484F /* 蝥.txt in Resources */,
 				84D44D52215D762A00A5484F /* 馁.txt in Resources */,
 				84D43363215D761E00A5484F /* 徉.txt in Resources */,
+				84A7596A2193E54800CCCB35 /* mai4.mp3 in Resources */,
 				84D44C6F215D762900A5484F /* 鞏.txt in Resources */,
 				84D44061215D762300A5484F /* 緝.txt in Resources */,
 				84D43C50215D762200A5484F /* 珥.txt in Resources */,
@@ -36164,6 +36836,7 @@
 				84D43CFD215D762200A5484F /* 疤.txt in Resources */,
 				84D42F7E215D761D00A5484F /* 嚓.txt in Resources */,
 				84D43993215D762100A5484F /* 洮.txt in Resources */,
+				84A759342193E54800CCCB35 /* dou4.mp3 in Resources */,
 				84D44C7C215D762900A5484F /* 鞴.txt in Resources */,
 				84D44A72215D762800A5484F /* 鑒.txt in Resources */,
 				84D43E2D215D762200A5484F /* 砘.txt in Resources */,
@@ -36216,6 +36889,7 @@
 				84D43969215D762100A5484F /* 泞.txt in Resources */,
 				84D438C0215D762000A5484F /* 殮.txt in Resources */,
 				84D4312A215D761D00A5484F /* 媛.txt in Resources */,
+				84A759652193E54800CCCB35 /* long2.mp3 in Resources */,
 				84D44564215D762600A5484F /* 衷.txt in Resources */,
 				84D4448B215D762500A5484F /* 虹.txt in Resources */,
 				84D44AD7215D762900A5484F /* 铡.txt in Resources */,
@@ -36241,6 +36915,7 @@
 				84D42F1C215D761D00A5484F /* 嗔.txt in Resources */,
 				84D44333215D762500A5484F /* 茧.txt in Resources */,
 				84D44B67215D762900A5484F /* 閉.txt in Resources */,
+				84A759B92193E54800CCCB35 /* yu3.mp3 in Resources */,
 				84D44653215D762600A5484F /* 諤.txt in Resources */,
 				84D42EA8215D761C00A5484F /* 唁.txt in Resources */,
 				84D447E3215D762700A5484F /* 足.txt in Resources */,
@@ -36278,6 +36953,7 @@
 				84D44EB4215D762B00A5484F /* 鴴.txt in Resources */,
 				84D434FD215D761F00A5484F /* 拓.txt in Resources */,
 				84D42F5A215D761D00A5484F /* 噁.txt in Resources */,
+				84A7593B2193E54800CCCB35 /* fou3.mp3 in Resources */,
 				84D4311C215D761D00A5484F /* 婢.txt in Resources */,
 				84D445F5215D762600A5484F /* 觸.txt in Resources */,
 				84D4485B215D762700A5484F /* 躲.txt in Resources */,
@@ -36304,6 +36980,7 @@
 				84D43010215D761D00A5484F /* 埕.txt in Resources */,
 				84D43EC0215D762300A5484F /* 禹.txt in Resources */,
 				84D42D8A215D761C00A5484F /* 卄.txt in Resources */,
+				84A7596B2193E54800CCCB35 /* mao2.mp3 in Resources */,
 				84D42B4F215D761C00A5484F /* 仗.txt in Resources */,
 				84D447ED215D762700A5484F /* 跄.txt in Resources */,
 				84D44E3C215D762A00A5484F /* 鰾.txt in Resources */,
@@ -36364,6 +37041,7 @@
 				84D42AD4215D761B00A5484F /* 两.txt in Resources */,
 				84D43FB7215D762300A5484F /* 簉.txt in Resources */,
 				84D44DC2215D762A00A5484F /* 骟.txt in Resources */,
+				84A759172193E54800CCCB35 /* bai3.mp3 in Resources */,
 				84D448A9215D762700A5484F /* 辁.txt in Resources */,
 				84D44FA6215D762B00A5484F /* 龔.txt in Resources */,
 				84D44ABB215D762800A5484F /* 铁.txt in Resources */,
@@ -36391,6 +37069,7 @@
 				84D42BE3215D761C00A5484F /* 俣.txt in Resources */,
 				84D43EC2215D762300A5484F /* 离.txt in Resources */,
 				84D446ED215D762600A5484F /* 谂.txt in Resources */,
+				84A759812193E54800CCCB35 /* quan3.mp3 in Resources */,
 				84D42C43215D761C00A5484F /* 像.txt in Resources */,
 				84D433D4215D761F00A5484F /* 恪.txt in Resources */,
 				84D44C40215D762900A5484F /* 霄.txt in Resources */,
@@ -36530,6 +37209,7 @@
 				84D44018215D762300A5484F /* 納.txt in Resources */,
 				84D42BBD215D761C00A5484F /* 侗.txt in Resources */,
 				84D444CB215D762500A5484F /* 蛻.txt in Resources */,
+				84A7592A2193E54800CCCB35 /* chuan3.mp3 in Resources */,
 				84D4361C215D761F00A5484F /* 攵.txt in Resources */,
 				84D44922215D762700A5484F /* 逸.txt in Resources */,
 				84D44396215D762500A5484F /* 菡.txt in Resources */,
@@ -36666,6 +37346,7 @@
 				84D42BE5215D761C00A5484F /* 俨.txt in Resources */,
 				84D43567215D761F00A5484F /* 接.txt in Resources */,
 				84D42DB0215D761C00A5484F /* 卸.txt in Resources */,
+				84A759B62193E54800CCCB35 /* you3.mp3 in Resources */,
 				84D443AB215D762500A5484F /* 萘.txt in Resources */,
 				84D42B5D215D761C00A5484F /* 仰.txt in Resources */,
 				84D43EFA215D762300A5484F /* 稽.txt in Resources */,
@@ -36680,6 +37361,7 @@
 				84D43287215D761E00A5484F /* 巨.txt in Resources */,
 				84D44F9B215D762B00A5484F /* 龄.txt in Resources */,
 				84D444C6215D762500A5484F /* 蛴.txt in Resources */,
+				84A7599F2193E54800CCCB35 /* xi3.mp3 in Resources */,
 				84D44EB2215D762B00A5484F /* 鴯.txt in Resources */,
 				84D42D43215D761C00A5484F /* 劲.txt in Resources */,
 				84D43300215D761E00A5484F /* 廖.txt in Resources */,
@@ -36703,6 +37385,7 @@
 				84D42BD2215D761C00A5484F /* 俅.txt in Resources */,
 				84D44BB8215D762900A5484F /* 阕.txt in Resources */,
 				84D43463215D761F00A5484F /* 憫.txt in Resources */,
+				84A759502193E54800CCCB35 /* huang2.mp3 in Resources */,
 				84D43536215D761F00A5484F /* 挾.txt in Resources */,
 				84D44289215D762400A5484F /* 臺.txt in Resources */,
 				84D4342D215D761F00A5484F /* 愕.txt in Resources */,
@@ -36747,6 +37430,7 @@
 				84D42DDF215D761C00A5484F /* 发.txt in Resources */,
 				84D44ECB215D762B00A5484F /* 鶩.txt in Resources */,
 				84D4434F215D762500A5484F /* 荛.txt in Resources */,
+				84A759672193E54800CCCB35 /* lu4.mp3 in Resources */,
 				84D43774215D762000A5484F /* 栝.txt in Resources */,
 				84D43B7F215D762100A5484F /* 燹.txt in Resources */,
 				84D42FA7215D761D00A5484F /* 图.txt in Resources */,
@@ -36799,6 +37483,7 @@
 				84D43D63215D762200A5484F /* 癟.txt in Resources */,
 				84D44C56215D762900A5484F /* 霸.txt in Resources */,
 				84D44AE9215D762900A5484F /* 铴.txt in Resources */,
+				84A759232193E54800CCCB35 /* chang4.mp3 in Resources */,
 				84D42FE6215D761D00A5484F /* 坳.txt in Resources */,
 				84D43D49215D762200A5484F /* 瘪.txt in Resources */,
 				84D43DFE215D762200A5484F /* 瞪.txt in Resources */,
@@ -36817,6 +37502,7 @@
 				84D4421C215D762400A5484F /* 脑.txt in Resources */,
 				84D4400B215D762300A5484F /* 糹.txt in Resources */,
 				84D43196215D761E00A5484F /* 宫.txt in Resources */,
+				84A7591F2193E54800CCCB35 /* bo1.mp3 in Resources */,
 				84D44B87215D762900A5484F /* 闔.txt in Resources */,
 				84D43A04215D762100A5484F /* 添.txt in Resources */,
 				84D42E3C215D761C00A5484F /* 呓.txt in Resources */,
@@ -36846,6 +37532,7 @@
 				84D44ED6215D762B00A5484F /* 鷈.txt in Resources */,
 				84D42E28215D761C00A5484F /* 吱.txt in Resources */,
 				84D44F62215D762B00A5484F /* 黪.txt in Resources */,
+				84A7596C2193E54800CCCB35 /* men2.mp3 in Resources */,
 				84D44704215D762600A5484F /* 谚.txt in Resources */,
 				84D437F4215D762000A5484F /* 楦.txt in Resources */,
 				84D440B3215D762300A5484F /* 纴.txt in Resources */,
@@ -36890,11 +37577,13 @@
 				84D433D8215D761F00A5484F /* 息.txt in Resources */,
 				84D44CA0215D762A00A5484F /* 頜.txt in Resources */,
 				84D44B18215D762900A5484F /* 锦.txt in Resources */,
+				84A759922193E54800CCCB35 /* shu3.mp3 in Resources */,
 				84D432A4215D761E00A5484F /* 帖.txt in Resources */,
 				84D43410215D761F00A5484F /* 惟.txt in Resources */,
 				84D43311215D761E00A5484F /* 廾.txt in Resources */,
 				84D44293215D762400A5484F /* 舅.txt in Resources */,
 				84D44F1D215D762B00A5484F /* 鹚.txt in Resources */,
+				84A759C12193E54800CCCB35 /* zhou1.mp3 in Resources */,
 				84D43787215D762000A5484F /* 桅.txt in Resources */,
 				84D44F80215D762B00A5484F /* 鼽.txt in Resources */,
 				84D43108215D761D00A5484F /* 娛.txt in Resources */,
@@ -36952,6 +37641,7 @@
 				84D4376C215D762000A5484F /* 栋.txt in Resources */,
 				84D43AD7215D762100A5484F /* 瀆.txt in Resources */,
 				84D42D58215D761C00A5484F /* 募.txt in Resources */,
+				84A7595A2193E54800CCCB35 /* jin1.mp3 in Resources */,
 				84D43B50215D762100A5484F /* 照.txt in Resources */,
 				84D448A6215D762700A5484F /* 载.txt in Resources */,
 				84D42DCF215D761C00A5484F /* 厶.txt in Resources */,
@@ -37071,6 +37761,7 @@
 				84D4326E215D761E00A5484F /* 嶡.txt in Resources */,
 				84D43881215D762000A5484F /* 欣.txt in Resources */,
 				84D44AB5215D762800A5484F /* 钻.txt in Resources */,
+				84A759312193E54800CCCB35 /* dao1.mp3 in Resources */,
 				84D43C29215D762200A5484F /* 獾.txt in Resources */,
 				84D44069215D762300A5484F /* 緲.txt in Resources */,
 				84D43BEF215D762100A5484F /* 狸.txt in Resources */,
@@ -37095,6 +37786,7 @@
 				84D44D5E215D762A00A5484F /* 馑.txt in Resources */,
 				84D440F0215D762300A5484F /* 绶.txt in Resources */,
 				84D447E8215D762700A5484F /* 趼.txt in Resources */,
+				84A759B02193E54800CCCB35 /* yi1.mp3 in Resources */,
 				84D446C6215D762600A5484F /* 诚.txt in Resources */,
 				84D44C68215D762900A5484F /* 靳.txt in Resources */,
 				84D44622215D762600A5484F /* 詬.txt in Resources */,
@@ -37114,6 +37806,7 @@
 				84D43109215D761D00A5484F /* 娜.txt in Resources */,
 				84D43C6E215D762200A5484F /* 瑋.txt in Resources */,
 				84D449EA215D762800A5484F /* 釆.txt in Resources */,
+				84A759302193E54800CCCB35 /* dai4.mp3 in Resources */,
 				84D4363F215D761F00A5484F /* 敻.txt in Resources */,
 				84D44F59215D762B00A5484F /* 黝.txt in Resources */,
 				84D436B9215D762000A5484F /* 智.txt in Resources */,
@@ -37168,6 +37861,7 @@
 				84D42D71215D761C00A5484F /* 匙.txt in Resources */,
 				84D44DF4215D762A00A5484F /* 鬢.txt in Resources */,
 				84D44920215D762700A5484F /* 逵.txt in Resources */,
+				84A7598C2193E54800CCCB35 /* shi1.mp3 in Resources */,
 				84D43A92215D762100A5484F /* 漾.txt in Resources */,
 				84D445C4215D762600A5484F /* 襾.txt in Resources */,
 				84D442F3215D762400A5484F /* 芳.txt in Resources */,
@@ -37179,8 +37873,10 @@
 				84D449E6215D762800A5484F /* 醵.txt in Resources */,
 				84D43827215D762000A5484F /* 槤.txt in Resources */,
 				84D43E66215D762300A5484F /* 碥.txt in Resources */,
+				84A7596E2193E54800CCCB35 /* mi3.mp3 in Resources */,
 				84D44C08215D762900A5484F /* 隧.txt in Resources */,
 				84D42D14215D761C00A5484F /* 剔.txt in Resources */,
+				84A759A52193E54800CCCB35 /* xing2.mp3 in Resources */,
 				84D436EA215D762000A5484F /* 替.txt in Resources */,
 				84D43235215D761E00A5484F /* 峒.txt in Resources */,
 				84D43966215D762000A5484F /* 泗.txt in Resources */,
@@ -37194,6 +37890,7 @@
 				84D43599215D761F00A5484F /* 搏.txt in Resources */,
 				84D42D45215D761C00A5484F /* 劵.txt in Resources */,
 				84D4326C215D761E00A5484F /* 嶙.txt in Resources */,
+				84A759C32193E54800CCCB35 /* zhu3.mp3 in Resources */,
 				84D44BFE215D762900A5484F /* 随.txt in Resources */,
 				84D43546215D761F00A5484F /* 换.txt in Resources */,
 				84D44297215D762400A5484F /* 舉.txt in Resources */,
@@ -37255,6 +37952,7 @@
 				84D43397215D761E00A5484F /* 忮.txt in Resources */,
 				84D44387215D762500A5484F /* 菀.txt in Resources */,
 				84D43B33215D762100A5484F /* 焌.txt in Resources */,
+				84A759AE2193E54800CCCB35 /* yao2.mp3 in Resources */,
 				84D444AB215D762500A5484F /* 蚺.txt in Resources */,
 				84D4361A215D761F00A5484F /* 支.txt in Resources */,
 				84D436D0215D762000A5484F /* 暹.txt in Resources */,
@@ -37306,6 +38004,7 @@
 				84D446E7215D762600A5484F /* 诼.txt in Resources */,
 				84D4340F215D761F00A5484F /* 惝.txt in Resources */,
 				84D44322215D762400A5484F /* 范.txt in Resources */,
+				84A7593C2193E54800CCCB35 /* fu4.mp3 in Resources */,
 				84D42F7C215D761D00A5484F /* 嚎.txt in Resources */,
 				84D44941215D762700A5484F /* 適.txt in Resources */,
 				84D42F17215D761D00A5484F /* 嗍.txt in Resources */,
@@ -37416,6 +38115,7 @@
 				84D43250215D761E00A5484F /* 崢.txt in Resources */,
 				84D44098215D762300A5484F /* 續.txt in Resources */,
 				84D43468215D761F00A5484F /* 憹.txt in Resources */,
+				84A7594D2193E54800CCCB35 /* hu1.mp3 in Resources */,
 				84D4361F215D761F00A5484F /* 改.txt in Resources */,
 				84D42D9C215D761C00A5484F /* 卞.txt in Resources */,
 				84D44C71215D762900A5484F /* 鞒.txt in Resources */,
@@ -37626,6 +38326,7 @@
 				84D43D71215D762200A5484F /* 癶.txt in Resources */,
 				84D43E48215D762200A5484F /* 硎.txt in Resources */,
 				84D440EB215D762300A5484F /* 绱.txt in Resources */,
+				84A759732193E54800CCCB35 /* mu4.mp3 in Resources */,
 				84D43989215D762100A5484F /* 洚.txt in Resources */,
 				84D4303D215D761D00A5484F /* 塄.txt in Resources */,
 				84D43C08215D762100A5484F /* 猩.txt in Resources */,
@@ -37698,6 +38399,7 @@
 				84D42E03215D761C00A5484F /* 叽.txt in Resources */,
 				84D44765215D762600A5484F /* 賊.txt in Resources */,
 				84D440A1215D762300A5484F /* 纡.txt in Resources */,
+				84A759632193E54800CCCB35 /* li3.mp3 in Resources */,
 				84D42B48215D761C00A5484F /* 仍.txt in Resources */,
 				84D43DE2215D762200A5484F /* 睪.txt in Resources */,
 				84D4481A215D762700A5484F /* 踩.txt in Resources */,
@@ -37830,12 +38532,14 @@
 				84D43E46215D762200A5484F /* 硇.txt in Resources */,
 				84D438B2215D762000A5484F /* 殍.txt in Resources */,
 				84D441A8215D762400A5484F /* 耻.txt in Resources */,
+				84A7599A2193E54800CCCB35 /* wang1.mp3 in Resources */,
 				84D437C2215D762000A5484F /* 棕.txt in Resources */,
 				84D430FB215D761D00A5484F /* 姿.txt in Resources */,
 				84D4447E215D762500A5484F /* 虘.txt in Resources */,
 				84D44D46215D762A00A5484F /* 饲.txt in Resources */,
 				84D44EB1215D762B00A5484F /* 鴨.txt in Resources */,
 				84D44547215D762600A5484F /* 蠼.txt in Resources */,
+				84A7591D2193E54800CCCB35 /* biao1.mp3 in Resources */,
 				84D44CEC215D762A00A5484F /* 颭.txt in Resources */,
 				84D430D4215D761D00A5484F /* 妞.txt in Resources */,
 				84D445D5215D762600A5484F /* 覷.txt in Resources */,
@@ -37883,6 +38587,7 @@
 				84D4406C215D762300A5484F /* 縈.txt in Resources */,
 				84D43173215D761E00A5484F /* 孳.txt in Resources */,
 				84D42D79215D761C00A5484F /* 匧.txt in Resources */,
+				84A7597C2193E54800CCCB35 /* qi2.mp3 in Resources */,
 				84D44C7A215D762900A5484F /* 鞯.txt in Resources */,
 				84D44249215D762400A5484F /* 腱.txt in Resources */,
 				84D4317A215D761E00A5484F /* 宁.txt in Resources */,
@@ -37913,6 +38618,7 @@
 				84D4452E215D762500A5484F /* 蟲.txt in Resources */,
 				84D435DA215D761F00A5484F /* 撮.txt in Resources */,
 				84D432CF215D761E00A5484F /* 幹.txt in Resources */,
+				84A759BA2193E54800CCCB35 /* yu4.mp3 in Resources */,
 				84D43CFE215D762200A5484F /* 疥.txt in Resources */,
 				84D43C25215D762200A5484F /* 獲.txt in Resources */,
 				84D43649215D761F00A5484F /* 斗.txt in Resources */,
@@ -37999,6 +38705,7 @@
 				84D439FD215D762100A5484F /* 深.txt in Resources */,
 				84D43995215D762100A5484F /* 洱.txt in Resources */,
 				84D44D77215D762A00A5484F /* 駢.txt in Resources */,
+				84A759C92193E54800CCCB35 /* zu2.mp3 in Resources */,
 				84D44926215D762700A5484F /* 遀.txt in Resources */,
 				84D42C86215D761C00A5484F /* 六.txt in Resources */,
 				84D443D0215D762500A5484F /* 蒂.txt in Resources */,
@@ -38124,6 +38831,7 @@
 				84D43A7F215D762100A5484F /* 漕.txt in Resources */,
 				84D44A7B215D762800A5484F /* 鑰.txt in Resources */,
 				84D43C18215D762200A5484F /* 猿.txt in Resources */,
+				84A7598B2193E54800CCCB35 /* sheng1.mp3 in Resources */,
 				84D44776215D762600A5484F /* 賴.txt in Resources */,
 				84D43AC0215D762100A5484F /* 激.txt in Resources */,
 				84D44DC4215D762A00A5484F /* 骡.txt in Resources */,
@@ -38165,6 +38873,7 @@
 				84D434DA215D761F00A5484F /* 抗.txt in Resources */,
 				84D431D7215D761E00A5484F /* 尚.txt in Resources */,
 				84D43D2E215D762200A5484F /* 痼.txt in Resources */,
+				84A759BE2193E54800CCCB35 /* zhi1.mp3 in Resources */,
 				84D43601215D761F00A5484F /* 擷.txt in Resources */,
 				84D4301A215D761D00A5484F /* 埭.txt in Resources */,
 				84D4444E215D762500A5484F /* 藍.txt in Resources */,
@@ -38207,6 +38916,7 @@
 				84D444F5215D762500A5484F /* 蝤.txt in Resources */,
 				84D434D3215D761F00A5484F /* 抉.txt in Resources */,
 				84D44075215D762300A5484F /* 縩.txt in Resources */,
+				84A7597A2193E54800CCCB35 /* pie3.mp3 in Resources */,
 				84D43203215D761E00A5484F /* 屠.txt in Resources */,
 				84D43F25215D762300A5484F /* 窨.txt in Resources */,
 				84D44BF3215D762900A5484F /* 陸.txt in Resources */,
@@ -38241,12 +38951,14 @@
 				84D44C61215D762900A5484F /* 靜.txt in Resources */,
 				84D43646215D761F00A5484F /* 斑.txt in Resources */,
 				84D430A3215D761D00A5484F /* 夾.txt in Resources */,
+				84A759472193E54800CCCB35 /* gui1.mp3 in Resources */,
 				84D44969215D762800A5484F /* 邰.txt in Resources */,
 				84D44A73215D762800A5484F /* 鑔.txt in Resources */,
 				84D4301B215D761D00A5484F /* 埯.txt in Resources */,
 				84D43891215D762000A5484F /* 歉.txt in Resources */,
 				84D43651215D761F00A5484F /* 斦.txt in Resources */,
 				84D44956215D762700A5484F /* 邏.txt in Resources */,
+				84A7593E2193E54800CCCB35 /* gao1.mp3 in Resources */,
 				84D44A30215D762800A5484F /* 銼.txt in Resources */,
 				84D44B0E215D762900A5484F /* 锚.txt in Resources */,
 				84D42F47215D761D00A5484F /* 嘣.txt in Resources */,
@@ -38292,6 +39004,7 @@
 				84D43860215D762000A5484F /* 檜.txt in Resources */,
 				84D4491E215D762700A5484F /* 週.txt in Resources */,
 				84D42E99215D761C00A5484F /* 哥.txt in Resources */,
+				84A759BC2193E54800CCCB35 /* yue4.mp3 in Resources */,
 				84D449D5215D762800A5484F /* 醐.txt in Resources */,
 				84D4378F215D762000A5484F /* 桑.txt in Resources */,
 				84D43129215D761D00A5484F /* 媚.txt in Resources */,
@@ -38382,6 +39095,7 @@
 				84D43541215D761F00A5484F /* 捐.txt in Resources */,
 				84D44D65215D762A00A5484F /* 馘.txt in Resources */,
 				84D4443B215D762500A5484F /* 薔.txt in Resources */,
+				84A759242193E54800CCCB35 /* che1.mp3 in Resources */,
 				84D42EDE215D761D00A5484F /* 啪.txt in Resources */,
 				1F0631F1A5BB4359BB556139 /* MaterialIcons.ttf in Resources */,
 				84D43409215D761F00A5484F /* 惕.txt in Resources */,
@@ -38406,6 +39120,7 @@
 				84D43D46215D762200A5484F /* 瘦.txt in Resources */,
 				84D44BEF215D762900A5484F /* 陴.txt in Resources */,
 				84D44CCF215D762A00A5484F /* 领.txt in Resources */,
+				84A7591A2193E54800CCCB35 /* bi2.mp3 in Resources */,
 				84D44BDF215D762900A5484F /* 陛.txt in Resources */,
 				84D43F2A215D762300A5484F /* 窮.txt in Resources */,
 				84D42EFF215D761D00A5484F /* 喟.txt in Resources */,
@@ -38589,6 +39304,7 @@
 				84D43E49215D762200A5484F /* 硐.txt in Resources */,
 				84D44206215D762400A5484F /* 胭.txt in Resources */,
 				84D432D2215D761E00A5484F /* 幼.txt in Resources */,
+				84A7592D2193E54800CCCB35 /* cui4.mp3 in Resources */,
 				84D4368D215D762000A5484F /* 昝.txt in Resources */,
 				84D4355D215D761F00A5484F /* 掐.txt in Resources */,
 				84D44434215D762500A5484F /* 薅.txt in Resources */,
@@ -38636,6 +39352,7 @@
 				84D43D02215D762200A5484F /* 疮.txt in Resources */,
 				84D43EF9215D762300A5484F /* 稼.txt in Resources */,
 				84D44B64215D762900A5484F /* 門.txt in Resources */,
+				84A759282193E54800CCCB35 /* chi4.mp3 in Resources */,
 				84D44D38215D762A00A5484F /* 饢.txt in Resources */,
 				84D43C2C215D762200A5484F /* 率.txt in Resources */,
 				84D43041215D761D00A5484F /* 塍.txt in Resources */,
@@ -38687,6 +39404,7 @@
 				84D432C1215D761E00A5484F /* 幗.txt in Resources */,
 				84D43F4D215D762300A5484F /* 笏.txt in Resources */,
 				84D43FC0215D762300A5484F /* 簦.txt in Resources */,
+				84A759702193E54800CCCB35 /* mian2.mp3 in Resources */,
 				84D4412C215D762400A5484F /* 缵.txt in Resources */,
 				84D44F36215D762B00A5484F /* 鹾.txt in Resources */,
 				84D44E9D215D762B00A5484F /* 鳣.txt in Resources */,
@@ -38722,6 +39440,7 @@
 				84D42DA2215D761C00A5484F /* 卤.txt in Resources */,
 				84D43779215D762000A5484F /* 栲.txt in Resources */,
 				84D42C7F215D761C00A5484F /* 兢.txt in Resources */,
+				84A7592F2193E54800CCCB35 /* dai3.mp3 in Resources */,
 				84D42D59215D761C00A5484F /* 勢.txt in Resources */,
 				84D44F7E215D762B00A5484F /* 鼹.txt in Resources */,
 				84D4351A215D761F00A5484F /* 拿.txt in Resources */,
@@ -38757,6 +39476,7 @@
 				84D43EA0215D762300A5484F /* 神.txt in Resources */,
 				84D44157215D762400A5484F /* 美.txt in Resources */,
 				84D43908215D762000A5484F /* 氲.txt in Resources */,
+				84A759942193E54800CCCB35 /* si1.mp3 in Resources */,
 				84D43BD2215D762100A5484F /* 狀.txt in Resources */,
 				84D43B2B215D762100A5484F /* 热.txt in Resources */,
 				84D43E0E215D762200A5484F /* 矜.txt in Resources */,
@@ -38901,6 +39621,7 @@
 				84D4422B215D762400A5484F /* 脱.txt in Resources */,
 				84D4497E215D762800A5484F /* 郗.txt in Resources */,
 				84D44CE2215D762A00A5484F /* 颞.txt in Resources */,
+				84A759572193E54800CCCB35 /* jian4.mp3 in Resources */,
 				84D44674215D762600A5484F /* 謹.txt in Resources */,
 				84D445EC215D762600A5484F /* 觞.txt in Resources */,
 				84D4496E215D762800A5484F /* 邶.txt in Resources */,
@@ -38920,6 +39641,7 @@
 				84D4429E215D762400A5484F /* 舔.txt in Resources */,
 				84D435BC215D761F00A5484F /* 摩.txt in Resources */,
 				84D441D0215D762400A5484F /* 肙.txt in Resources */,
+				84A759212193E54800CCCB35 /* cao3.mp3 in Resources */,
 				84D44BEB215D762900A5484F /* 陬.txt in Resources */,
 				84D439FB215D762100A5484F /* 淮.txt in Resources */,
 				84D43D88215D762200A5484F /* 皦.txt in Resources */,
@@ -38955,6 +39677,7 @@
 				84D43BA1215D762100A5484F /* 牒.txt in Resources */,
 				84D44BAA215D762900A5484F /* 阆.txt in Resources */,
 				84D42C71215D761C00A5484F /* 光.txt in Resources */,
+				84A759902193E54800CCCB35 /* shou3.mp3 in Resources */,
 				84D4310F215D761D00A5484F /* 娭.txt in Resources */,
 				84D44C31215D762900A5484F /* 難.txt in Resources */,
 				84D44A24215D762800A5484F /* 銓.txt in Resources */,
@@ -39047,6 +39770,7 @@
 				84D42F13215D761D00A5484F /* 嗇.txt in Resources */,
 				84D43ADC215D762100A5484F /* 瀕.txt in Resources */,
 				84D4336C215D761E00A5484F /* 徘.txt in Resources */,
+				84A759AB2193E54800CCCB35 /* yan3.mp3 in Resources */,
 				84D4431D215D762400A5484F /* 苹.txt in Resources */,
 				84D42AD9215D761B00A5484F /* 丩.txt in Resources */,
 				84D433EE215D761F00A5484F /* 悝.txt in Resources */,
@@ -39078,6 +39802,7 @@
 				84D43B04215D762100A5484F /* 炙.txt in Resources */,
 				84D4470F215D762600A5484F /* 谦.txt in Resources */,
 				84D434F9215D761F00A5484F /* 拎.txt in Resources */,
+				84A7594E2193E54800CCCB35 /* hu3.mp3 in Resources */,
 				84D42F18215D761D00A5484F /* 嗎.txt in Resources */,
 				84D44624215D762600A5484F /* 詮.txt in Resources */,
 				84D44936215D762700A5484F /* 遗.txt in Resources */,
@@ -39106,6 +39831,7 @@
 				84D4329A215D761E00A5484F /* 布.txt in Resources */,
 				84D434F2215D761F00A5484F /* 拇.txt in Resources */,
 				84D44748215D762600A5484F /* 貞.txt in Resources */,
+				84A759B82193E54800CCCB35 /* yu2.mp3 in Resources */,
 				84D441DA215D762400A5484F /* 肥.txt in Resources */,
 				84D4332A215D761E00A5484F /* 弩.txt in Resources */,
 				84D44398215D762500A5484F /* 菩.txt in Resources */,
@@ -39141,6 +39867,7 @@
 				84D4317E215D761E00A5484F /* 宇.txt in Resources */,
 				84D43E24215D762200A5484F /* 砂.txt in Resources */,
 				84D44B8D215D762900A5484F /* 闢.txt in Resources */,
+				84A759AA2193E54800CCCB35 /* yan2.mp3 in Resources */,
 				84D440C3215D762300A5484F /* 细.txt in Resources */,
 				84D43E67215D762300A5484F /* 碧.txt in Resources */,
 				84D42B8B215D761C00A5484F /* 佇.txt in Resources */,
@@ -39215,6 +39942,7 @@
 				84D42F33215D761D00A5484F /* 嗾.txt in Resources */,
 				84D43F6F215D762300A5484F /* 答.txt in Resources */,
 				84D42FF5215D761D00A5484F /* 垔.txt in Resources */,
+				84A759AC2193E54800CCCB35 /* yang2.mp3 in Resources */,
 				84D43C8F215D762200A5484F /* 璨.txt in Resources */,
 				84D433DA215D761F00A5484F /* 恳.txt in Resources */,
 				84D43671215D762000A5484F /* 旧.txt in Resources */,
@@ -39243,6 +39971,7 @@
 				84D43CF7215D762200A5484F /* 疚.txt in Resources */,
 				84D42E72215D761C00A5484F /* 咫.txt in Resources */,
 				84D43AEA215D762100A5484F /* 灘.txt in Resources */,
+				84A7591C2193E54800CCCB35 /* bian4.mp3 in Resources */,
 				84D435A6215D761F00A5484F /* 搬.txt in Resources */,
 				84D43F12215D762300A5484F /* 窃.txt in Resources */,
 				84D44F74215D762B00A5484F /* 鼗.txt in Resources */,
