@@ -40,6 +40,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* RadicalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RadicalsTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		3C6B04D5577D41C3AC6080E7 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2F6C1733CE4FBE99F171BE /* SimpleLineIcons.ttf */; };
+		49515934219872D9008699BE /* dian3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4951590B219872D8008699BE /* dian3.mp3 */; };
 		4DF7CC050E54454E8942EEC1 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5F3019C05B6C4E5598A2BE1C /* FontAwesome5_Regular.ttf */; };
 		57044A778DBB412AA1A831FF /* libRNCharacterView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93407BF68D5B47E9B6D1CF9B /* libRNCharacterView.a */; };
 		572F0FB58E3E4B75BF9B91F2 /* libRNSound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F69B219B6FD4F9C98FEB5C6 /* libRNSound.a */; };
@@ -10071,6 +10072,7 @@
 		396794644ACA4A83A08C1EE7 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		405B98229AF148CEB5D8B1CA /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		409C0601CD1244719197E928 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		4951590B219872D8008699BE /* dian3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dian3.mp3; sourceTree = "<group>"; };
 		4B2F6C1733CE4FBE99F171BE /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		5351AD5D9ADB475A91E9162F /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		55057AFFC664483196C2CB47 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
@@ -20065,6 +20067,7 @@
 			children = (
 				84A7583A2193E54600CCCB35 /* ba1.mp3 */,
 				84A7583B2193E54600CCCB35 /* bai3.mp3 */,
+				4951590B219872D8008699BE /* dian3.mp3 */,
 				84A7583C2193E54600CCCB35 /* bao1.mp3 */,
 				84A7583D2193E54600CCCB35 /* bei4.mp3 */,
 				84A7583E2193E54600CCCB35 /* bi2.mp3 */,
@@ -29894,6 +29897,10 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 74847X9366;
+						ProvisioningStyle = Automatic;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
@@ -39608,6 +39615,7 @@
 				84D43C99215D762200A5484F /* 瓞.txt in Resources */,
 				84D4392F215D762000A5484F /* 汹.txt in Resources */,
 				84D43F28215D762300A5484F /* 窬.txt in Resources */,
+				49515934219872D9008699BE /* dian3.mp3 in Resources */,
 				84D44C02215D762900A5484F /* 隗.txt in Resources */,
 				84D4442D215D762500A5484F /* 蕴.txt in Resources */,
 				84D43803215D762000A5484F /* 榆.txt in Resources */,
@@ -40168,8 +40176,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 74847X9366;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-character-view/ios",
@@ -40183,8 +40194,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = hunter.chineseflagship.radicals;
 				PRODUCT_NAME = Radicals;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -40193,7 +40206,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74847X9366;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-character-view/ios",
@@ -40207,8 +40223,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = hunter.chineseflagship.radicals;
 				PRODUCT_NAME = Radicals;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
