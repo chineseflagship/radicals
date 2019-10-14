@@ -48,7 +48,6 @@ export default class DeckList extends Component {
 
   _renderRow(rowData, sectionID, rowID, highlightRow) {
     var progress = DeckStore.getProgressOfDeck(rowData.name)
-    var color;
 
     var color;
     if (progress < 20)
@@ -68,24 +67,24 @@ export default class DeckList extends Component {
     }
 
     var progressText;
-    if (!rowData.unlocked && rowData.progress == 0)
-      return (
-          <View>
-            <View style={styles.row}>
-              <Text style={styles.lockedText}>
-                {rowData.name}
-              </Text>
-              <Icon.Button
-                color="#ccc"
-                name="lock"
-                size={30}
-                backgroundColor="transparent"
-                iconStyle={{marginRight: -8, marginTop: -4}}>
-              </Icon.Button>
-            </View>
-            <ProgressBar progress={progress} />
-          </View>
-      )
+    // if (!rowData.unlocked && rowData.progress == 0)
+    //   return (
+    //       <View>
+    //         <View style={styles.row}>
+    //           <Text style={styles.lockedText}>
+    //             {rowData.name}
+    //           </Text>
+    //           <Icon.Button
+    //             color="#ccc"
+    //             name="lock"
+    //             size={30}
+    //             backgroundColor="transparent"
+    //             iconStyle={{marginRight: -8, marginTop: -4}}>
+    //           </Icon.Button>
+    //         </View>
+    //         <ProgressBar progress={progress} />
+    //       </View>
+    //   )
 
     // Make a cell class
     return (
@@ -142,6 +141,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#EEEEEE',
   },
   navBar: {
+    height : 70,
     backgroundColor: NAV_BAR_COLOR,
     borderBottomWidth: 1,
     borderBottomColor: '#E5E5E5'

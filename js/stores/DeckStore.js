@@ -21,10 +21,10 @@ Meaning - character
 var DeckData = {};
 store.get('decks').then((decks) => {
   if (!decks) {
+    console.log('yerr')
     decks = require('./DeckData');
   }
   DeckData = decks;
-
   if (DeckData["Adjectives"] &&
     DeckData["Adjectives"].questions &&
     DeckData["Adjectives"].questions[0] &&
