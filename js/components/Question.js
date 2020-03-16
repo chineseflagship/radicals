@@ -10,13 +10,10 @@ import { StyleSheet,
 import NavigationBar from 'react-native-navbar';
 import Sound from 'react-native-sound';
 
-import CharacterView from 'react-native-character-view-2'
-const CharacterViewManager = NativeModules.RNCharacterViewManager;
+import CharacterView from 'react-native-character-view'
 
-import Icon from 'react-native-vector-icons/FontAwesome';
 
 var DeckStore = require('../stores/DeckStore');
-var ProgressBar = require('./ProgressBar');
 
 
 class Question extends Component {

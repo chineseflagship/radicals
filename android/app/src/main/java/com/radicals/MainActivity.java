@@ -1,6 +1,7 @@
 package com.radicals;
 
 import com.facebook.react.ReactActivity;
+import com.reactlibrary.RNCharacterViewPackage;
 
 public class MainActivity extends ReactActivity {
 
