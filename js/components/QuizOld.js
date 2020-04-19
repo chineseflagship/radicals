@@ -9,8 +9,8 @@ TouchableOpacity,
 NativeModules
 } from 'react-native'
 
-import CharacterView from 'react-native-character-view-2'
-const CharacterViewManager = NativeModules.RNCharacterViewManager;
+// import CharacterView from 'react-native-character-view-2'
+// const CharacterViewManager = NativeModules.RNCharacterViewManager;
 
 var MessageBarAlert = require('react-native-message-bar').MessageBar;
 var MessageBarManager = require('react-native-message-bar').MessageBarManager;
@@ -183,9 +183,9 @@ class Quiz extends Component {
 						<View style={styles.meaningView}>
 							<Text style={styles.meaning}>{meaning}</Text>
 						</View>
-						<View style={styles.characterView}>
-							<Text style={styles.character}>{character}</Text>
-						</View>
+						// <View style={styles.characterView}>
+						// 	<Text style={styles.character}>{character}</Text>
+						// </View>
 						<View style={styles.pinyinView}>
 							<Text style={styles.pinyin}>{pinyin}</Text>
 						</View>
@@ -214,10 +214,10 @@ class Quiz extends Component {
     )
   }
 
-	_animateStrokes() {
-    CharacterViewManager.animateStrokes();
-  }
-}
+// 	_animateStrokes() {
+//     CharacterViewManager.animateStrokes();
+//   }
+// }
 
 var windowHeight = Dimensions.get('window').height;
 var characterFontSize = 150;
@@ -266,12 +266,12 @@ var styles = StyleSheet.create({
     textAlign: 'center',
     color: "#000",
 	},
-	characterView: {
-    flex: 50,
-    justifyContent: 'center',
-    alignItems: 'center',
-		width: Dimensions.get('window').width,
-	},
+	// characterView: {
+  //   flex: 50,
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+	// 	width: Dimensions.get('window').width,
+	// },
 	character: {
 		fontFamily: "UKaiCN",
     fontSize: characterFontSize,

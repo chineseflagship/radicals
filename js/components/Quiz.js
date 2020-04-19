@@ -8,8 +8,8 @@ TouchableOpacity,
 NativeModules
 } from 'react-native'
 
-import CharacterView from 'react-native-character-view-2'
-const CharacterViewManager = NativeModules.RNCharacterViewManager;
+// import CharacterView from 'react-native-character-view-2'
+// const CharacterViewManager = NativeModules.RNCharacterViewManager;
 
 var MessageBarAlert = require('react-native-message-bar').MessageBar;
 var MessageBarManager = require('react-native-message-bar').MessageBarManager;
@@ -37,7 +37,6 @@ class Quiz extends Component {
 		this.onCorrect = this.onCorrect.bind(this);
 		this.onWrong = this.onWrong.bind(this);
 		this.refreshQuestion = this.refreshQuestion.bind(this);
-		this._animateStrokes = this._animateStrokes.bind(this);
     DeckStore.addChangeListener('quiz', this._onChange);
     DeckStore.addChangeListener('complete', this._onComplete);
 		var progress = DeckStore.getProgressOfDeck(this.props.deck.name);
@@ -171,9 +170,9 @@ class Quiz extends Component {
     )
   }
 
-	_animateStrokes() {
-    CharacterViewManager.animateStrokes();
-  }
+// 	_animateStrokes() {
+//     CharacterViewManager.animateStrokes();
+//   }
 }
 
 const NAV_BAR_COLOR = '#F4F4F4';
@@ -229,12 +228,12 @@ var styles = StyleSheet.create({
     textAlign: 'center',
     color: "#000",
 	},
-	characterView: {
-    flex: 50,
-    justifyContent: 'center',
-    alignItems: 'center',
-		width: Dimensions.get('window').width,
-	},
+	// characterView: {
+  //   flex: 50,
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+	// 	width: Dimensions.get('window').width,
+	// },
 	character: {
 		fontFamily: "UKaiCN",
     fontSize: characterFontSize,

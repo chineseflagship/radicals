@@ -11,8 +11,8 @@ import { StyleSheet,
 import NavigationBar from 'react-native-navbar';
 import Sound from 'react-native-sound';
 
-import CharacterView from 'react-native-character-view-2'
-const CharacterViewManager = NativeModules.RNCharacterViewManager;
+// import CharacterView from 'react-native-character-view-2'
+// const CharacterViewManager = NativeModules.RNCharacterViewManager;
 
 var DeckStore = require('../stores/DeckStore');
 var ProgressBar = require('./ProgressBar');
@@ -21,7 +21,7 @@ var ProgressBar = require('./ProgressBar');
 class Learn extends Component {
   constructor(props) {
     super(props);
-    this._animateStrokes = this._animateStrokes.bind(this);
+    // this._animateStrokes = this._animateStrokes.bind(this);
     this._playRecording = this._playRecording.bind(this);
     this.onScrollAnimationEnd = this.onScrollAnimationEnd.bind(this);
     const { rawPinyin, tone } = this.props.character;
@@ -31,7 +31,7 @@ class Learn extends Component {
 
   componentDidMount() {
     setTimeout(this._playRecording, 400);
-    setTimeout(() => { this._animateStrokes() }, 400);
+    // setTimeout(() => { this._animateStrokes() }, 400);
     this._isMounted = true; //sort of an antipattern
   }
 
@@ -39,9 +39,9 @@ class Learn extends Component {
     this._isMounted = false;
   }
 
-  _animateStrokes() {
-    CharacterViewManager.animateStrokes();
-  }
+  // _animateStrokes() {
+  //   CharacterViewManager.animateStrokes();
+  // }
 
   _playRecording() {
     // this.sound.stop();
@@ -62,7 +62,7 @@ class Learn extends Component {
     this.setState({
       character: this.props.deck.questions[i]
     }, () => {
-      setTimeout(() => { this._animateStrokes() }, 100);
+      // setTimeout(() => { this._animateStrokes() }, 100);
       const { rawPinyin, tone } = this.state.character;
       this.sound = new Sound(rawPinyin+tone+'.mp3', Sound.MAIN_BUNDLE, (error) => {
         if (error) {
@@ -140,11 +140,7 @@ class Learn extends Component {
             {deck.questions.map(createDefinitionRow)}
           </ScrollView>
           <View style={styles.wordView}>
-            <CharacterView
-              character={character}
-              ref="characterView"
-              backgroundColor="transparent"
-              style={{flex: 1}} />
+
           </View>
 
 			</View>

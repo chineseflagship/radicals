@@ -10,8 +10,8 @@ import { StyleSheet,
 import NavigationBar from 'react-native-navbar';
 import Sound from 'react-native-sound';
 
-import CharacterView from 'react-native-character-view-2'
-const CharacterViewManager = NativeModules.RNCharacterViewManager;
+// import CharacterView from 'react-native-character-view-2'
+// const CharacterViewManager = NativeModules.RNCharacterViewManager;
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 
@@ -142,13 +142,7 @@ class Question extends Component {
 
         { (question.type == 'character') ?
             <View style={styles.wordView}>
-              <CharacterView
-                quiz={true}
-                character={question.character.character}
-                ref="characterView"
-                style={styles.wordView}
-                onComplete={this._onComplete}
-              />
+
             </View> :
           <View style={styles.choicesView}>
             { choiceButtons }
