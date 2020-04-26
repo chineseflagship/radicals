@@ -4222,10 +4222,6 @@ react-is@^16.5.0:
   version "16.5.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.5.2.tgz#e2a7b7c3f5d48062eb769fcb123505eb928722e3"
 
-react-native-character-view-2@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-native-character-view-2/-/react-native-character-view-2-1.1.1.tgz#e43e6d954f0aba0d91bef04660d18138aeb94f61"
-
 react-native-deprecated-custom-components@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/react-native-deprecated-custom-components/-/react-native-deprecated-custom-components-0.1.2.tgz#ba10d40942bd90e1a98f989fd2809ea2466d413f"

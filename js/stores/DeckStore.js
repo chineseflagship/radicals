@@ -179,7 +179,7 @@ var DeckStore = assign({}, EventEmitter.prototype, {
     // }
     //
     // else {
-      var questionTypes = ['character', 'pinyin', 'meaning', 'tone'];
+      var questionTypes = [/*'character', */'pinyin', 'meaning', 'tone'];
       question.type = questionTypes[Math.floor(Math.random() * questionTypes.length)]
 
       // Prefer unknown characters
