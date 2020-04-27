@@ -11,6 +11,8 @@ import { StyleSheet,
 import NavigationBar from 'react-native-navbar';
 import Sound from 'react-native-sound';
 
+import { WebView } from 'react-native-webview';
+
 // import CharacterView from 'react-native-character-view-2'
 // const CharacterViewManager = NativeModules.RNCharacterViewManager;
 
@@ -27,10 +29,13 @@ class Learn extends Component {
     const { rawPinyin, tone } = this.props.character;
     this.sound = new Sound(rawPinyin+tone+'.mp3', Sound.MAIN_BUNDLE);
     this.state = { character: this.props.character };
+
   }
 
   componentDidMount() {
+    console.log("mounted");
     setTimeout(this._playRecording, 400);
+    console.log("recording played?");
     // setTimeout(() => { this._animateStrokes() }, 400);
     this._isMounted = true; //sort of an antipattern
   }
@@ -121,6 +126,7 @@ class Learn extends Component {
     const offset = (this.state.character.rank-1)*screen.width;
 
     return (
+
       <View style={styles.container} >
           <NavigationBar
             title={titleConfig}
@@ -139,11 +145,12 @@ class Learn extends Component {
             style={styles.scrollView}>
             {deck.questions.map(createDefinitionRow)}
           </ScrollView>
-          <View style={styles.wordView}>
 
-          </View>
+          <WebView source={{uri:'https://raw.githubusercontent.com/skishore/makemeahanzi/master/svgs/11912.svg'}}/>
 
-			</View>
+      </View>
+
+
     )
   }
 }
