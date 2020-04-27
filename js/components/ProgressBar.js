@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ProgressViewIOS } from 'react-native'
+import { Platform, ProgressViewIOS , ProgressBarAndroid } from 'react-native'
 
 class ProgressBar extends Component {
 
@@ -18,14 +18,48 @@ class ProgressBar extends Component {
 		else
 				color = '#00ee00';
 
+
+    if ( Platform.OS === 'android') {
+      return (
+        <ProgressBarAndroid
+             styleAttr="Horizontal"
+             indeterminate={false}
+             color={color}
+             progress={progress/100}
+           />
+         );
+       }
+
     return (
-      // WARNING - MUST ADD PROGRESS BAR ANDROID
-        <ProgressViewIOS
-        	progressTintColor={color}
-	        trackTintColor={'#eee'}
-        	progress={progress/100}
-        />
+      <ProgressViewIOS
+           progressTintColor={color}
+           trackTintColor={'#eee'}
+           progress={progress/100}
+         />
+
     );
+
+    // return (
+    //   // WARNING - MUST ADD PROGRESS BAR ANDROID
+    //
+    //   {
+    //     ( Platform.OS === 'android' )
+    //        ?
+    //      ( <ProgressBarAndroid
+    //        progressTintColor={color}
+    //        trackTintColor={'#eee'}
+    //        progress={progress/100}
+    //      /> )
+    //      :
+    //      ( <ProgressViewIOS
+    //        progressTintColor={color}
+    //        trackTintColor={'#eee'}
+    //        progress={progress/100}
+    //      /> )
+    //   }
+    //
+    //
+    // );
   }
 }
 
