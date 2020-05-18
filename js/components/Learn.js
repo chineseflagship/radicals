@@ -1,4 +1,28 @@
-import React, { Component } from 'react'
+import Svg, {
+  Circle,
+  Ellipse,
+  G,
+  TSpan,
+  TextPath,
+  Path,
+  Polygon,
+  Polyline,
+  Line,
+  Rect,
+  Use,
+  Image,
+  Symbol,
+  Defs,
+  LinearGradient,
+  RadialGradient,
+  Stop,
+  ClipPath,
+  Pattern,
+  Mask,
+  SvgXML,
+} from 'react-native-svg';
+
+import React, { Component } from 'react';
 import { StyleSheet,
   View,
   ScrollView,
@@ -19,6 +43,7 @@ import { WebView } from 'react-native-webview';
 var DeckStore = require('../stores/DeckStore');
 var ProgressBar = require('./ProgressBar');
 
+var SVGData = require('../stores/SVGData');
 
 class Learn extends Component {
   constructor(props) {
@@ -125,6 +150,89 @@ class Learn extends Component {
 
     const offset = (this.state.character.rank-1)*screen.width;
 
+    // need to store?
+    function get_svg() {
+      var svg_text = `
+      <svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+      <g transform="scale(1, -1) translate(0, -900)">
+        <style type="text/css">
+      `;
+      var c = character;
+      var l = SVGData[c].strokes.length;
+      var i;
+
+      for (i = 0; i < l; i++) {
+        svg_text += `
+        @keyframes keyframes` + i + ` {
+              from {
+                stroke: blue;
+                stroke-dashoffset: 1051;
+                stroke-width: 128;
+              }
+              77% {
+                animation-timing-function: step-end;
+                stroke: blue;
+                stroke-dashoffset: 0;
+                stroke-width: 128;
+              }
+              to {
+                stroke: black;
+                stroke-width: 1024;
+              }
+            }
+            #make-me-a-hanzi-animation-` + i + ` {
+              animation: keyframes0 1.1053059895833333s both;
+              animation-delay: `+ i +`s;
+              animation-timing-function: linear;
+            }
+
+        `
+      }
+
+    svg_text += '</style>\n\n';
+
+      for (i = 0; i < l; i++) {
+        svg_text += '<path d="' + SVGData[c].strokes[i]
+        + '" fill="lightgray"></path>\n\n';
+      }
+
+
+      for (i = 0; i < l; i++) {
+        svg_text += '<clipPath id="make-me-a-hanzi-clip-' + i + '">\n'
+        + '<path d="' + SVGData[c].strokes[i]
+        + '"></path>\n</clipPath>\n';
+        svg_text += '<path clip-path="url(#make-me-a-hanzi-clip-' + i
+        + '" d="';
+
+        var m;
+        for (m = 0; m < SVGData[c].medians[i].length; m++) {
+           if (m == 0) {
+            svg_text+='M ' + SVGData[c].medians[i][m][0] + ' '
+            + SVGData[c].medians[i][m][1];
+           } else {
+            svg_text+=' L ' + SVGData[c].medians[i][m][0] + ' '
+            + SVGData[c].medians[i][m][1];
+           }
+        }
+
+
+        svg_text += `" fill="none" id="make-me-a-hanzi-animation-` + i
+        +`"stroke-dasharray="923 1846" stroke-linecap="round"></path>\n\n`;
+      }
+
+      svg_text += '</g>\n</svg>';
+
+      svg_text2 = `
+      `;
+      return svg_text;
+    }
+
+    /*function get_svg() {
+      //return character;
+      return SVGData["入"].strokes[0];
+    }*/
+
+
     return (
 
       <View style={styles.container} >
@@ -146,15 +254,15 @@ class Learn extends Component {
             {deck.questions.map(createDefinitionRow)}
           </ScrollView>
 
-          <WebView source={{uri:'https://raw.githubusercontent.com/skishore/makemeahanzi/master/svgs/11912.svg'}}/>
-
+          <View style={styles.wordView}>
+        <WebView source={{html:''+ get_svg()}} />
+          </View>
       </View>
 
 
     )
   }
 }
-
 
 
 const createDefinitionRow = (character, i) => <Definition key={i} character={character} />;
