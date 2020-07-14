@@ -13,10 +13,14 @@ import Sound from 'react-native-sound';
 // import CharacterView from 'react-native-character-view-2'
 // const CharacterViewManager = NativeModules.RNCharacterViewManager;
 
+import CharacterView from './CharacterView'
+
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 var DeckStore = require('../stores/DeckStore');
 var ProgressBar = require('./ProgressBar');
+
+var SVGData = require('../stores/SVGData');
 
 
 class Question extends Component {
@@ -48,9 +52,15 @@ class Question extends Component {
     }
   }
 
+
+
   render() {
+
+
     const { meaning, pinyin, character } = this.state.character;
     const { deck, question, onWrong, onCorrect, showAnswer } = this.props;
+
+
 
     let progress = DeckStore.getProgressOfDeck(this.props.deck.name);
 		let color;
@@ -76,7 +86,6 @@ class Question extends Component {
     };
 
     let choiceButtons = question.choices.map(function(choice, key) {
-
 
       var onPress = (() => {
         if(showAnswer)
@@ -120,6 +129,7 @@ class Question extends Component {
       )
     }, this)
 
+
     return (
       <View style={styles.container} >
 
@@ -143,6 +153,13 @@ class Question extends Component {
         { (question.type == 'character') ?
             <View style={styles.wordView}>
 
+            <CharacterView
+            style={styles.wordView}
+            points={JSON.stringify(SVGData[question.character.character])}
+            quiz={true}
+            onEnd={this._onComplete}
+            />
+
             </View> :
           <View style={styles.choicesView}>
             { choiceButtons }
@@ -154,6 +171,14 @@ class Question extends Component {
   }
 }
 
+
+// <CharacterView
+//     quiz={true}
+//     character={question.character.character}
+//     ref="characterView"
+//     style={styles.wordView}
+//     onComplete={this._onComplete}
+//   />
 
 
 const createQuestionRow = (question, i) => <QuestionText

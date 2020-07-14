@@ -37,8 +37,13 @@ import Sound from 'react-native-sound';
 
 import { WebView } from 'react-native-webview';
 
+// Original from Oliver
 // import CharacterView from 'react-native-character-view-2'
 // const CharacterViewManager = NativeModules.RNCharacterViewManager;
+
+// import { requireNativeComponent } from 'react-native';
+// const CharacterView = requireNativeComponent('CharacterView');
+import CharacterView from './CharacterView'
 
 var DeckStore = require('../stores/DeckStore');
 var ProgressBar = require('./ProgressBar');
@@ -181,7 +186,7 @@ class Learn extends Component {
               }
             }
             #make-me-a-hanzi-animation-` + i + ` {
-              animation: keyframes0 1.1053059895833333s both;
+              animation: keyframes`+ i +` 1.1053059895833333s both;
               animation-delay: `+ i +`s;
               animation-timing-function: linear;
             }
@@ -254,9 +259,12 @@ class Learn extends Component {
             {deck.questions.map(createDefinitionRow)}
           </ScrollView>
 
-          <View style={styles.wordView}>
-        <WebView source={{html:''+ get_svg()}} />
-          </View>
+          <CharacterView
+          style={styles.wordView}
+          data={get_svg()}
+          quiz={true}
+          />
+
       </View>
 
 
@@ -264,6 +272,19 @@ class Learn extends Component {
   }
 }
 
+// <View style={styles.wordView}>
+//   <CharacterView
+//     character={character}
+//     ref="characterView"
+//     backgroundColor="transparent"
+//     style={{flex: 1}} />
+// </View>
+
+//<WebView source={{html:''+ get_svg()}} />
+// <View style={styles.wordView}>
+// <CharacterView></CharacterView>
+// </View>
+// data={'testingsetdata'}
 
 const createDefinitionRow = (character, i) => <Definition key={i} character={character} />;
 
