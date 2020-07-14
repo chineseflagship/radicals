@@ -30,7 +30,8 @@ public class MainApplication extends Application implements ReactApplication {
             new VectorIconsPackage(),
             new RNSoundPackage(),
             new RNCWebViewPackage(),
-            new SvgPackage()
+            new SvgPackage(),
+              new CharacterViewPackage()
       );
     }
 
