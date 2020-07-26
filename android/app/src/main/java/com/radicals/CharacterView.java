@@ -138,11 +138,13 @@ public CharacterView(Context context) {
         Log.d("cv",  String.valueOf(secondDiff));
 
         // based off Oliver's code (ios)
-        return (firstDiff < 80 && secondDiff < 100);
+//        return (firstDiff < 80 && secondDiff < 100);
+        return (firstDiff < 150 && secondDiff < 150);
 
 
     }
 
+    // https://gist.github.com/bramus/1536b9ec32dc9a02e417ff63e2a2e4ce#file-events-ui-md
     private void dispatchOnEnd() {
         Log.d("cv", "receivenativeevent called");
         WritableMap event = Arguments.createMap();
@@ -212,31 +214,31 @@ public CharacterView(Context context) {
             "    <style type=\"text/css\">\n" +
             "\n";
 
-        for (int i = 0; i < currentstrokeindex; i++) {
-            s = s + "        @keyframes keyframes" + i + " {\n" +
-                "          from {\n" +
-                "            stroke: blue;\n" +
-                "            stroke-dashoffset: 1051;\n" +
-                "            stroke-width: 128;\n" +
-                "          }\n" +
-                "          77% {\n" +
-                "            animation-timing-function: step-end;\n" +
-                "            stroke: blue;\n" +
-                "            stroke-dashoffset: 0;\n" +
-                "            stroke-width: 128;\n" +
-                "          }\n" +
-                "          to {\n" +
-                "            stroke: black;\n" +
-                "            stroke-width: 1024;\n" +
-                "          }\n" +
-                "        }\n" +
-                "        #make-me-a-hanzi-animation-" + i + " {\n" +
-                "          animation: keyframes" + i +" 1.1053059895833333s both;\n" +
-                "          animation-delay: " + i + "s;\n" +
-                "          animation-timing-function: linear;\n" +
-                "        }\n" +
-                "\n";
-        }
+//        for (int i = 0; i < currentstrokeindex; i++) {
+//            s = s + "        @keyframes keyframes" + i + " {\n" +
+//                "          from {\n" +
+//                "            stroke: blue;\n" +
+//                "            stroke-dashoffset: 1051;\n" +
+//                "            stroke-width: 128;\n" +
+//                "          }\n" +
+//                "          77% {\n" +
+//                "            animation-timing-function: step-end;\n" +
+//                "            stroke: blue;\n" +
+//                "            stroke-dashoffset: 0;\n" +
+//                "            stroke-width: 128;\n" +
+//                "          }\n" +
+//                "          to {\n" +
+//                "            stroke: black;\n" +
+//                "            stroke-width: 1024;\n" +
+//                "          }\n" +
+//                "        }\n" +
+//                "        #make-me-a-hanzi-animation-" + i + " {\n" +
+//                "          animation: keyframes" + i +" 1.1053059895833333s both;\n" +
+//                "          animation-delay: " + i + "s;\n" +
+//                "          animation-timing-function: linear;\n" +
+//                "        }\n" +
+//                "\n";
+//        }
 
 
         s = s + "    </style>\n" +
@@ -246,34 +248,42 @@ public CharacterView(Context context) {
             try {
                 s = s + "<path d=\"" +
                     object.getJSONArray("strokes").getString(i)
-                    + "\" fill=\"lightgray\"></path>\"";
+//                    + "\" fill=\"lightgray\"></path>\"";
+                    + "\" fill=\"black\">";
+                if (i == currentstrokeindex) {
+                    s = s + "<animate id=\"animation1\"\n" +
+                        "             attributeName=\"opacity\"\n" +
+                        "             from=\"0\" to=\"1\" dur=\"1s\"\n" +
+                        "             begin=\"0s;animation2.end\" />\n";
+                }
+                s = s + "</path>\"";
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         }
 
-        for (int i = 0; i < currentstrokeindex; i++) {
-            try {
-                s = s + "      <clipPath id=\"make-me-a-hanzi-clip-"+ i + "\">\n"
-                    + "       <path d=\""
-                    + object.getJSONArray("strokes").getString(i)
-                    + "\"></path>\n"
-                    + "      </clipPath>\n"
-                    + "\n" + "      <path clip-path=\"url(#make-me-a-hanzi-clip-" + i + ")\" d=\"";
-                for (int j = 0; j < medians.getJSONArray(i).length(); j++) {
-                    if (j == 0) {
-                        s = s + "M " + medians.getJSONArray(i).getJSONArray(j).getInt(0) + " "
-                            + medians.getJSONArray(i).getJSONArray(j).getInt(1);
-                    } else {
-                        s = s + " L " + medians.getJSONArray(i).getJSONArray(j).getInt(0) + " "
-                            + medians.getJSONArray(i).getJSONArray(j).getInt(1);
-                    }
-                }
-                s = s + "\" fill=\"none\" id=\"make-me-a-hanzi-animation-" + i +"\" stroke-dasharray=\"780 1560\" stroke-linecap=\"round\"></path>\n";
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }
+//        for (int i = 0; i < currentstrokeindex; i++) {
+//            try {
+//                s = s + "      <clipPath id=\"make-me-a-hanzi-clip-"+ i + "\">\n"
+//                    + "       <path d=\""
+//                    + object.getJSONArray("strokes").getString(i)
+//                    + "\"></path>\n"
+//                    + "      </clipPath>\n"
+//                    + "\n" + "      <path clip-path=\"url(#make-me-a-hanzi-clip-" + i + ")\" d=\"";
+//                for (int j = 0; j < medians.getJSONArray(i).length(); j++) {
+//                    if (j == 0) {
+//                        s = s + "M " + medians.getJSONArray(i).getJSONArray(j).getInt(0) + " "
+//                            + medians.getJSONArray(i).getJSONArray(j).getInt(1);
+//                    } else {
+//                        s = s + " L " + medians.getJSONArray(i).getJSONArray(j).getInt(0) + " "
+//                            + medians.getJSONArray(i).getJSONArray(j).getInt(1);
+//                    }
+//                }
+//                s = s + "\" fill=\"none\" id=\"make-me-a-hanzi-animation-" + i +"\" stroke-dasharray=\"780 1560\" stroke-linecap=\"round\"></path>\n";
+//            } catch (JSONException e) {
+//                e.printStackTrace();
+//            }
+//        }
 
         s = s + "\n" +
             "  </g>\n" +
@@ -334,36 +344,39 @@ public CharacterView(Context context) {
         s = s + "    </style>\n" +
             "\n";
 
-        for (int i = 0; i <= currentstrokeindex; i++) {
+        for (int i = 0; i < currentstrokeindex; i++) {
             try {
                 s = s + "<path d=\"" +
                     object.getJSONArray("strokes").getString(i)
-                    + "\" fill=\"lightgray\"></path>\"";
+//                    + "\" fill=\"lightgray\"></path>\"";
+                    + "\" fill=\"black\"></path>\"";
             } catch (JSONException e) {
                 e.printStackTrace();
             }
         }
 
         for (int i = 0; i <= currentstrokeindex; i++) {
-            try {
-                s = s + "      <clipPath id=\"make-me-a-hanzi-clip-"+ i + "\">\n"
-                    + "       <path d=\""
-                    + object.getJSONArray("strokes").getString(i)
-                    + "\"></path>\n"
-                    + "      </clipPath>\n"
-                    + "\n" + "      <path clip-path=\"url(#make-me-a-hanzi-clip-" + i + ")\" d=\"";
-                for (int j = 0; j < medians.getJSONArray(i).length(); j++) {
-                    if (j == 0) {
-                        s = s + "M " + medians.getJSONArray(i).getJSONArray(j).getInt(0) + " "
-                            + medians.getJSONArray(i).getJSONArray(j).getInt(1);
-                    } else {
-                        s = s + " L " + medians.getJSONArray(i).getJSONArray(j).getInt(0) + " "
-                            + medians.getJSONArray(i).getJSONArray(j).getInt(1);
+            if (i == currentstrokeindex) {
+                try {
+                    s = s + "      <clipPath id=\"make-me-a-hanzi-clip-" + i + "\">\n"
+                        + "       <path d=\""
+                        + object.getJSONArray("strokes").getString(i)
+                        + "\"></path>\n"
+                        + "      </clipPath>\n"
+                        + "\n" + "      <path clip-path=\"url(#make-me-a-hanzi-clip-" + i + ")\" d=\"";
+                    for (int j = 0; j < medians.getJSONArray(i).length(); j++) {
+                        if (j == 0) {
+                            s = s + "M " + medians.getJSONArray(i).getJSONArray(j).getInt(0) + " "
+                                + medians.getJSONArray(i).getJSONArray(j).getInt(1);
+                        } else {
+                            s = s + " L " + medians.getJSONArray(i).getJSONArray(j).getInt(0) + " "
+                                + medians.getJSONArray(i).getJSONArray(j).getInt(1);
+                        }
                     }
+                    s = s + "\" fill=\"none\" id=\"make-me-a-hanzi-animation-" + i + "\" stroke-dasharray=\"780 1560\" stroke-linecap=\"round\"></path>\n";
+                } catch (JSONException e) {
+                    e.printStackTrace();
                 }
-                s = s + "\" fill=\"none\" id=\"make-me-a-hanzi-animation-" + i +"\" stroke-dasharray=\"780 1560\" stroke-linecap=\"round\"></path>\n";
-            } catch (JSONException e) {
-                e.printStackTrace();
             }
         }
 
@@ -389,6 +402,11 @@ public CharacterView(Context context) {
                 Log.d("cv", "correct");
 //                Log.d("cv", drawChara());
                 myWebView.loadDataWithBaseURL(null, drawChara(), "text/html", "utf-8", null);
+                if (numstrokes == currentstrokeindex) {
+                    currentstrokeindex = 0;
+                    dispatchOnEnd();
+                }
+
             } else {
                 Log.d("cv", "incorrect");
                 Log.d("cv", String.valueOf(currentstrokeindex));
@@ -402,7 +420,8 @@ public CharacterView(Context context) {
             //reload();
 
 //            onReceiveNativeEvent();
-            dispatchOnEnd();
+            // send on finishing current character
+//            dispatchOnEnd();
 
             return true;
         }
