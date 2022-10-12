@@ -11,7 +11,7 @@
     "flux": "^3.1.3",
     "keymirror": "^0.1.1",
     "react": "16.5.0",
-    "react-native": "0.57.1",
+    "react-native": "0.70.2",
     "react-native-character-view-2": "^1.1.1",
     "react-native-deprecated-custom-components": "^0.1.2",
     "react-native-elements": "^0.19.1",
